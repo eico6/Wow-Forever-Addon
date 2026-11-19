@@ -4,17 +4,17 @@ CooldownManagerUtilsDB = {
 ["minimapPos"] = 0,
 ["CooldownManagerUtils"] = {
 },
+["SHAREDSETTINGS"] = {
+["D4MMBTNALWAYSSHOW"] = 0,
+},
 ["MMBtnCDM"] = {
 ["CooldownManagerUtilsCDM"] = {
 },
-["SHAREDSETTINGS"] = {
-["D4MMBTNALWAYSSHOW"] = 0,
-},
-["minimapPos"] = 0,
 ["MMBTNCDM"] = true,
-},
+["minimapPos"] = 0,
 ["SHAREDSETTINGS"] = {
 ["D4MMBTNALWAYSSHOW"] = 0,
+},
 },
 },
 ["activeBuffs"] = {
@@ -42,9 +42,9 @@ CooldownManagerUtilsDB = {
 ["starter"] = {
 ["selected"] = {
 },
-["layoutVersion"] = 4,
 ["layout"] = {
 },
+["layoutVersion"] = 4,
 },
 },
 },

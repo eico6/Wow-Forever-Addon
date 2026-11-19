@@ -14,63 +14,63 @@ ForeverDungeonJournalDB = {
 [10469] = 11161,
 [11257] = 11122,
 [10407] = 414,
-[10406] = 10626,
-[10408] = 7533,
-[274715] = 807,
 [10409] = 11071,
+[10408] = 7533,
+[10472] = 11126,
+[246993] = 130220,
 [247001] = 130223,
-[11043] = 10463,
-[250034] = 2424,
-[260800] = 1337,
 [255068] = 9786,
 [246600] = 14272,
-[261974] = 143035,
-[10413] = 9758,
+[247003] = 130224,
+[260801] = 11315,
+[10412] = 6841,
+[10420] = 10499,
+[11043] = 10463,
 [260799] = 960,
-[10414] = 1693,
-[247248] = 2875,
+[250034] = 2424,
+[10421] = 10501,
 [10478] = 11401,
 [10384] = 10485,
 [10416] = 9760,
 [11582] = 11163,
 [10417] = 12819,
-[247003] = 130224,
+[260800] = 1337,
 [10418] = 10493,
 [7023] = 5285,
 [10419] = 10491,
-[10424] = 10514,
-[10420] = 10499,
+[10398] = 10633,
+[261974] = 143035,
 [16059] = 15981,
-[10421] = 10501,
-[260801] = 11315,
+[247248] = 2875,
+[5259] = 6670,
 [10422] = 10507,
-[262297] = 143122,
+[260802] = 11315,
 [10423] = 10510,
-[10426] = 10517,
-[10487] = 11489,
-[255070] = 612,
+[260810] = 7114,
+[10424] = 10514,
+[260803] = 1088,
 [10488] = 12074,
 [255069] = 200,
-[260810] = 7114,
-[10486] = 7847,
+[10426] = 10517,
+[10425] = 10530,
 [258516] = 3024,
 [10477] = 11156,
 [10491] = 11397,
 [246990] = 130218,
-[10425] = 10530,
-[260803] = 1088,
+[10486] = 7847,
+[262297] = 143122,
 [246888] = 130208,
-[260802] = 11315,
-[10398] = 10633,
+[255070] = 612,
+[10487] = 11489,
 [10400] = 10539,
 [10495] = 519,
 [10464] = 8782,
 [260796] = 1035,
 [260804] = 545,
-[10412] = 6841,
-[5259] = 6670,
-[246993] = 130220,
-[10472] = 11126,
+[10414] = 1693,
+[10413] = 9758,
+[274715] = 807,
+[10406] = 10626,
 },
 ["fdjOptionsDump"] = {
 "CategoryRow#1.Background [Texture] atlas=Options_CategoryHeader_1 199x144",
@@ -477,107 +477,19 @@ ForeverDungeonJournalDB = {
 },
 ["bossHintShown"] = true,
 ["rpgAccount"] = {
-["rpgMaps"] = {
+["rpgQuests"] = {
+[96393] = true,
 },
 ["rpgBosses"] = {
 },
 ["rpgKills"] = {
 },
-["rpgQuests"] = {
-[96393] = true,
+["rpgMaps"] = {
 },
 },
 ["questFaction"] = "Alliance",
 ["lastMode"] = "bosses",
-["lootFilter"] = {
-["enabled"] = false,
-["classOnly"] = false,
-["recipes"] = false,
-["schools"] = {
-},
-["matchAll"] = true,
-["resists"] = {
-},
-["weaponTypes"] = {
-},
-["stats"] = {
-},
-["armorTypes"] = {
-},
-},
-["learnedQuestIDs"] = {
-},
-["trackerHintShown"] = true,
-["lastDungeon"] = "Hall of Thanes",
-["lastQuest"] = 1,
-["learnedItemIDs"] = {
-["lost researcher's hood"] = {
-["id"] = 279931,
-["name"] = "Lost Researcher's Hood",
-},
-["expeditionary legplates"] = {
-["id"] = 279901,
-["name"] = "Expeditionary Legplates",
-},
-["shamanic wristguards"] = {
-["id"] = 280069,
-["name"] = "Shamanic Wristguards",
-},
-["impish chain hood"] = {
-["id"] = 280058,
-["name"] = "Impish Chain Hood",
-},
-["burnished pridescales"] = {
-["id"] = 280073,
-["name"] = "Burnished Pridescales",
-},
-["flameslash crescent"] = {
-["id"] = 280056,
-["name"] = "Flameslash Crescent",
-},
-["veilpiercer girdle"] = {
-["id"] = 280070,
-["name"] = "Veilpiercer Girdle",
-},
-["behemoth bones"] = {
-["id"] = 280065,
-["name"] = "Behemoth Bones",
-},
-["bleak eye shoulderplates"] = {
-["id"] = 280075,
-["name"] = "Bleak Eye Shoulderplates",
-},
-["cutthroat chestguard"] = {
-["id"] = 276739,
-["name"] = "Cutthroat Chestguard",
-},
-["satyr's touch"] = {
-["id"] = 287036,
-["name"] = "Satyr's Touch",
-},
-["lucky shovelnose tuft"] = {
-["id"] = 280060,
-["name"] = "Lucky Shovelnose Tuft",
-},
-["trousers of the ebon giant"] = {
-["id"] = 280066,
-["name"] = "Trousers of the Ebon Giant",
-},
-["tidesong wand"] = {
-["id"] = 276735,
-["name"] = "Tidesong Wand",
-},
-["reward voucher"] = {
-["id"] = 8070,
-["name"] = "Reward Voucher",
-},
-["grips of control"] = {
-["id"] = 276733,
-["name"] = "Grips of Control",
-},
-},
-["portraitTexturesByNpcID"] = {
-},
+["lastBoss"] = 1,
 ["questText"] = {
 ["enUS"] = {
 [96393] = {
@@ -708,13 +620,13 @@ ForeverDungeonJournalDB = {
 ["o"] = "Find Mountaineer Cornelius in the Grizzled Den for Mountaineer Gretchen.",
 ["d"] = "It's bad enough havin' a troll problem, but the mountains are filled tae the brim with wendigos! They normally keep to their own caves, but they seem tae be spreadin' like bunnies. Now they've filled the Grizzled Den north of here.\r\n\r\nIf we want Whitebeard's report, we're gonna need to find my partner Cornelius. The blockhead got a little too excited and charged in head first. Brave, but stupid.\r\n\r\nHead into the cave and see where he is. And feel free to take out some of the beasts while yer at it.",
 },
-[287] = {
-["o"] = "Explore Frostmane Hold, and kill 5 Frostmane Headhunters for Senir Whitebeard in Kharanos.",
-["d"] = "I'm behind on my report, and could use your help, N. I just managed to find where the trolls are holed up, but I saw so many trolls, I was afraid to go in.\n\nHere's what I need... Go down to the cave, poke around inside, kill a few of the trolls, then come back here.\n\nTake the road north out of Kharanos, when you get to the bridge, follow the frozen river west until you reach Iceflow Lake. You'll find Brewnall Village on the west bank. The Hold is southwest of the village.",
+[267] = {
+["o"] = "Bring 8 Trogg Stone Teeth to Captain Rugelfuss in the southern guard tower.",
+["d"] = "Warrior, you may or may not be aware of the Trogg threat looming over Dwarven lands.  With the Ironforge Reserve called up to the Alliance Front, we are left with a fraction of the defense forces needed to keep these lands safe.  My regiment is assigned to watch over the Gate here and we cannot leave our post for fear of invasion.\n\nBut we need some pressure put on those damned Troggs lurking in the hills.  If you're up to the task, wage an assault on the Troggs.  Bring me back 8 Trogg Stone Teeth as proof.",
 },
-[99158] = {
-["o"] = "Bring the crate of candles to Father Gavin at Misty Pine Refuge.",
-["d"] = "There's a priest out in the mountains that belongs to an organization called the Argent Dawn. They're a holy group that is dedicated to finding and destroying the unholy and unnatural.\r\n\r\nFather Gavin though, he's mostly the type that seeks to help and heal everyone rather than grab a weapon. He's fixed up an old building to serve as a rest spot for travelers and called it Misty Pine Refuge. I've got a shipment of holy candles that I need to get him. Could you bring them to him if you're going that way?",
+[224] = {
+["o"] = "Mountaineer Cobbleflint of the southern guard tower wants you to kill 10 Stonesplinter Troggs and 10 Stonesplinter Scouts.",
+["d"] = "We need to protect the Loch, N!  With so many of the King's soldiers fighting valiantly on remote battlefields, we've become overwhelmed on the home front.  Troggs are tunneling up from every crevice!  The Trogg infestation poses the largest threat to Ironforge.  These disgusting mutants must be destroyed.\n\nWe need you, brave adventurer, to venture forth and lay waste to the Trogg threat.  Slay 10 Stonesplinter Troggs and 10 Stonesplinter Scouts and report back.",
 },
 [179] = {
 ["o"] = "Sten Stoutarm would like 8 pieces of Tough Wolf Meat.",
@@ -740,13 +652,13 @@ ForeverDungeonJournalDB = {
 ["o"] = "Collect 14 pieces of firewood.",
 ["d"] = "My hearth is open to warm any soul, but I'd like to ask you to help me if you could.\r\n\r\nI simply need more firewood. It is something I would normally do myself, but I have been preoccupied by other tasks.",
 },
-[99161] = {
-["o"] = "Kill Avala and retrieve its core.",
-["d"] = "I noticed that the first elemental that appeared after the rockslide was larger than its peers. And from what I can tell, it has been the source of occasional weather changes and other minor slides.\r\n\r\nI've been calling it 'Avala', if you could kill it and retrieve the core as proof, I will reward you.",
-},
 [384] = {
 ["o"] = "Ragnar Thunderbrew in Kharanos wants 6 Crag Boar Ribs and a mug of Rhapsody Malt.",
 ["d"] = "Nothing my tavern patrons enjoy more than some Beer Basted Boar Ribs!  Only problem is, the local trapper who used to bring me supplies enlisted in the King's Army to help with the war on the Alliance front. \n\nMaybe you can help me out?  If you bring me six crag boar ribs and a Rhapsody Malt from the tavern here, I'll give you the family recipe for my famous Beer Basted Boar Ribs, not to mention a free sample!  The secret's in the Malt!",
+},
+[99161] = {
+["o"] = "Kill Avala and retrieve its core.",
+["d"] = "I noticed that the first elemental that appeared after the rockslide was larger than its peers. And from what I can tell, it has been the source of occasional weather changes and other minor slides.\r\n\r\nI've been calling it 'Avala', if you could kill it and retrieve the core as proof, I will reward you.",
 },
 [96629] = {
 ["o"] = "Speak with Gremlock Pilsnor in Kharanos to learn to become a cook.",
@@ -768,9 +680,9 @@ ForeverDungeonJournalDB = {
 ["o"] = "Speak with Shadow Priest Sarvis.",
 ["d"] = "About time you woke up. We were ready to toss you into the fire with the others, but it looks like you made it.\n\nI am Mordo, the caretaker of the crypt of Deathknell. And you are the Lich King's slave no more.\n\nSpeak with Shadow Priest Sarvis in the chapel at the base of the hill, he will tell you more of what you must know.",
 },
-[3113] = {
-["o"] = "Read the Encrypted Memorandum and speak to Solm Hargrin in Coldridge Valley.",
-["d"] = "While you were helping me out, this memorandum was given to me to pass on to you. Take some time to read it when you have a chance. I'm thinkin' it came from the rogue trainer Solm. Take a gander at it and go find him inside Anvilmar when you've a chance.",
+[282] = {
+["o"] = "Speak with Mountaineer Thalos.",
+["d"] = "I was planning on sending my apprentice to my brother Senir with my report, but I would feel much better were it placed in more... reliable hands. That is, of course, if you wouldn't mind?\n\nHmm... you'll have to take the tunnel to get to Kharanos.\n\nSpeak with Mountaineer Thalos before going through the tunnel. It's completely infested with troggs now.\n\nFollow the road back to Anvilmar, then keep heading east to the tunnel, Thalos is stationed nearby.",
 },
 [412] = {
 ["o"] = "Bring Razzle Sprysprocket in Kharanos 8 Restabilization Cogs and 8 Gyromechanic Gears.",
@@ -812,9 +724,9 @@ ForeverDungeonJournalDB = {
 ["o"] = "Collect the rifles of fallen mountaineers.",
 ["d"] = "Even mountaineers from Ironforge have to keep their wits about them when traversing through the peaks of Dun Morogh. Falling snow and ice often spells the end of some more novice members' lives.\r\n\r\nAfter a slide, I usually try to find any sign of survivors or victims--while praying to the Light that there's nothing to be found. But with the elements acting up, I've held off wandering too far. If you could look for some lost mountaineers and bring me their rifles, I will return them to Ironforge.",
 },
-[282] = {
-["o"] = "Speak with Mountaineer Thalos.",
-["d"] = "I was planning on sending my apprentice to my brother Senir with my report, but I would feel much better were it placed in more... reliable hands. That is, of course, if you wouldn't mind?\n\nHmm... you'll have to take the tunnel to get to Kharanos.\n\nSpeak with Mountaineer Thalos before going through the tunnel. It's completely infested with troggs now.\n\nFollow the road back to Anvilmar, then keep heading east to the tunnel, Thalos is stationed nearby.",
+[3113] = {
+["o"] = "Read the Encrypted Memorandum and speak to Solm Hargrin in Coldridge Valley.",
+["d"] = "While you were helping me out, this memorandum was given to me to pass on to you. Take some time to read it when you have a chance. I'm thinkin' it came from the rogue trainer Solm. Take a gander at it and go find him inside Anvilmar when you've a chance.",
 },
 [1681] = {
 ["o"] = "Bring a load of Umbral Ore to Tormus Deepforge in Ironforge.",
@@ -836,15 +748,103 @@ ForeverDungeonJournalDB = {
 ["o"] = "Collect 8 Flintfire Shipments from the Grizzled Den for Tongus Flintfire in Kharanos.",
 ["d"] = "Hoha! Good to see a dwarf who's not afraid to get their hands dirty.\r\n\r\nIf yer lookin' fer work, I'm afraid I'm a little short on supplies at the moment. Our most reliable source of ore has been overrun by wendigo and now the cave has been abandoned. The miners had to drop everything when they fled!\r\n\r\nSay, why don't ye poke yer head around the Grizzled Den to the west and see if you can find some of our missing shipments. It would save us a great deal o' trouble.",
 },
-[224] = {
-["o"] = "Mountaineer Cobbleflint of the southern guard tower wants you to kill 10 Stonesplinter Troggs and 10 Stonesplinter Scouts.",
-["d"] = "We need to protect the Loch, N!  With so many of the King's soldiers fighting valiantly on remote battlefields, we've become overwhelmed on the home front.  Troggs are tunneling up from every crevice!  The Trogg infestation poses the largest threat to Ironforge.  These disgusting mutants must be destroyed.\n\nWe need you, brave adventurer, to venture forth and lay waste to the Trogg threat.  Slay 10 Stonesplinter Troggs and 10 Stonesplinter Scouts and report back.",
+[99158] = {
+["o"] = "Bring the crate of candles to Father Gavin at Misty Pine Refuge.",
+["d"] = "There's a priest out in the mountains that belongs to an organization called the Argent Dawn. They're a holy group that is dedicated to finding and destroying the unholy and unnatural.\r\n\r\nFather Gavin though, he's mostly the type that seeks to help and heal everyone rather than grab a weapon. He's fixed up an old building to serve as a rest spot for travelers and called it Misty Pine Refuge. I've got a shipment of holy candles that I need to get him. Could you bring them to him if you're going that way?",
 },
-[267] = {
-["o"] = "Bring 8 Trogg Stone Teeth to Captain Rugelfuss in the southern guard tower.",
-["d"] = "Warrior, you may or may not be aware of the Trogg threat looming over Dwarven lands.  With the Ironforge Reserve called up to the Alliance Front, we are left with a fraction of the defense forces needed to keep these lands safe.  My regiment is assigned to watch over the Gate here and we cannot leave our post for fear of invasion.\n\nBut we need some pressure put on those damned Troggs lurking in the hills.  If you're up to the task, wage an assault on the Troggs.  Bring me back 8 Trogg Stone Teeth as proof.",
+[287] = {
+["o"] = "Explore Frostmane Hold, and kill 5 Frostmane Headhunters for Senir Whitebeard in Kharanos.",
+["d"] = "I'm behind on my report, and could use your help, N. I just managed to find where the trolls are holed up, but I saw so many trolls, I was afraid to go in.\n\nHere's what I need... Go down to the cave, poke around inside, kill a few of the trolls, then come back here.\n\nTake the road north out of Kharanos, when you get to the bridge, follow the frozen river west until you reach Iceflow Lake. You'll find Brewnall Village on the west bank. The Hold is southwest of the village.",
 },
 },
 },
-["lastBoss"] = 1,
+["trackerHintShown"] = true,
+["lastDungeon"] = "Hall of Thanes",
+["learnedItemIDs"] = {
+["expeditionary legplates"] = {
+["id"] = 279901,
+["name"] = "Expeditionary Legplates",
+},
+["grips of control"] = {
+["id"] = 276733,
+["name"] = "Grips of Control",
+},
+["shamanic wristguards"] = {
+["id"] = 280069,
+["name"] = "Shamanic Wristguards",
+},
+["impish chain hood"] = {
+["id"] = 280058,
+["name"] = "Impish Chain Hood",
+},
+["burnished pridescales"] = {
+["id"] = 280073,
+["name"] = "Burnished Pridescales",
+},
+["flameslash crescent"] = {
+["id"] = 280056,
+["name"] = "Flameslash Crescent",
+},
+["veilpiercer girdle"] = {
+["id"] = 280070,
+["name"] = "Veilpiercer Girdle",
+},
+["cutthroat chestguard"] = {
+["id"] = 276739,
+["name"] = "Cutthroat Chestguard",
+},
+["bleak eye shoulderplates"] = {
+["id"] = 280075,
+["name"] = "Bleak Eye Shoulderplates",
+},
+["tidesong wand"] = {
+["id"] = 276735,
+["name"] = "Tidesong Wand",
+},
+["satyr's touch"] = {
+["id"] = 287036,
+["name"] = "Satyr's Touch",
+},
+["lucky shovelnose tuft"] = {
+["id"] = 280060,
+["name"] = "Lucky Shovelnose Tuft",
+},
+["trousers of the ebon giant"] = {
+["id"] = 280066,
+["name"] = "Trousers of the Ebon Giant",
+},
+["behemoth bones"] = {
+["id"] = 280065,
+["name"] = "Behemoth Bones",
+},
+["reward voucher"] = {
+["id"] = 8070,
+["name"] = "Reward Voucher",
+},
+["lost researcher's hood"] = {
+["id"] = 279931,
+["name"] = "Lost Researcher's Hood",
+},
+},
+["lastQuest"] = 1,
+["portraitTexturesByNpcID"] = {
+},
+["learnedQuestIDs"] = {
+},
+["lootFilter"] = {
+["enabled"] = false,
+["classOnly"] = false,
+["recipes"] = false,
+["schools"] = {
+},
+["matchAll"] = true,
+["resists"] = {
+},
+["armorTypes"] = {
+},
+["stats"] = {
+},
+["weaponTypes"] = {
+},
+},
 }

@@ -1,0 +1,1 @@
+robocopy "C:\Program Files (x86)\World of Warcraft\_forever_\WTF" "$PSScriptRoot\WTF" /MIR
