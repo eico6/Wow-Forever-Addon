@@ -1,0 +1,6 @@
+## Interface: 16001
+## Title: EivindBars
+## Notes: Bottom action bar art for WoW Forever
+## Version: 0.9
+
+EivindBars.lua
