@@ -499,7 +499,9 @@ local function LayoutArt()
     local inset = rowHeight * 0.09
     backing:ClearAllPoints()
     SetScreenPoint(backing, "BOTTOMLEFT", left - inset, bottom - inset)
-    SetScreenPoint(backing, "TOPRIGHT", right + inset, top + inset)
+    -- End the square backing under the last button, inside the rim's curved end.
+    local backingRight = extensionTrim:IsShown() and (right - inset) or (right + inset)
+    SetScreenPoint(backing, "TOPRIGHT", backingRight, top + inset)
     backing:Show()
     FitXPBar()
 
