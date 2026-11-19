@@ -1,8 +1,10 @@
 -- Appearance settings. Edit these numbers, save the file, then type /reload in WoW.
-local EAGLE_SIZE_PERCENT = 76    -- 100 is the original Blizzard size.
-local EAGLE_OUTWARD_PX = 7       -- Each eagle moves away from its nearest button. 0 is tucked in.
+local EAGLE_SIZE_PERCENT = 77    -- 100 is the original Blizzard size.
+local EAGLE_OUTWARD_PX = 9       -- Each eagle moves away from its nearest button. 0 is tucked in.
 local EAGLE_DOWN_PX = 4          -- Larger values lower the eagles toward the screen edge.
 local XP_EXTRA_HEIGHT_PX = 1     -- 0 meets the lower rim. +1 raises the top one pixel, -1 lowers it.
+local RIM_IDLE_BRIGHTNESS = 0.75 -- 1 uses the sampled bronze at full brightness.
+local RIM_DRAG_BRIGHTNESS = 1.00 -- Brightness while WoW shows the action-button grid.
 
 local function ScreenPixel()
     return UIParent:GetHeight() / select(2, GetPhysicalScreenSize())
@@ -210,8 +212,50 @@ extensionTrim:Hide()
 local rim = extensionTrim:CreateTexture(nil, "ARTWORK")
 rim:SetTexture("Interface\\AddOns\\EivindBars\\LowerRowRim")
 rim:SetTexCoord(0, 353 / 512, 0, 63 / 64)
-rim:SetVertexColor(0.91, 0.91, 0.91)
 rim:SetAllPoints()
+
+local pagerPlate = extensionTrim:CreateTexture(nil, "ARTWORK", nil, -1)
+pagerPlate:SetTexture("Interface\\AddOns\\EivindBars\\LowerRowRim")
+pagerPlate:SetTexCoord(140 / 512, 180 / 512, 0, 63 / 64)
+pagerPlate:Hide()
+
+local gridShown = false
+local bar3 = MultiBarBottomRight
+local strataOrder = { WORLD = 0, BACKGROUND = 1, LOW = 2, MEDIUM = 3, HIGH = 4,
+    DIALOG = 5, FULLSCREEN = 6, FULLSCREEN_DIALOG = 7, TOOLTIP = 8 }
+local function UpdateRim()
+    if not bar3 then return end
+    local strata, level = bar3:GetFrameStrata(), bar3:GetFrameLevel()
+    -- Keep the thin rails visible where the backing and XP border meet.
+    for _, frame in ipairs({backing, MainStatusTrackingBarContainer}) do
+        local other = frame:GetFrameStrata()
+        if strataOrder[other] > strataOrder[strata] then
+            strata, level = other, frame:GetFrameLevel()
+        elseif other == strata then
+            level = math.max(level, frame:GetFrameLevel())
+        end
+    end
+    extensionTrim:SetFrameStrata(strata)
+    extensionTrim:SetFrameLevel(level + 1)
+    local cursorType = GetCursorInfo and GetCursorInfo()
+    local dragging = gridShown or cursorType == "action" or cursorType == "spell"
+    local light = dragging and RIM_DRAG_BRIGHTNESS or RIM_IDLE_BRIGHTNESS
+    rim:SetVertexColor(light, light, light)
+    pagerPlate:SetVertexColor(light, light, light)
+end
+
+-- Sample the straight rails. The adjacent bar rims already frame the pager's sides.
+local function LayoutPagerPlate(left, right)
+    local _, low, _, high = GetScreenRect(extensionTrim)
+    -- The horizontal rails meet the rims at the tips of their chamfered corners.
+    -- Extend past each side wall by the corner width in the sampled rim.
+    local cornerWidth = (high - low) * 10 / 63
+    local scale = GetRelativeScale(extensionTrim)
+    pagerPlate:ClearAllPoints()
+    pagerPlate:SetPoint("BOTTOMLEFT", UIParent, "BOTTOMLEFT", (left - cornerWidth) / scale, low / scale)
+    pagerPlate:SetPoint("TOPRIGHT", UIParent, "BOTTOMLEFT", (right + cornerWidth) / scale, high / scale)
+    pagerPlate:Show()
+end
 
 local function LayoutExtensionTrim(first, last)
     extensionTrim:Hide()
@@ -224,13 +268,12 @@ local function LayoutExtensionTrim(first, last)
     local pixel = (lastX - firstX) / (5 * 58)
     if pixel <= 0 then return end
 
-    local track = MainStatusTrackingBarContainer
-    extensionTrim:SetFrameStrata(track and track:GetFrameStrata() or first:GetFrameStrata())
-    extensionTrim:SetFrameLevel(track and track:GetFrameLevel() + 1 or first:GetFrameLevel())
+    bar3 = first.bar or MultiBarBottomRight
+    UpdateRim()
     extensionTrim:ClearAllPoints()
     local screenPixel = ScreenPixel()
     SetScreenPoint(extensionTrim, "BOTTOMLEFT", firstX - 31.5 * pixel, centerY - 32 * pixel + screenPixel)
-    SetScreenPoint(extensionTrim, "TOPRIGHT", lastX + 29.5 * pixel, centerY + 31 * pixel)
+    SetScreenPoint(extensionTrim, "TOPRIGHT", lastX + 29.5 * pixel, centerY + 31 * pixel + screenPixel)
     extensionTrim:Show()
 end
 
@@ -482,9 +525,15 @@ local function LayoutArt()
     end
 
     local pager = bar.ActionBarPageNumber
+    pagerPlate:Hide()
     if pager and extensionLeft and extensionLeft - mainRight > rowHeight * 0.35 then
         pager:ClearAllPoints()
         SetScreenPoint(pager, "CENTER", (mainRight + extensionLeft) / 2, (bottom + top) / 2)
+        if extensionTrim:IsShown() then
+            local trimLeft = GetScreenRect(extensionTrim)
+            local center = (mainRight + extensionLeft) / 2
+            LayoutPagerPlate(2 * center - trimLeft, trimLeft)
+        end
 
         if pager.UpButton and pager.DownButton and pager.Text then
             pager.UpButton:ClearAllPoints()
@@ -502,7 +551,18 @@ events:RegisterEvent("PLAYER_ENTERING_WORLD")
 events:RegisterEvent("PLAYER_REGEN_ENABLED")
 events:RegisterEvent("UI_SCALE_CHANGED")
 events:RegisterEvent("EDIT_MODE_LAYOUTS_UPDATED")
-events:SetScript("OnEvent", function()
+events:RegisterEvent("ACTIONBAR_SHOWGRID")
+events:RegisterEvent("ACTIONBAR_HIDEGRID")
+events:RegisterEvent("CURSOR_CHANGED")
+events:SetScript("OnEvent", function(_, event)
+    if event == "ACTIONBAR_SHOWGRID" or event == "ACTIONBAR_HIDEGRID" then
+        gridShown = event == "ACTIONBAR_SHOWGRID"
+    end
+    if event == "CURSOR_CHANGED" or event == "ACTIONBAR_SHOWGRID" or event == "ACTIONBAR_HIDEGRID" then
+        -- Read the final strata after the game's handlers for this event have run.
+        C_Timer.After(0, UpdateRim)
+        return
+    end
     C_Timer.After(0, LayoutArt)
 end)
 
