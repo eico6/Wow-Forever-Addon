@@ -1,0 +1,36 @@
+
+ForeverDungeonJournalCharacterDB = {
+["favouriteItems"] = {
+},
+["trackedDungeons"] = {
+},
+["trackerSlots"] = {
+},
+["rpgQuests"] = {
+[96393] = true,
+},
+["flightPointsVersion"] = 2,
+["flightPoints"] = {
+["ironforge, dun morogh"] = true,
+},
+["runTracker"] = {
+},
+["rpgKills"] = {
+},
+["hearthSpot"] = {
+["y"] = 0.5113924741744995,
+["mapID"] = 1455,
+["name"] = "Ironforge",
+["x"] = 0.1845556497573853,
+},
+["hiddenDungeons"] = {
+},
+["journalMode"] = "gamer",
+["runLog"] = {
+["nextID"] = 1,
+["runs"] = {
+},
+},
+["arrowChains"] = {
+},
+}

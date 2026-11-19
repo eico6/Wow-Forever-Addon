@@ -1,0 +1,515 @@
+
+FlareUI2_DB = {
+["global"] = {
+["editModeHintSeen"] = true,
+["welcomeSeen"] = true,
+["characters"] = {
+["Player-6855-02FD35AC"] = {
+["forcedCVars"] = {
+},
+["profileName"] = "Default",
+},
+},
+["forcedCVars"] = {
+},
+["whatsNewSeen"] = "6.12",
+["editModeSwitchesSet"] = {
+["ShowRaidFrames"] = true,
+["ShowCastBar"] = true,
+["ShowPetFrame"] = true,
+["ShowPartyFrames"] = true,
+["ShowBossFrames"] = true,
+["ShowTargetAndFocus"] = true,
+},
+["sayLog"] = {
+["on"] = false,
+["notes"] = {
+},
+},
+["settingsPage"] = "uf",
+["newSeen"] = {
+["uf.auraTimerColor"] = "6.12",
+["au.timerColor"] = "6.12",
+["mm.resetButtonMoves"] = "6.12",
+["qt.frameStyle"] = "6.12",
+["rm.targetMouseover"] = "6.12",
+["qol.autoTurnInQuests"] = "6.12",
+["mm.squareBorder"] = "6.12",
+["qol.zoneLevels"] = "6.12",
+["tt.showGuildRank"] = "6.12",
+["qt.questButtons"] = "6.12",
+},
+},
+["profileKeys"] = {
+["Badboy Jim"] = "Default",
+},
+["profiles"] = {
+["Default"] = {
+["unitframes"] = {
+["petStash"] = {
+["simple"] = {
+["castHeight"] = 12,
+["debuffs"] = "OFF",
+["castTimer"] = true,
+["healthText"] = "none",
+["border"] = "FlareUI Thin",
+["powerHeight"] = 8,
+["absorbTexture"] = "FlareUI Striped",
+["powerText"] = "value",
+["texture"] = "FlareUI Forever",
+["enabled"] = true,
+["castbar"] = false,
+["castbarPosition"] = "BOTTOM",
+["hideBuffs"] = "OFF",
+["width"] = 120,
+["castIcon"] = true,
+["castTexture"] = "FlareUI Forever",
+["auraSize"] = 12,
+["castBorderTexture"] = "FlareUI Thin",
+["height"] = 30,
+["buffs"] = "OFF",
+["threatGlow"] = true,
+["showLevel"] = false,
+},
+},
+["resource"] = {
+["barFontsSeeded"] = true,
+["bars"] = {
+["health"] = {
+["barText"] = {
+["health"] = {
+["right"] = {
+},
+["left"] = {
+},
+["middle"] = {
+["percent"] = true,
+["value"] = true,
+},
+},
+},
+},
+},
+},
+["layouts"] = {
+["EKTA"] = {
+},
+},
+["plateTiles"] = true,
+["petSetup"] = "styled",
+["boss"] = {
+["debuffs"] = "ABOVE_RIGHT",
+["layouts"] = {
+["EKTA"] = {
+},
+},
+["powerHeight"] = 10,
+["ringSize"] = 66,
+["castHeight"] = 15,
+["auraSize"] = 18,
+["width"] = 164,
+["height"] = 50,
+["buffs"] = "ABOVE",
+},
+["styleSavesThin"] = true,
+["focustargetStash"] = {
+["simple"] = {
+["enabled"] = true,
+["healthText"] = "none",
+["mirror"] = true,
+["width"] = 100,
+["showLevel"] = false,
+["border"] = "FlareUI Thin",
+["height"] = 25,
+["powerHeight"] = 0,
+["powerText"] = "value",
+["texture"] = "FlareUI Forever",
+},
+},
+["focustargetPositions"] = {
+["simple"] = {
+},
+},
+["frameFonts"] = {
+["flag"] = {
+["cast"] = {
+["size"] = 12,
+},
+["castTime"] = {
+["size"] = 12,
+},
+},
+["focustarget"] = {
+["cast"] = {
+["size"] = 12,
+},
+["health"] = {
+["size"] = 12,
+},
+["power"] = {
+["size"] = 10,
+},
+["castTime"] = {
+["size"] = 12,
+},
+["names"] = {
+["size"] = 12,
+},
+},
+["pet"] = {
+["cast"] = {
+["size"] = 12,
+},
+["health"] = {
+["size"] = 12,
+},
+["power"] = {
+["size"] = 10,
+},
+["castTime"] = {
+["size"] = 12,
+},
+["names"] = {
+["size"] = 12,
+},
+},
+["party"] = {
+["cast"] = {
+["size"] = 12,
+},
+["castTime"] = {
+["size"] = 12,
+},
+},
+["focus"] = {
+["cast"] = {
+["size"] = 12,
+},
+["health"] = {
+["size"] = 12,
+},
+["power"] = {
+["size"] = 10,
+},
+["castTime"] = {
+["size"] = 12,
+},
+["names"] = {
+["size"] = 12,
+},
+},
+["target"] = {
+["cast"] = {
+["size"] = 12,
+},
+["castTime"] = {
+["size"] = 12,
+},
+},
+["raid"] = {
+["cast"] = {
+["size"] = 12,
+},
+["health"] = {
+["size"] = 12,
+},
+["power"] = {
+["size"] = 10,
+},
+["castTime"] = {
+["size"] = 12,
+},
+["names"] = {
+["size"] = 12,
+},
+},
+["targettarget"] = {
+["cast"] = {
+["size"] = 12,
+},
+["health"] = {
+["size"] = 12,
+},
+["power"] = {
+["size"] = 10,
+},
+["castTime"] = {
+["size"] = 12,
+},
+["names"] = {
+["size"] = 12,
+},
+},
+["boss"] = {
+["cast"] = {
+["size"] = 12,
+},
+["castTime"] = {
+["size"] = 12,
+},
+},
+},
+["targettargetStash"] = {
+["simple"] = {
+["enabled"] = true,
+["healthText"] = "none",
+["mirror"] = true,
+["width"] = 100,
+["showLevel"] = false,
+["border"] = "FlareUI Thin",
+["height"] = 25,
+["powerHeight"] = 0,
+["powerText"] = "value",
+["texture"] = "FlareUI Forever",
+},
+},
+["targettargetSetup"] = "styled",
+["styleStart"] = true,
+["tileStyle"] = true,
+["party"] = {
+["classic"] = {
+["castHeight"] = 15,
+["debuffs"] = "ABOVE_RIGHT",
+["portrait"] = "3d",
+["powerHeight"] = 10,
+["ringSize"] = 66,
+["auraSize"] = 18,
+["width"] = 188,
+["height"] = 50,
+["buffs"] = "ABOVE",
+},
+["showPlayer"] = false,
+["layouts"] = {
+["EKTA"] = {
+},
+},
+},
+["frameFontsSeeded"] = true,
+["petPositions"] = {
+["simple"] = {
+},
+},
+["auraCountFontSeeded"] = true,
+["castTimeSeeded"] = true,
+["units"] = {
+["player"] = {
+["portrait"] = "3d",
+["border"] = "FlareUI Thin",
+["ringSize"] = 80,
+["barText"] = {
+["health"] = {
+["right"] = {
+["percent"] = true,
+},
+["left"] = {
+["name"] = true,
+},
+["middle"] = {
+},
+},
+["power"] = {
+["right"] = {
+["value"] = true,
+},
+["left"] = {
+},
+["middle"] = {
+},
+},
+},
+["width"] = 200,
+},
+["focus"] = {
+["portrait"] = "3d",
+["ringSize"] = 47,
+["barText"] = {
+["health"] = {
+["right"] = {
+["percent"] = true,
+},
+["left"] = {
+["name"] = true,
+},
+["middle"] = {
+},
+},
+["power"] = {
+["right"] = {
+["value"] = true,
+},
+["left"] = {
+},
+["middle"] = {
+},
+},
+},
+["border"] = "FlareUI Thin",
+["width"] = 136,
+},
+["target"] = {
+["portrait"] = "3d",
+["ringSize"] = 80,
+["barText"] = {
+["health"] = {
+["right"] = {
+["percent"] = true,
+},
+["left"] = {
+["name"] = true,
+},
+["middle"] = {
+},
+},
+["power"] = {
+["right"] = {
+["value"] = true,
+},
+["left"] = {
+},
+["middle"] = {
+},
+},
+},
+["border"] = "FlareUI Thin",
+["width"] = 200,
+},
+["focustarget"] = {
+["barText"] = {
+["health"] = {
+["right"] = {
+["percent"] = true,
+},
+["left"] = {
+["name"] = true,
+},
+["middle"] = {
+},
+},
+["power"] = {
+["right"] = {
+["value"] = true,
+},
+["left"] = {
+},
+["middle"] = {
+},
+},
+},
+["healthText"] = "percent",
+["powerHeight"] = 8,
+["ringSize"] = 40,
+["height"] = 30,
+["absorbTexture"] = "FlareUI Striped",
+},
+["targettarget"] = {
+["barText"] = {
+["health"] = {
+["right"] = {
+["percent"] = true,
+},
+["left"] = {
+["name"] = true,
+},
+["middle"] = {
+},
+},
+["power"] = {
+["right"] = {
+["value"] = true,
+},
+["left"] = {
+},
+["middle"] = {
+},
+},
+},
+["healthText"] = "percent",
+["powerHeight"] = 8,
+["ringSize"] = 40,
+["height"] = 30,
+["absorbTexture"] = "FlareUI Striped",
+},
+["pet"] = {
+["healthText"] = "percent",
+["ringSize"] = 40,
+["barText"] = {
+["health"] = {
+["right"] = {
+["percent"] = true,
+},
+["left"] = {
+["name"] = true,
+},
+["middle"] = {
+},
+},
+["power"] = {
+["right"] = {
+["value"] = true,
+},
+["left"] = {
+},
+["middle"] = {
+},
+},
+},
+["width"] = 100,
+["height"] = 35,
+["showLevel"] = true,
+},
+},
+["totems"] = {
+["perRow"] = 2,
+},
+["raid"] = {
+["layouts"] = {
+["EKTA"] = {
+},
+},
+["spacing"] = 18,
+["tankLayouts"] = {
+["EKTA"] = {
+},
+},
+["barSpacing"] = true,
+["groupSpacing"] = 18,
+["mainTanks"] = {
+["spacing"] = 18,
+},
+},
+["focustargetSetup"] = "styled",
+["targettargetPositions"] = {
+["simple"] = {
+},
+},
+["totemLayouts"] = {
+["EKTA"] = {
+},
+},
+},
+["tweaks"] = {
+["moveLootToasts"] = false,
+["moveAnyFrame"] = false,
+["moverLayouts"] = {
+["EKTA"] = {
+["toast"] = {
+},
+["loot"] = {
+},
+["objectives"] = {
+},
+},
+},
+},
+["textModes1113"] = true,
+["visibility"] = {
+["fadesMoved"] = true,
+["mouseToken"] = true,
+},
+["auras"] = {
+["remindersOwnSwitch"] = true,
+},
+},
+},
+}
+FlareUI_DB = nil

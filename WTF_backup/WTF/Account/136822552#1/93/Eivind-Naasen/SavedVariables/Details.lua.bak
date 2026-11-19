@@ -1,0 +1,993 @@
+
+_detalhes_database = {
+["savedbuffs"] = {
+},
+["mythic_dungeon_id"] = 0,
+["tabela_historico"] = {
+["tabelas"] = {
+},
+},
+["apocalypse_savedsegments"] = {
+},
+["ocd_tracker"] = {
+["enabled"] = false,
+["current_cooldowns"] = {
+},
+["lines_per_column"] = 12,
+["group_frames"] = true,
+["width"] = 120,
+["frames"] = {
+["defensive-raid"] = {
+},
+["main"] = {
+},
+["ofensive"] = {
+},
+["defensive-target"] = {
+},
+["utility"] = {
+},
+["defensive-personal"] = {
+},
+},
+["show_options"] = false,
+["ignored_cooldowns"] = {
+},
+["framme_locked"] = false,
+["cooldowns"] = {
+},
+["own_frame"] = {
+["defensive-raid"] = false,
+["ofensive"] = false,
+["defensive-target"] = false,
+["utility"] = false,
+["defensive-personal"] = false,
+},
+["height"] = 18,
+["show_conditions"] = {
+["only_inside_instance"] = true,
+["only_in_group"] = true,
+},
+["show_title"] = true,
+["filters"] = {
+["itemutil"] = false,
+["itempower"] = false,
+["defensive-target"] = false,
+["itemheal"] = false,
+["defensive-personal"] = false,
+["defensive-raid"] = false,
+["ofensive"] = true,
+["crowdcontrol"] = false,
+["utility"] = false,
+},
+},
+["combat_counter"] = 22,
+["player_stats"] = {
+},
+["force_font_outline"] = "",
+["tabela_instancias"] = {
+},
+["arena_data_compressed"] = {
+},
+["mythic_plus_log"] = {
+},
+["arena_data_index_selected"] = 1,
+["damage_meter_sessions"] = {
+{
+["playerCasts"] = {
+},
+["endUnixTime"] = 1794951530,
+["sessionId"] = 1,
+["added"] = false,
+["playerAuras"] = {
+},
+["sessionName"] = "Scarred Crag Boar",
+["startUnixTime"] = 1794951498,
+["endDate"] = "22:38:50",
+["endTime"] = 213426.473,
+["startDate"] = "22:38:18",
+["startTime"] = 213394.501,
+["alreadyAdded"] = false,
+["detailsId"] = "Scarred Crag Boar1",
+},
+{
+["playerCasts"] = {
+},
+["endUnixTime"] = 1794951675,
+["sessionId"] = 2,
+["added"] = false,
+["playerAuras"] = {
+},
+["sessionName"] = "Scarred Crag Boar",
+["startUnixTime"] = 1794951530,
+["endDate"] = "22:41:15",
+["endTime"] = 213572.304,
+["startDate"] = "22:38:50",
+["startTime"] = 213426.473,
+["alreadyAdded"] = false,
+["detailsId"] = "Scarred Crag Boar2",
+},
+{
+["playerCasts"] = {
+},
+["endUnixTime"] = 1794951689,
+["sessionId"] = 3,
+["added"] = false,
+["playerAuras"] = {
+},
+["endDate"] = "22:41:29",
+["startUnixTime"] = 1794951675,
+["endTime"] = 213586.309,
+["sessionName"] = "Forest Lurker",
+["startDate"] = "22:41:15",
+["startTime"] = 213572.304,
+["alreadyAdded"] = false,
+["detailsId"] = "Forest Lurker3",
+},
+{
+["playerCasts"] = {
+},
+["endUnixTime"] = 1794951730,
+["sessionId"] = 4,
+["added"] = false,
+["playerAuras"] = {
+},
+["endDate"] = "22:42:10",
+["startUnixTime"] = 1794951715,
+["endTime"] = 213627.149,
+["sessionName"] = "Forest Lurker",
+["startDate"] = "22:41:55",
+["startTime"] = 213612.239,
+["alreadyAdded"] = false,
+["detailsId"] = "Forest Lurker4",
+},
+{
+["playerCasts"] = {
+},
+["endUnixTime"] = 1794951759,
+["sessionId"] = 5,
+["added"] = false,
+["playerAuras"] = {
+},
+["endDate"] = "22:42:39",
+["startUnixTime"] = 1794951743,
+["endTime"] = 213655.468,
+["sessionName"] = "Elder Black Bear",
+["startDate"] = "22:42:23",
+["startTime"] = 213640.201,
+["alreadyAdded"] = false,
+["detailsId"] = "Elder Black Bear5",
+},
+{
+["playerCasts"] = {
+},
+["endUnixTime"] = 1794951983,
+["sessionId"] = 6,
+["added"] = false,
+["playerAuras"] = {
+},
+["endDate"] = "22:46:23",
+["startUnixTime"] = 1794951941,
+["endTime"] = 213879.798,
+["sessionName"] = "Stonesplinter Trogg",
+["startDate"] = "22:45:41",
+["startTime"] = 213837.744,
+["alreadyAdded"] = false,
+["detailsId"] = "Stonesplinter Trogg6",
+},
+{
+["playerCasts"] = {
+},
+["endUnixTime"] = 1794952074,
+["sessionId"] = 7,
+["added"] = false,
+["playerAuras"] = {
+},
+["endDate"] = "22:47:54",
+["startUnixTime"] = 1794952000,
+["endTime"] = 213970.934,
+["sessionName"] = "Stonesplinter Scout",
+["startDate"] = "22:46:40",
+["startTime"] = 213896.932,
+["alreadyAdded"] = false,
+["detailsId"] = "Stonesplinter Scout7",
+},
+{
+["playerCasts"] = {
+},
+["endUnixTime"] = 1794952124,
+["sessionId"] = 8,
+["added"] = false,
+["playerAuras"] = {
+},
+["endDate"] = "22:48:44",
+["startUnixTime"] = 1794952106,
+["endTime"] = 214021.121,
+["sessionName"] = "Stonesplinter Trogg",
+["startDate"] = "22:48:26",
+["startTime"] = 214003.007,
+["alreadyAdded"] = false,
+["detailsId"] = "Stonesplinter Trogg8",
+},
+{
+["playerCasts"] = {
+},
+["endUnixTime"] = 1794952175,
+["sessionId"] = 9,
+["added"] = false,
+["playerAuras"] = {
+},
+["endDate"] = "22:49:35",
+["startUnixTime"] = 1794952157,
+["endTime"] = 214071.739,
+["sessionName"] = "Stonesplinter Trogg",
+["startDate"] = "22:49:17",
+["startTime"] = 214053.982,
+["alreadyAdded"] = false,
+["detailsId"] = "Stonesplinter Trogg9",
+},
+{
+["playerCasts"] = {
+},
+["endUnixTime"] = 1794952220,
+["sessionId"] = 10,
+["added"] = false,
+["playerAuras"] = {
+},
+["endDate"] = "22:50:20",
+["startUnixTime"] = 1794952190,
+["endTime"] = 214117.144,
+["sessionName"] = "Stonesplinter Trogg",
+["startDate"] = "22:49:50",
+["startTime"] = 214087.372,
+["alreadyAdded"] = false,
+["detailsId"] = "Stonesplinter Trogg10",
+},
+{
+["playerCasts"] = {
+},
+["endUnixTime"] = 1794952263,
+["sessionId"] = 11,
+["added"] = false,
+["playerAuras"] = {
+},
+["endDate"] = "22:51:03",
+["startUnixTime"] = 1794952249,
+["endTime"] = 214159.578,
+["sessionName"] = "Stonesplinter Scout",
+["startDate"] = "22:50:49",
+["startTime"] = 214146.4,
+["alreadyAdded"] = false,
+["detailsId"] = "Stonesplinter Scout11",
+},
+{
+["playerCasts"] = {
+},
+["endUnixTime"] = 1794952295,
+["sessionId"] = 12,
+["added"] = false,
+["playerAuras"] = {
+},
+["endDate"] = "22:51:35",
+["startUnixTime"] = 1794952271,
+["endTime"] = 214191.96,
+["sessionName"] = "Stonesplinter Trogg",
+["startDate"] = "22:51:11",
+["startTime"] = 214167.521,
+["alreadyAdded"] = false,
+["detailsId"] = "Stonesplinter Trogg12",
+},
+{
+["playerCasts"] = {
+},
+["endUnixTime"] = 1794952359,
+["sessionId"] = 13,
+["added"] = false,
+["playerAuras"] = {
+},
+["endDate"] = "22:52:39",
+["startUnixTime"] = 1794952344,
+["endTime"] = 214255.87,
+["sessionName"] = "Stonesplinter Trogg",
+["startDate"] = "22:52:24",
+["startTime"] = 214240.602,
+["alreadyAdded"] = false,
+["detailsId"] = "Stonesplinter Trogg13",
+},
+{
+["playerCasts"] = {
+},
+["endUnixTime"] = 1794952406,
+["sessionId"] = 14,
+["added"] = false,
+["playerAuras"] = {
+},
+["endDate"] = "22:53:26",
+["startUnixTime"] = 1794952387,
+["endTime"] = 214303.156,
+["sessionName"] = "Stonesplinter Trogg",
+["startDate"] = "22:53:07",
+["startTime"] = 214283.606,
+["alreadyAdded"] = false,
+["detailsId"] = "Stonesplinter Trogg14",
+},
+{
+["playerCasts"] = {
+},
+["endUnixTime"] = 1794952571,
+["sessionId"] = 15,
+["added"] = false,
+["playerAuras"] = {
+},
+["endDate"] = "22:56:11",
+["startUnixTime"] = 1794952544,
+["endTime"] = 214467.889,
+["sessionName"] = "Stonesplinter Scout",
+["startDate"] = "22:55:44",
+["startTime"] = 214440.436,
+["alreadyAdded"] = false,
+["detailsId"] = "Stonesplinter Scout15",
+},
+{
+["playerCasts"] = {
+},
+["endUnixTime"] = 1794952599,
+["sessionId"] = 16,
+["added"] = false,
+["playerAuras"] = {
+},
+["endDate"] = "22:56:39",
+["startUnixTime"] = 1794952583,
+["endTime"] = 214495.78,
+["sessionName"] = "Stonesplinter Trogg",
+["startDate"] = "22:56:23",
+["startTime"] = 214479.73,
+["alreadyAdded"] = false,
+["detailsId"] = "Stonesplinter Trogg16",
+},
+{
+["playerCasts"] = {
+},
+["endUnixTime"] = 1794952732,
+["sessionId"] = 17,
+["added"] = false,
+["playerAuras"] = {
+},
+["endDate"] = "22:58:52",
+["startUnixTime"] = 1794952719,
+["endTime"] = 214629.107,
+["sessionName"] = "Stonesplinter Scout",
+["startDate"] = "22:58:39",
+["startTime"] = 214615.485,
+["alreadyAdded"] = false,
+["detailsId"] = "Stonesplinter Scout17",
+},
+{
+["playerCasts"] = {
+},
+["endUnixTime"] = 1794952756,
+["sessionId"] = 18,
+["added"] = false,
+["playerAuras"] = {
+},
+["endDate"] = "22:59:16",
+["startUnixTime"] = 1794952736,
+["endTime"] = 214652.641,
+["sessionName"] = "Stonesplinter Scout",
+["startDate"] = "22:58:56",
+["startTime"] = 214633.378,
+["alreadyAdded"] = false,
+["detailsId"] = "Stonesplinter Scout18",
+},
+{
+["playerCasts"] = {
+},
+["endUnixTime"] = 1794952775,
+["sessionId"] = 19,
+["added"] = false,
+["playerAuras"] = {
+},
+["endDate"] = "22:59:35",
+["startUnixTime"] = 1794952763,
+["endTime"] = 214672.068,
+["sessionName"] = "Stonesplinter Trogg",
+["startDate"] = "22:59:23",
+["startTime"] = 214659.938,
+["alreadyAdded"] = false,
+["detailsId"] = "Stonesplinter Trogg19",
+},
+{
+["playerCasts"] = {
+},
+["endUnixTime"] = 1794952820,
+["sessionId"] = 20,
+["added"] = false,
+["playerAuras"] = {
+},
+["endDate"] = "23:00:20",
+["startUnixTime"] = 1794952786,
+["endTime"] = 214717.442,
+["sessionName"] = "Stonesplinter Scout",
+["startDate"] = "22:59:46",
+["startTime"] = 214683.402,
+["alreadyAdded"] = false,
+["detailsId"] = "Stonesplinter Scout20",
+},
+{
+["playerCasts"] = {
+},
+["endUnixTime"] = 1794952860,
+["sessionId"] = 21,
+["added"] = false,
+["playerAuras"] = {
+},
+["endDate"] = "23:01:00",
+["startUnixTime"] = 1794952844,
+["endTime"] = 214757.101,
+["sessionName"] = "Stonesplinter Scout",
+["startDate"] = "23:00:44",
+["startTime"] = 214740.469,
+["alreadyAdded"] = false,
+["detailsId"] = "Stonesplinter Scout21",
+},
+{
+["playerCasts"] = {
+},
+["endUnixTime"] = 1794952928,
+["sessionId"] = 22,
+["added"] = false,
+["playerAuras"] = {
+},
+["endDate"] = "23:02:08",
+["startUnixTime"] = 1794952909,
+["endTime"] = 214824.677,
+["sessionName"] = "Stonesplinter Scout",
+["startDate"] = "23:01:49",
+["startTime"] = 214806.156,
+["alreadyAdded"] = false,
+["detailsId"] = "Stonesplinter Scout22",
+},
+{
+["playerCasts"] = {
+},
+["endUnixTime"] = 1794952956,
+["sessionId"] = 23,
+["added"] = false,
+["playerAuras"] = {
+},
+["endDate"] = "23:02:36",
+["startUnixTime"] = 1794952943,
+["endTime"] = 214853.445,
+["sessionName"] = "Forest Lurker",
+["startDate"] = "23:02:23",
+["startTime"] = 214839.951,
+["alreadyAdded"] = false,
+["detailsId"] = "Forest Lurker23",
+},
+{
+["playerCasts"] = {
+},
+["endUnixTime"] = 1794953209,
+["sessionId"] = 24,
+["added"] = false,
+["playerAuras"] = {
+},
+["endDate"] = "23:06:49",
+["startUnixTime"] = 1794953190,
+["endTime"] = 215105.471,
+["sessionName"] = "Stonesplinter Trogg",
+["startDate"] = "23:06:30",
+["startTime"] = 215086.733,
+["alreadyAdded"] = false,
+["detailsId"] = "Stonesplinter Trogg24",
+},
+{
+["playerCasts"] = {
+},
+["endUnixTime"] = 1794953310,
+["sessionId"] = 25,
+["added"] = false,
+["playerAuras"] = {
+},
+["endDate"] = "23:08:30",
+["startUnixTime"] = 1794953236,
+["endTime"] = 215207.225,
+["sessionName"] = "Stonesplinter Trogg",
+["startDate"] = "23:07:16",
+["startTime"] = 215133.27,
+["alreadyAdded"] = false,
+["detailsId"] = "Stonesplinter Trogg25",
+},
+{
+["playerCasts"] = {
+},
+["endUnixTime"] = 1794953350,
+["sessionId"] = 26,
+["added"] = false,
+["playerAuras"] = {
+},
+["endDate"] = "23:09:10",
+["startUnixTime"] = 1794953314,
+["endTime"] = 215247.239,
+["sessionName"] = "Stonesplinter Trogg",
+["startDate"] = "23:08:34",
+["startTime"] = 215211.362,
+["alreadyAdded"] = false,
+["detailsId"] = "Stonesplinter Trogg26",
+},
+{
+["playerCasts"] = {
+},
+["endUnixTime"] = 1794953402,
+["sessionId"] = 27,
+["added"] = false,
+["playerAuras"] = {
+},
+["endDate"] = "23:10:02",
+["startUnixTime"] = 1794953358,
+["endTime"] = 215299.15,
+["sessionName"] = "Stonesplinter Trogg",
+["startDate"] = "23:09:18",
+["startTime"] = 215255.11,
+["alreadyAdded"] = false,
+["detailsId"] = "Stonesplinter Trogg27",
+},
+{
+["playerCasts"] = {
+},
+["endUnixTime"] = 1794953427,
+["sessionId"] = 28,
+["added"] = false,
+["playerAuras"] = {
+},
+["endDate"] = "23:10:27",
+["startUnixTime"] = 1794953412,
+["endTime"] = 215323.462,
+["sessionName"] = "Stonesplinter Trogg",
+["startDate"] = "23:10:12",
+["startTime"] = 215309.172,
+["alreadyAdded"] = false,
+["detailsId"] = "Stonesplinter Trogg28",
+},
+{
+["playerCasts"] = {
+},
+["endUnixTime"] = 1794953478,
+["sessionId"] = 29,
+["added"] = false,
+["playerAuras"] = {
+},
+["endDate"] = "23:11:18",
+["startUnixTime"] = 1794953445,
+["endTime"] = 215374.849,
+["sessionName"] = "Stonesplinter Trogg",
+["startDate"] = "23:10:45",
+["startTime"] = 215342.005,
+["alreadyAdded"] = false,
+["detailsId"] = "Stonesplinter Trogg29",
+},
+},
+["on_death_menu"] = false,
+["auto_combatlog"] = false,
+["damage_meter_session_info"] = {
+},
+["nick_tag_cache"] = {
+["nextreset"] = 1795725997,
+["last_version"] = 16,
+},
+["last_instance_id"] = 0,
+["data_harvest_for_charsts"] = {
+["players"] = {
+{
+["name"] = "Damage of Each Individual Player",
+["playerOnly"] = true,
+["playerKey"] = "total",
+["combatObjectContainer"] = 1,
+},
+},
+["totals"] = {
+{
+["combatObjectSubTableKey"] = 1,
+["name"] = "Damage of All Player Combined",
+["combatObjectSubTableName"] = "totals",
+},
+},
+},
+["announce_interrupts"] = {
+["enabled"] = false,
+["whisper"] = "",
+["channel"] = "SAY",
+["custom"] = "",
+["next"] = "",
+},
+["announce_prepots"] = {
+["enabled"] = false,
+["channel"] = "SELF",
+["reverse"] = false,
+},
+["active_profile"] = "EKTA",
+["mythic_dungeon_currentsaved"] = {
+["dungeon_name"] = "",
+["started"] = false,
+["segment_id"] = 0,
+["ej_id"] = 0,
+["started_at"] = 0,
+["run_id"] = 0,
+["level"] = 0,
+["dungeon_zone_id"] = 0,
+["previous_boss_killed_at"] = 0,
+},
+["character_data"] = {
+["logons"] = 11,
+},
+["benchmark_db"] = {
+["frame"] = {
+},
+},
+["last_day"] = "17",
+["apocalypes_info"] = {
+},
+["combat_log"] = {
+["inverse_deathlog_overalldata"] = false,
+["track_hunter_frenzy"] = false,
+["merge_gemstones_1007"] = false,
+["merge_critical_heals"] = false,
+["inverse_deathlog_raid"] = false,
+["calc_evoker_damage"] = true,
+["evoker_show_realtimedps"] = false,
+["inverse_deathlog_mplus"] = false,
+},
+["local_instances_config"] = {
+{
+["modo"] = 2,
+["sub_attribute"] = 1,
+["horizontalSnap"] = false,
+["verticalSnap"] = false,
+["isLocked"] = false,
+["is_open"] = false,
+["sub_atributo_last"] = {
+1,
+1,
+1,
+1,
+1,
+},
+["snap"] = {
+},
+["segment"] = 0,
+["mode"] = 2,
+["attribute"] = 1,
+["pos"] = {
+["normal"] = {
+["y"] = -345.0538024902344,
+["x"] = 699.8004150390625,
+["w"] = 310.0000610351563,
+["h"] = 158.0000915527344,
+},
+["solo"] = {
+["y"] = 2,
+["x"] = 1,
+["w"] = 300,
+["h"] = 200,
+},
+},
+},
+},
+["plugin_database"] = {
+["DETAILS_PLUGIN_TINY_THREAT"] = {
+["enabled"] = true,
+["only_my_group"] = false,
+["animate"] = false,
+["updatespeed"] = 1,
+["hide_pull_bar"] = false,
+["useclasscolors"] = false,
+["playercolor"] = {
+1,
+1,
+1,
+},
+["usefocus"] = false,
+["disable_gouge"] = false,
+["playSound"] = false,
+["showamount"] = false,
+["useplayercolor"] = false,
+["absolute_mode"] = false,
+["show_party_pets"] = false,
+["playSoundFile"] = "Details Threat Warning Volume 3",
+["author"] = "Terciob",
+},
+["DETAILS_PLUGIN_COMPARETWO_WINDOW"] = {
+["enabled"] = true,
+["author"] = "Terciob",
+["max_compares"] = 4,
+["compare_type"] = 1,
+},
+["DETAILS_PLUGIN_VANGUARD"] = {
+["tank_block_size_height"] = 50,
+["show_power_bar"] = false,
+["first_run"] = false,
+["aura_timer_text_size"] = 14,
+["tank_block_castbar_size_height"] = 16,
+["show_health_bar"] = true,
+["aura_offset_y"] = 0,
+["enabled"] = true,
+["show_cast_bar"] = false,
+["author"] = "Terciob",
+["tank_block_size"] = 150,
+["bar_height"] = 24,
+["tank_block_texture"] = "Details Serenity",
+["tank_block_color"] = {
+0.074509,
+0.035294,
+0.035294,
+0.832845,
+},
+["tank_block_height"] = 40,
+["tank_block_powerbar_size_height"] = 10,
+["show_inc_bars"] = true,
+},
+["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
+["enabled"] = true,
+["encounter_timers_bw"] = {
+},
+["max_emote_segments"] = 3,
+["last_section_selected"] = "main",
+["author"] = "Terciob",
+["window_scale"] = 1,
+["hide_on_combat"] = false,
+["show_icon"] = 5,
+["opened"] = 0,
+["encounter_timers_dbm"] = {
+},
+},
+["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
+["use_square_mode"] = false,
+["is_first_run"] = false,
+["arrow_color"] = {
+1,
+1,
+1,
+0.5,
+},
+["scale"] = 1,
+["main_frame_size"] = {
+300,
+500.0000305175781,
+},
+["minimap"] = {
+["minimapPos"] = 135.6185878011813,
+["radius"] = 160,
+["hide"] = true,
+},
+["row_height"] = 20,
+["arrow_anchor_x"] = 0,
+["font_color"] = {
+1,
+1,
+1,
+1,
+},
+["row_texture"] = "Details Serenity",
+["square_grow_direction"] = "right",
+["point"] = "CENTER",
+["main_frame_strata"] = "LOW",
+["square_amount"] = 5,
+["enabled"] = false,
+["arrow_size"] = 10,
+["per_second"] = {
+["enabled"] = false,
+["point"] = "CENTER",
+["scale"] = 1,
+["font_shadow"] = true,
+["y"] = 0.00079345703125,
+["x"] = -0.00018310546875,
+["size"] = 32,
+["update_speed"] = 0.05,
+["attribute_type"] = 1,
+},
+["row_spacement"] = 21,
+["main_frame_color"] = {
+0,
+0,
+0,
+0.2,
+},
+["author"] = "Terciob",
+["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+["y"] = 0.0009002685546875,
+["font_size"] = 10,
+["x"] = 0,
+["font_face"] = "Friz Quadrata TT",
+["square_size"] = 32,
+["use_spark"] = true,
+["row_color"] = {
+0.1,
+0.1,
+0.1,
+0.4,
+},
+["main_frame_locked"] = false,
+["arrow_anchor_y"] = 0,
+},
+},
+["cached_talents"] = {
+},
+["last_realversion"] = 172,
+["coach"] = {
+["enabled"] = false,
+["welcome_panel_pos"] = {
+},
+["last_coach_name"] = false,
+},
+["data_harvested_for_charts"] = {
+},
+["apocalypse_hashes"] = {
+},
+["SoloTablesSaved"] = {
+["Mode"] = 1,
+},
+["last_version"] = "1.60.1 15410",
+["combat_id"] = 0,
+["savedStyles"] = {
+},
+["announce_damagerecord"] = {
+["enabled"] = true,
+["channel"] = "SELF",
+},
+["ignore_nicktag"] = false,
+["announce_deaths"] = {
+["enabled"] = false,
+["last_hits"] = 1,
+["only_first"] = 5,
+["where"] = 1,
+},
+["tabela_overall"] = {
+{
+["tipo"] = 2,
+["_ActorTable"] = {
+},
+},
+{
+["tipo"] = 3,
+["_ActorTable"] = {
+},
+},
+{
+["tipo"] = 7,
+["_ActorTable"] = {
+},
+},
+{
+["tipo"] = 9,
+["_ActorTable"] = {
+},
+},
+{
+["tipo"] = 2,
+["_ActorTable"] = {
+},
+},
+["raid_roster"] = {
+},
+["tempo_start"] = 212357.612,
+["last_events_tables"] = {
+},
+["alternate_power"] = {
+},
+["totals_grupo"] = {
+0,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["debuff_uptime"] = 0,
+["cooldowns_defensive"] = 0,
+["interrupt"] = 0,
+["dispell"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+},
+["bossTimers"] = {
+},
+["trinketProcs"] = {
+},
+["playerTalents"] = {
+},
+["totals"] = {
+0,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["debuff_uptime"] = 0,
+["cooldowns_defensive"] = 0,
+["interrupt"] = 0,
+["dispell"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+["frags_total"] = 0,
+["voidzone_damage"] = 0,
+},
+["player_last_events"] = {
+},
+["cleu_events"] = {
+["n"] = 1,
+},
+["frags_need_refresh"] = false,
+["aura_timeline"] = {
+},
+["compressed_charts"] = {
+},
+["data_inicio"] = 0,
+["amountCasts"] = {
+},
+["mapId"] = 0,
+["instance_type"] = "none",
+["zoneName"] = "Eastern Kingdoms",
+["boss_hp"] = 1,
+["is_challenge"] = false,
+["frags"] = {
+},
+["data_fim"] = 0,
+["cleu_timeline"] = {
+},
+["spells_cast_timeline"] = {
+},
+["PhaseData"] = {
+{
+1,
+1,
+},
+["heal_section"] = {
+},
+["heal"] = {
+},
+["damage_section"] = {
+},
+["damage"] = {
+},
+},
+["start_time"] = 0,
+["TimeData"] = {
+},
+["combat_counter"] = 21,
+},
+["announce_firsthit"] = {
+["enabled"] = true,
+["channel"] = "SELF",
+},
+["arena_data_headers"] = {
+},
+["last_instance_time"] = 0,
+["announce_cooldowns"] = {
+["enabled"] = false,
+["ignored_cooldowns"] = {
+},
+["custom"] = "",
+["channel"] = "RAID",
+},
+["rank_window"] = {
+["last_difficulty"] = 15,
+["last_raid"] = "",
+},
+["cached_roles"] = {
+},
+["cached_specs"] = {
+},
+}

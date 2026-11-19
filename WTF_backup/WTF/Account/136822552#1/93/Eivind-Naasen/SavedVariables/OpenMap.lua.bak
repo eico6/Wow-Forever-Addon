@@ -1,0 +1,11 @@
+
+OpenMapCharDB = {
+["worldmap"] = {
+["flightsKnown"] = {
+["Ironforge, Dun Morogh"] = true,
+},
+["cvars"] = {
+},
+["flightsKnownV"] = 2,
+},
+}

@@ -1,0 +1,10 @@
+
+OpenMapCharDB = {
+["worldmap"] = {
+["flightsKnownV"] = 2,
+["cvars"] = {
+},
+["unexploredOwn"] = true,
+["unexplored"] = "show",
+},
+}
