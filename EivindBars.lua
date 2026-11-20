@@ -1,12 +1,14 @@
 -- Appearance settings. Edit these numbers, save the file, then type /reload in WoW.
-local EAGLE_SIZE_PERCENT = 89    -- 100 is the original Blizzard size.
-local EAGLE_OUTWARD_PX = 3       -- Each eagle moves away from its nearest button. 0 is tucked in.
-local EAGLE_DOWN_PX = 4          -- Larger values lower the eagles toward the screen edge.
-local XP_EXTRA_HEIGHT_PX = 0     -- 0 meets the lower rim. +1 raises the top one pixel, -1 lowers it.
-local LEDGE_HEIGHT_PX = 5        -- Extra space for the stone ledge between the two bottom rows.
-local RIM_IDLE_BRIGHTNESS = 0.75 -- 1 uses the sampled bronze at full brightness.
-local RIM_DRAG_BRIGHTNESS = 1.00 -- Brightness while WoW shows the action-button grid.
-local UPPER_BAR_GAP_PX = 0       -- Extra space between the stone ledge and the bar above it. Does not change the ledge art.
+local EAGLE_SIZE_PERCENT = 89     -- 100 is the original Blizzard size.
+local EAGLE_OUTWARD_LEFT_PX = -12   -- Left eagle moves away from its nearest button. 0 is tucked in.
+local EAGLE_OUTWARD_RIGHT_PX = -24 -- Right eagle moves away from its nearest button. 0 is tucked in.
+local EAGLE_DOWN_PX = 4           -- Larger values lower the eagles toward the screen edge.
+local XP_EXTRA_HEIGHT_PX = 0      -- 0 meets the lower rim. +1 raises the top one pixel, -1 lowers it.
+local LEDGE_HEIGHT_PX = 5         -- Extra space for the stone ledge between the two bottom rows.
+local RIM_IDLE_BRIGHTNESS = 0.75  -- 1 uses the sampled bronze at full brightness.
+local RIM_DRAG_BRIGHTNESS = 1.00  -- Brightness while WoW shows the action-button grid.
+local UPPER_BAR_GAP_PX = 0        -- Extra space between the stone ledge and the bar above it. Does not change the ledge art.
+local BUTTON_SPACING_REDUCTION_PX = 3 -- Reduce spacing between buttons by this many pixels.
 
 local function ScreenPixel()
     return UIParent:GetHeight() / select(2, GetPhysicalScreenSize())
@@ -269,7 +271,7 @@ local function LayoutExtensionTrim(first, last)
     local scale = GetRelativeScale(first)
     firstX, centerY = firstX * scale, centerY * scale
     lastX = lastX * GetRelativeScale(last)
-    local pixel = (lastX - firstX) / (5 * 58)
+    local pixel = first:GetWidth() * GetRelativeScale(first) / 55
     if pixel <= 0 then return end
 
     bar3 = first.bar or MultiBarBottomRight
@@ -296,8 +298,8 @@ local function FitXPBar()
     local l, b, r = GetScreenRect(face, track)
     if not l or r <= l then return end
     local firstX = ActionButton1:GetCenter() * GetRelativeScale(ActionButton1)
-    local secondX = ActionButton2:GetCenter() * GetRelativeScale(ActionButton2)
-    local targetLeft = firstX - (secondX - firstX) * 31.5 / 58
+    local buttonWidth = ActionButton1:GetWidth() * GetRelativeScale(ActionButton1)
+    local targetLeft = firstX - buttonWidth * 31.5 / 55
     local targetRight
     if extensionTrim:IsShown() then
         targetRight = select(3, GetScreenRect(extensionTrim))
@@ -441,7 +443,7 @@ end
 
 -- Keep the inner bottom corner fixed while shrinking the native eagle.
 local eagleSizes = {}
-local function TuckEagle(cap, isLeft, edge, baseline, rowHeight)
+local function TuckEagle(cap, isLeft, edge, baseline, rowHeight, outwardPx)
     if not cap then return end
     local owner = cap.GetEffectiveScale and cap or cap:GetParent()
     local scale = GetRelativeScale(owner)
@@ -457,10 +459,46 @@ local function TuckEagle(cap, isLeft, edge, baseline, rowHeight)
     cap:ClearAllPoints()
     local sizeFactor = EAGLE_SIZE_PERCENT / 100
     cap:SetSize(size.width * sizeFactor, size.height * sizeFactor)
-    local outward = EAGLE_OUTWARD_PX * ScreenPixel()
+    local outward = outwardPx * ScreenPixel()
     local x = edge + size.inset * rowHeight + (isLeft and -outward or outward)
     local y = baseline + size.bottom * rowHeight - EAGLE_DOWN_PX * ScreenPixel()
     cap:SetPoint(isLeft and "BOTTOMRIGHT" or "BOTTOMLEFT", UIParent, "BOTTOMLEFT", x / scale, y / scale)
+end
+
+local paddingState = {}
+local horizontalAnchors = {}
+local function CenterTightenedBar(actionBar, offset)
+    if actionBar:GetNumPoints() ~= 1 then return end
+    local point, relative, relativePoint, x, y = actionBar:GetPoint(1)
+    local state = horizontalAnchors[actionBar]
+    if not state or state.point ~= point or state.relative ~= relative
+        or state.relativePoint ~= relativePoint or math.abs(x - state.applied) > 0.001 then
+        state = {point = point, relative = relative, relativePoint = relativePoint, base = x}
+        horizontalAnchors[actionBar] = state
+    end
+    state.applied = state.base + offset / GetRelativeScale(actionBar)
+    actionBar:SetPoint(point, relative, relativePoint, state.applied, y)
+end
+
+local function TightenBottomBars()
+    for _, actionBar in pairs({bar, MultiBarBottomLeft, MultiBarBottomRight, MultiBarRight, MultiBarLeft}) do
+        if actionBar.UpdateGridLayout and actionBar.buttonPadding and actionBar.minButtonPadding then
+            local state = paddingState[actionBar]
+            if not state or actionBar.buttonPadding ~= state.applied then
+                local reduction = BUTTON_SPACING_REDUCTION_PX * ScreenPixel() / GetRelativeScale(actionBar)
+                local original = actionBar.buttonPadding
+                actionBar.minButtonPadding = math.min(actionBar.minButtonPadding, math.max(0, original - reduction))
+                actionBar.buttonPadding = math.max(0, original - reduction)
+                paddingState[actionBar] = {applied = actionBar.buttonPadding}
+                actionBar.oldGridSettings = nil
+                actionBar:UpdateGridLayout()
+            end
+        end
+    end
+    local inward = 5.5 * BUTTON_SPACING_REDUCTION_PX * ScreenPixel()
+    CenterTightenedBar(bar, inward)
+    CenterTightenedBar(MultiBarBottomLeft, inward)
+    CenterTightenedBar(MultiBarBottomRight, -inward)
 end
 
 local function LayoutArt()
@@ -468,6 +506,7 @@ local function LayoutArt()
         return
     end
 
+    TightenBottomBars()
     local first = ActionButton1
     local last = ActionButton12
     if not first or not last then
@@ -563,14 +602,15 @@ local function LayoutArt()
             end
         end
 
-        TuckEagle(endCaps.LeftEndCap, true, left, bottom, rowHeight)
-        TuckEagle(endCaps.RightEndCap, false, right, bottom, rowHeight)
-        local outerOverlap = rowHeight * 0.38 + math.max(0, EAGLE_OUTWARD_PX) * ScreenPixel()
+        TuckEagle(endCaps.LeftEndCap, true, left, bottom, rowHeight, EAGLE_OUTWARD_LEFT_PX)
+        TuckEagle(endCaps.RightEndCap, false, right, bottom, rowHeight, EAGLE_OUTWARD_RIGHT_PX)
+        local leftOverlap = rowHeight * 0.38 + math.max(0, EAGLE_OUTWARD_LEFT_PX) * ScreenPixel()
+        local rightOverlap = rowHeight * 0.38 + math.max(0, EAGLE_OUTWARD_RIGHT_PX) * ScreenPixel()
         local innerOverlap = rowHeight * 0.68
         local joinBottom = math.max(0, bottom - rowHeight * 0.55)
         local joinTop = bottom + rowHeight * 0.81
-        LayoutEagleJoin(leftJoin, left - outerOverlap, left + innerOverlap, joinBottom, joinTop, atlas, false)
-        LayoutEagleJoin(rightJoin, right - innerOverlap, right + outerOverlap, joinBottom, joinTop, atlas, true)
+        LayoutEagleJoin(leftJoin, left - leftOverlap, left + innerOverlap, joinBottom, joinTop, atlas, false)
+        LayoutEagleJoin(rightJoin, right - innerOverlap, right + rightOverlap, joinBottom, joinTop, atlas, true)
         UpdateJoinVisibility()
     end
 
