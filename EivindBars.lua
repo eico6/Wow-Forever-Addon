@@ -4,11 +4,20 @@ local EAGLE_OUTWARD_LEFT_PX = -6   -- Left eagle moves away from its nearest but
 local EAGLE_OUTWARD_RIGHT_PX = -16 -- Right eagle moves away from its nearest button. 0 is tucked in. EIV: -24 når BUTTON_SPACING_REDUCTION_PX = 3
 local EAGLE_DOWN_PX = 4           -- Larger values lower the eagles toward the screen edge.
 local XP_EXTRA_HEIGHT_PX = 0      -- 0 meets the lower rim. +1 raises the top one pixel, -1 lowers it.
-local LEDGE_HEIGHT_PX = 5         -- Extra space for the stone ledge between the two bottom rows.
+local LEDGE_HEIGHT_PX = 4         -- Extra space for the stone ledge between the two bottom rows.
+local UPPER_BAR_GAP_PX = 1        -- Extra space between the stone ledge and the bar above it. Does not change the ledge art.
+local BUTTON_SPACING_REDUCTION_PX = 2 -- Reduce spacing between buttons by this many pixels.
+
+-- Constants tied to the sampled artwork. Leave these alone unless the art changes.
+local REF_BUTTON_PX = 55          -- Button width the rim and XP track were sampled at.
+local RIM_REF = { left = 31.5, right = 29.5, bottom = 32, top = 31 } -- Rim edges, in reference pixels from the button centers.
+local BACKING_INSET_RATIO = 0.09  -- Backing and ledge overhang, as a fraction of the row height.
+local SLOT_RIGHT_LIMIT = 0.82     -- Buttons right of this fraction of the screen width are not part of the extension.
+local HALF_GAP_COUNT = 5.5        -- A 12-button row has 11 gaps. Half of them shift the bar when spacing shrinks.
 local RIM_IDLE_BRIGHTNESS = 0.75  -- 1 uses the sampled bronze at full brightness.
 local RIM_DRAG_BRIGHTNESS = 1.00  -- Brightness while WoW shows the action-button grid.
-local UPPER_BAR_GAP_PX = 0        -- Extra space between the stone ledge and the bar above it. Does not change the ledge art.
-local BUTTON_SPACING_REDUCTION_PX = 2 -- Reduce spacing between buttons by this many pixels.
+local COLOR_BACKING = { 0.13, 0.095, 0.065, 1 }
+local COLOR_SHADOW = { 0.10, 0.072, 0.049, 1 }
 
 local function ScreenPixel()
     return UIParent:GetHeight() / select(2, GetPhysicalScreenSize())
@@ -19,6 +28,45 @@ if not bar then
     return
 end
 
+---------------------------------------------------------------------------
+-- Geometry helpers. Everything is measured in UIParent screen units.
+---------------------------------------------------------------------------
+
+local function GetRelativeScale(frame)
+    return frame:GetEffectiveScale() / UIParent:GetEffectiveScale()
+end
+
+-- Returns left, bottom, right, top, or nothing if the frame has no position yet.
+local function GetScreenRect(frame, scaleFrame)
+    local left, bottom, width, height = frame:GetRect()
+    if not left then
+        return
+    end
+
+    local scale = GetRelativeScale(scaleFrame or frame)
+    return left * scale, bottom * scale, (left + width) * scale, (bottom + height) * scale
+end
+
+-- Returns x, y, or nothing if the frame has no position yet.
+local function GetScreenCenter(frame)
+    local x, y = frame:GetCenter()
+    if not x then
+        return
+    end
+
+    local scale = GetRelativeScale(frame)
+    return x * scale, y * scale
+end
+
+local function SetScreenPoint(frame, point, x, y)
+    local scale = GetRelativeScale(frame)
+    frame:SetPoint(point, UIParent, "BOTTOMLEFT", x / scale, y / scale)
+end
+
+---------------------------------------------------------------------------
+-- Backing behind the main row
+---------------------------------------------------------------------------
+
 local backing = CreateFrame("Frame", nil, bar, "BackdropTemplate")
 backing.ignoreInLayout = true
 backing:SetFrameStrata("BACKGROUND")
@@ -28,7 +76,7 @@ backing:SetBackdrop({
     edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
     edgeSize = 10,
 })
-backing:SetBackdropColor(0.13, 0.095, 0.065, 1)
+backing:SetBackdropColor(unpack(COLOR_BACKING))
 backing:SetBackdropBorderColor(0.64, 0.47, 0.30, 1)
 backing:Hide()
 
@@ -43,6 +91,10 @@ end
 AddRail("TOP", 3, 0.43, 0.31, 0.20)
 AddRail("BOTTOM", 3, 0.25, 0.17, 0.10)
 
+---------------------------------------------------------------------------
+-- Eagle joins (stone behind the eagles)
+---------------------------------------------------------------------------
+
 local function CreateEagleJoin()
     -- The action bar can raise its children during a drag. Keep these behind the XP track.
     local frame = CreateFrame("Frame", nil, UIParent)
@@ -52,7 +104,7 @@ local function CreateEagleJoin()
 
     local shadow = frame:CreateTexture(nil, "BACKGROUND")
     shadow:SetAllPoints()
-    shadow:SetColorTexture(0.10, 0.072, 0.049, 1)
+    shadow:SetColorTexture(unpack(COLOR_SHADOW))
 
     local texture = frame:CreateTexture(nil, "ARTWORK")
     texture:SetAllPoints()
@@ -65,6 +117,7 @@ local rightJoin = CreateEagleJoin()
 local endCaps = bar.EndCaps
 
 local function UpdateJoinVisibility()
+    if not endCaps then return end
     local show = endCaps:IsVisible() and leftJoin:GetNumPoints() > 0
     leftJoin:SetShown(show)
     rightJoin:SetShown(show)
@@ -73,25 +126,6 @@ end
 if endCaps then
     endCaps:HookScript("OnShow", UpdateJoinVisibility)
     endCaps:HookScript("OnHide", UpdateJoinVisibility)
-end
-
-local function GetRelativeScale(frame)
-    return frame:GetEffectiveScale() / UIParent:GetEffectiveScale()
-end
-
-local function GetScreenRect(frame, scaleFrame)
-    local left, bottom, width, height = frame:GetRect()
-    if not left then
-        return
-    end
-
-    local scale = GetRelativeScale(scaleFrame or frame)
-    return left * scale, bottom * scale, (left + width) * scale, (bottom + height) * scale
-end
-
-local function SetScreenPoint(frame, point, x, y)
-    local scale = GetRelativeScale(frame)
-    frame:SetPoint(point, UIParent, "BOTTOMLEFT", x / scale, y / scale)
 end
 
 local function ApplyUnderlayTexture(texture, atlas, mirrored)
@@ -114,6 +148,10 @@ local function LayoutEagleJoin(frame, left, right, bottom, top, atlas, mirrored)
     SetScreenPoint(frame, "BOTTOMLEFT", left, bottom)
     SetScreenPoint(frame, "TOPRIGHT", right, top)
 end
+
+---------------------------------------------------------------------------
+-- XP track backing
+---------------------------------------------------------------------------
 
 local xpBacking
 local xpBar
@@ -144,12 +182,16 @@ local function AddXPBacking(atlas)
     -- Draw in the XP bar's own background so action-bar strata changes cannot lift it over the fill.
     local shadow = statusBar:CreateTexture(nil, "BACKGROUND", nil, -8)
     shadow:SetAllPoints()
-    shadow:SetColorTexture(0.10, 0.072, 0.049, 1)
+    shadow:SetColorTexture(unpack(COLOR_SHADOW))
 
     xpBacking = statusBar:CreateTexture(nil, "BACKGROUND", nil, -7)
     xpBacking:SetAllPoints()
     ApplyUnderlayTexture(xpBacking, atlas, false)
 end
+
+---------------------------------------------------------------------------
+-- Button artwork
+---------------------------------------------------------------------------
 
 local slotArtwork = {}
 local framedButtons = {}
@@ -209,8 +251,13 @@ local function ShowSlotArtwork(button, featherAtlas)
     art:Show()
 end
 
--- The rim was sampled from Bar 1 at this layout's 58-pixel button pitch.
--- Only its four edges are opaque. The button faces and pager draw separately.
+---------------------------------------------------------------------------
+-- Lower-row rim and pager plate
+---------------------------------------------------------------------------
+
+-- The rim was sampled from Bar 1 at a 55-pixel button width, so it scales with the
+-- button size and not with the spacing. Only its four edges are opaque.
+-- The button faces and pager draw separately.
 local extensionTrim = CreateFrame("Frame", nil, UIParent)
 extensionTrim:Hide()
 local rim = extensionTrim:CreateTexture(nil, "ARTWORK")
@@ -227,18 +274,20 @@ local gridShown = false
 local bar3 = MultiBarBottomRight
 local strataOrder = { WORLD = 0, BACKGROUND = 1, LOW = 2, MEDIUM = 3, HIGH = 4,
     DIALOG = 5, FULLSCREEN = 6, FULLSCREEN_DIALOG = 7, TOOLTIP = 8 }
+
 local function UpdateRim()
     if not bar3 then return end
     local strata, level = bar3:GetFrameStrata(), bar3:GetFrameLevel()
     -- The eagle can inherit a higher layer when WoW raises the drag grid.
     local eagle = endCaps and endCaps.RightEndCap
-    for _, frame in pairs({backing, MainStatusTrackingBarContainer, endCaps,
-        eagle and eagle.GetFrameLevel and eagle}) do
-        local other = frame:GetFrameStrata()
-        if strataOrder[other] > strataOrder[strata] then
-            strata, level = other, frame:GetFrameLevel()
-        elseif other == strata then
-            level = math.max(level, frame:GetFrameLevel())
+    for _, frame in pairs({ backing, MainStatusTrackingBarContainer, endCaps, eagle }) do
+        if frame.GetFrameStrata then
+            local other = frame:GetFrameStrata()
+            if strataOrder[other] > strataOrder[strata] then
+                strata, level = other, frame:GetFrameLevel()
+            elseif other == strata then
+                level = math.max(level, frame:GetFrameLevel())
+            end
         end
     end
     extensionTrim:SetFrameStrata(strata)
@@ -253,6 +302,7 @@ end
 -- Sample the straight rails. The adjacent bar rims already frame the pager's sides.
 local function LayoutPagerPlate(left, right)
     local _, low, _, high = GetScreenRect(extensionTrim)
+    if not low then return end
     -- The horizontal rails meet the rims at the tips of their chamfered corners.
     -- Extend past each side wall by the corner width in the sampled rim.
     local cornerWidth = (high - low) * 10 / 63
@@ -266,22 +316,26 @@ end
 local function LayoutExtensionTrim(first, last)
     extensionTrim:Hide()
     if not first or not last then return end
-    local firstX, centerY = first:GetCenter()
-    local lastX = last:GetCenter()
-    local scale = GetRelativeScale(first)
-    firstX, centerY = firstX * scale, centerY * scale
-    lastX = lastX * GetRelativeScale(last)
-    local pixel = first:GetWidth() * GetRelativeScale(first) / 55
+    local firstX, centerY = GetScreenCenter(first)
+    local lastX = GetScreenCenter(last)
+    if not firstX or not lastX then return end
+    local pixel = first:GetWidth() * GetRelativeScale(first) / REF_BUTTON_PX
     if pixel <= 0 then return end
 
     bar3 = first.bar or MultiBarBottomRight
     UpdateRim()
     extensionTrim:ClearAllPoints()
     local screenPixel = ScreenPixel()
-    SetScreenPoint(extensionTrim, "BOTTOMLEFT", firstX - 31.5 * pixel, centerY - 32 * pixel + screenPixel)
-    SetScreenPoint(extensionTrim, "TOPRIGHT", lastX + 29.5 * pixel, centerY + 31 * pixel + screenPixel)
+    SetScreenPoint(extensionTrim, "BOTTOMLEFT",
+        firstX - RIM_REF.left * pixel, centerY - RIM_REF.bottom * pixel + screenPixel)
+    SetScreenPoint(extensionTrim, "TOPRIGHT",
+        lastX + RIM_REF.right * pixel, centerY + RIM_REF.top * pixel + screenPixel)
     extensionTrim:Show()
 end
+
+---------------------------------------------------------------------------
+-- XP track
+---------------------------------------------------------------------------
 
 local xpFoot = CreateFrame("Frame", nil, UIParent)
 xpFoot:SetFrameStrata("BACKGROUND")
@@ -289,7 +343,7 @@ xpFoot:SetFrameLevel(0)
 xpFoot:Hide()
 local footTexture = xpFoot:CreateTexture(nil, "BACKGROUND")
 footTexture:SetAllPoints()
-footTexture:SetColorTexture(0.13, 0.095, 0.065, 1)
+footTexture:SetColorTexture(unpack(COLOR_BACKING))
 
 local function FitXPBar()
     local track = MainStatusTrackingBarContainer
@@ -297,23 +351,28 @@ local function FitXPBar()
     local face = track.BarFrameTexture or track
     local l, b, r = GetScreenRect(face, track)
     if not l or r <= l then return end
-    local firstX = ActionButton1:GetCenter() * GetRelativeScale(ActionButton1)
+    local firstX = GetScreenCenter(ActionButton1)
+    local cx = track:GetCenter()
+    if not firstX or not cx then return end
+
     local buttonWidth = ActionButton1:GetWidth() * GetRelativeScale(ActionButton1)
-    local targetLeft = firstX - buttonWidth * 31.5 / 55
+    local targetLeft = firstX - buttonWidth * RIM_REF.left / REF_BUTTON_PX
     local targetRight
     if extensionTrim:IsShown() then
         targetRight = select(3, GetScreenRect(extensionTrim))
     else
         -- Profiles with a different button arrangement still get the prototype's XP width.
-        local width = ActionButton1:GetWidth() * GetRelativeScale(ActionButton1) * (1088 / 55)
+        local width = buttonWidth * (1088 / REF_BUTTON_PX)
         targetLeft = (l + r - width) / 2
         targetRight = targetLeft + width
     end
     if not targetRight then return end
+
+    -- Measured before SetScale below, because scaling changes the relative scale.
     local factor = (targetRight - targetLeft) / (r - l)
-    local cx = track:GetCenter()
     local newX = targetLeft + (cx * GetRelativeScale(track) - l) * factor
     track:SetScale(track:GetScale() * factor)
+
     local _, floorY = GetScreenRect(extensionTrim)
     local pixel = ScreenPixel()
     local dockTop
@@ -334,6 +393,7 @@ local function FitXPBar()
         track:ClearAllPoints()
         SetScreenPoint(track, "CENTER", newX, cy * GetRelativeScale(track) + b - faceBottom)
     end
+
     if xpBar and extensionTrim:IsShown() then
         local fill = xpBar.StatusBar
         local inset = pixel / GetRelativeScale(fill)
@@ -349,7 +409,7 @@ local function FitXPBar()
         if overlay then
             overlay:ClearAllPoints()
             overlay:SetAllPoints(fill)
-            for _, region in ipairs({overlay:GetRegions()}) do
+            for _, region in ipairs({ overlay:GetRegions() }) do
                 if region:IsObjectType("FontString") then
                     region:ClearAllPoints()
                     region:SetPoint("CENTER", fill, "CENTER")
@@ -362,11 +422,16 @@ local function FitXPBar()
             end
         end
     end
+
     xpFoot:SetShown(extensionTrim:IsShown() and track:IsVisible())
     xpFoot:ClearAllPoints()
     SetScreenPoint(xpFoot, "BOTTOMLEFT", targetLeft, 0)
     SetScreenPoint(xpFoot, "TOPRIGHT", targetRight, math.max(2 * pixel, (dockTop or 0) + pixel))
 end
+
+---------------------------------------------------------------------------
+-- Stone ledge and upper bar
+---------------------------------------------------------------------------
 
 -- Keep the stone behind the eagle artwork even when action bars change strata.
 local ledge = CreateFrame("Frame", nil, UIParent)
@@ -383,6 +448,7 @@ ledgeHighlight:SetPoint("TOPRIGHT")
 ledge:Hide()
 
 -- Remember the Edit Mode anchor so repeated layouts don't add the lift twice.
+-- Returns the ledge height only. The extra gap lifts the bar but not the ledge art.
 local upperAnchor
 local function LiftUpperBar()
     local upperBar = MultiBarBottomLeft
@@ -390,10 +456,11 @@ local function LiftUpperBar()
     local point, relative, relativePoint, x, y = upperBar:GetPoint(1)
     if not upperAnchor or point ~= upperAnchor.point or relative ~= upperAnchor.relative
         or relativePoint ~= upperAnchor.relativePoint or math.abs(y - upperAnchor.applied) > 0.001 then
-        upperAnchor = {point = point, relative = relative, relativePoint = relativePoint, base = y}
+        upperAnchor = { point = point, relative = relative, relativePoint = relativePoint, base = y }
     end
-    local lift = LEDGE_HEIGHT_PX * ScreenPixel()
-    local gap = UPPER_BAR_GAP_PX * ScreenPixel()
+    local pixel = ScreenPixel()
+    local lift = LEDGE_HEIGHT_PX * pixel
+    local gap = UPPER_BAR_GAP_PX * pixel
     upperAnchor.applied = upperAnchor.base + (lift + gap) / GetRelativeScale(upperBar)
     upperBar:SetPoint(point, relative, relativePoint, x, upperAnchor.applied)
     return lift
@@ -403,43 +470,49 @@ end
 local function AlignBar3()
     local upper = MultiBarBottomLeftButton1
     if not upper or not MultiBarBottomRightButton1 then return end
-    local _, lowerY = ActionButton1:GetCenter()
-    local _, upperY = upper:GetCenter()
-    if not lowerY or not upperY then return end
-    lowerY = lowerY * GetRelativeScale(ActionButton1)
-    upperY = upperY * GetRelativeScale(upper)
-    if upperY <= lowerY then return end
+    local mainRightX = GetScreenCenter(ActionButton12)
+    local _, lowerY = GetScreenCenter(ActionButton1)
+    local _, upperY = GetScreenCenter(upper)
+    if not mainRightX or not lowerY or not upperY or upperY <= lowerY then return end
 
+    local rightLimit = UIParent:GetWidth() * SLOT_RIGHT_LIMIT
     local positions = {}
     for i = 1, 12 do
         local button = _G["MultiBarBottomRightButton" .. i]
         if not button then return end
-        local x, y = button:GetCenter()
-        if not x then return end
-        local scale = GetRelativeScale(button)
-        if x * scale <= select(1, ActionButton12:GetCenter()) * GetRelativeScale(ActionButton12) or x * scale >= UIParent:GetWidth() * 0.82 then return end
+        local x, y = GetScreenCenter(button)
+        if not x or x <= mainRightX or x >= rightLimit then return end
         local holder = button.container or button
-        local hx, hy = holder:GetCenter()
-        local holderScale = GetRelativeScale(holder)
-        positions[i] = {holder = holder, x = hx * holderScale, y = y * scale,
-            offsetY = hy * holderScale - y * scale}
+        local hx, hy = GetScreenCenter(holder)
+        if not hx then return end
+        positions[i] = { holder = holder, x = hx, y = y, offsetY = hy - y }
     end
+
     local lift = LiftUpperBar()
-    upperY = select(2, upper:GetCenter()) * GetRelativeScale(upper)
+    local liftedUpperY = select(2, GetScreenCenter(upper))
+    if liftedUpperY then
+        upperY = liftedUpperY
+    end
+
     for _, pos in ipairs(positions) do
         local targetY = pos.y > (upperY + lowerY) / 2 and upperY or lowerY
         local holder = pos.holder
-        local scale = GetRelativeScale(holder)
         local parent = holder:GetParent()
-        local px, py = parent:GetCenter()
-        local parentScale = GetRelativeScale(parent)
-        holder:ClearAllPoints()
-        holder:SetPoint("CENTER", parent, "CENTER",
-            (pos.x - px * parentScale) / scale,
-            (targetY + pos.offsetY - py * parentScale) / scale)
+        local px, py = GetScreenCenter(parent)
+        if px then
+            local scale = GetRelativeScale(holder)
+            holder:ClearAllPoints()
+            holder:SetPoint("CENTER", parent, "CENTER",
+                (pos.x - px) / scale,
+                (targetY + pos.offsetY - py) / scale)
+        end
     end
     return lift
 end
+
+---------------------------------------------------------------------------
+-- Eagles
+---------------------------------------------------------------------------
 
 -- Keep the inner bottom corner fixed while shrinking the native eagle.
 local eagleSizes = {}
@@ -465,15 +538,45 @@ local function TuckEagle(cap, isLeft, edge, baseline, rowHeight, outwardPx)
     cap:SetPoint(isLeft and "BOTTOMRIGHT" or "BOTTOMLEFT", UIParent, "BOTTOMLEFT", x / scale, y / scale)
 end
 
+local function LayoutEagles(left, right, bottom, rowHeight, atlas)
+    if not endCaps then return end
+
+    endCaps:SetFrameStrata("BACKGROUND")
+    endCaps:SetFrameLevel(2)
+    for _, cap in pairs({ endCaps.LeftEndCap, endCaps.RightEndCap }) do
+        if cap.SetFrameStrata then
+            cap:SetFrameStrata("BACKGROUND")
+            cap:SetFrameLevel(2)
+        end
+    end
+
+    TuckEagle(endCaps.LeftEndCap, true, left, bottom, rowHeight, EAGLE_OUTWARD_LEFT_PX)
+    TuckEagle(endCaps.RightEndCap, false, right, bottom, rowHeight, EAGLE_OUTWARD_RIGHT_PX)
+
+    local pixel = ScreenPixel()
+    local leftOverlap = rowHeight * 0.38 + math.max(0, EAGLE_OUTWARD_LEFT_PX) * pixel
+    local rightOverlap = rowHeight * 0.38 + math.max(0, EAGLE_OUTWARD_RIGHT_PX) * pixel
+    local innerOverlap = rowHeight * 0.68
+    local joinBottom = math.max(0, bottom - rowHeight * 0.55)
+    local joinTop = bottom + rowHeight * 0.81
+    LayoutEagleJoin(leftJoin, left - leftOverlap, left + innerOverlap, joinBottom, joinTop, atlas, false)
+    LayoutEagleJoin(rightJoin, right - innerOverlap, right + rightOverlap, joinBottom, joinTop, atlas, true)
+    UpdateJoinVisibility()
+end
+
+---------------------------------------------------------------------------
+-- Button spacing
+---------------------------------------------------------------------------
+
 local paddingState = {}
 local horizontalAnchors = {}
 local function CenterTightenedBar(actionBar, offset)
-    if actionBar:GetNumPoints() ~= 1 then return end
+    if not actionBar or actionBar:GetNumPoints() ~= 1 then return end
     local point, relative, relativePoint, x, y = actionBar:GetPoint(1)
     local state = horizontalAnchors[actionBar]
     if not state or state.point ~= point or state.relative ~= relative
         or state.relativePoint ~= relativePoint or math.abs(x - state.applied) > 0.001 then
-        state = {point = point, relative = relative, relativePoint = relativePoint, base = x}
+        state = { point = point, relative = relative, relativePoint = relativePoint, base = x }
         horizontalAnchors[actionBar] = state
     end
     state.applied = state.base + offset / GetRelativeScale(actionBar)
@@ -481,7 +584,7 @@ local function CenterTightenedBar(actionBar, offset)
 end
 
 local function TightenBottomBars()
-    for _, actionBar in pairs({bar, MultiBarBottomLeft, MultiBarBottomRight, MultiBarRight, MultiBarLeft}) do
+    for _, actionBar in pairs({ bar, MultiBarBottomLeft, MultiBarBottomRight, MultiBarRight, MultiBarLeft }) do
         if actionBar.UpdateGridLayout and actionBar.buttonPadding and actionBar.minButtonPadding then
             local state = paddingState[actionBar]
             if not state or actionBar.buttonPadding ~= state.applied then
@@ -489,16 +592,87 @@ local function TightenBottomBars()
                 local original = actionBar.buttonPadding
                 actionBar.minButtonPadding = math.min(actionBar.minButtonPadding, math.max(0, original - reduction))
                 actionBar.buttonPadding = math.max(0, original - reduction)
-                paddingState[actionBar] = {applied = actionBar.buttonPadding}
+                paddingState[actionBar] = { applied = actionBar.buttonPadding }
                 actionBar.oldGridSettings = nil
                 actionBar:UpdateGridLayout()
             end
         end
     end
-    local inward = 5.5 * BUTTON_SPACING_REDUCTION_PX * ScreenPixel()
+    local inward = HALF_GAP_COUNT * BUTTON_SPACING_REDUCTION_PX * ScreenPixel()
     CenterTightenedBar(bar, inward)
     CenterTightenedBar(MultiBarBottomLeft, inward)
     CenterTightenedBar(MultiBarBottomRight, -inward)
+end
+
+---------------------------------------------------------------------------
+-- Main layout pass
+---------------------------------------------------------------------------
+
+local EXTENSION_BAR_PREFIXES = {
+    "MultiBarBottomLeftButton", "MultiBarBottomRightButton", "MultiBar5Button",
+    "MultiBar6Button", "MultiBar7Button", "MultiBarLeftButton", "MultiBarRightButton",
+}
+
+-- Find the separate lower-right group in the supplied Edit Mode layout.
+local function FindExtension(mainRight, bottom, rowHeight)
+    local rightLimit = UIParent:GetWidth() * SLOT_RIGHT_LIMIT
+    local found = { buttons = {}, right = mainRight }
+    for _, prefix in ipairs(EXTENSION_BAR_PREFIXES) do
+        for index = 1, 12 do
+            local button = _G[prefix .. index]
+            if button and button:IsVisible() then
+                local x, y, edge = GetScreenRect(button)
+                if x and x >= mainRight and edge <= rightLimit and math.abs(y - bottom) < rowHeight * 0.25 then
+                    if not found.left or x < found.left then
+                        found.left, found.first = x, button
+                    end
+                    if edge > found.right then
+                        found.right, found.last = edge, button
+                    end
+                    found.buttons[button] = true
+                end
+            end
+        end
+    end
+    return found
+end
+
+local function LayoutLedge(lift, left, rowHeight)
+    ledge:Hide()
+    if not (lift and lift > 0 and extensionTrim:IsShown()) then return end
+    local _, _, rimRight, rimTop = GetScreenRect(extensionTrim)
+    if not rimTop then return end
+    local pixel = ScreenPixel()
+    ledge:ClearAllPoints()
+    SetScreenPoint(ledge, "BOTTOMLEFT", left - rowHeight * BACKING_INSET_RATIO, rimTop - pixel)
+    SetScreenPoint(ledge, "TOPRIGHT", rimRight, rimTop + lift)
+    ledgeHighlight:SetHeight(pixel / GetRelativeScale(ledge))
+    ledge:Show()
+end
+
+local function LayoutPager(extensionLeft, mainRight, bottom, top, rowHeight)
+    local pager = bar.ActionBarPageNumber
+    pagerPlate:Hide()
+    if not (pager and extensionLeft and extensionLeft - mainRight > rowHeight * 0.35) then return end
+
+    local center = (mainRight + extensionLeft) / 2
+    pager:ClearAllPoints()
+    SetScreenPoint(pager, "CENTER", center, (bottom + top) / 2)
+    if extensionTrim:IsShown() then
+        local trimLeft = GetScreenRect(extensionTrim)
+        if trimLeft then
+            LayoutPagerPlate(2 * center - trimLeft, trimLeft)
+        end
+    end
+
+    if pager.UpButton and pager.DownButton and pager.Text then
+        pager.UpButton:ClearAllPoints()
+        pager.UpButton:SetPoint("CENTER", pager, "CENTER", 0, 10)
+        pager.DownButton:ClearAllPoints()
+        pager.DownButton:SetPoint("CENTER", pager, "CENTER", 0, -10)
+        pager.Text:ClearAllPoints()
+        pager.Text:SetPoint("CENTER", pager, "CENTER", 0, 0)
+    end
 end
 
 local function LayoutArt()
@@ -521,10 +695,8 @@ local function LayoutArt()
 
     local lift = AlignBar3()
     local rowHeight = top - bottom
-    local extensionLeft, right = nil, mainRight
-    local extensionFirst, extensionLast
-    local extensionButtons = {}
-    local rightLimit = UIParent:GetWidth() * 0.82
+    local extension = FindExtension(mainRight, bottom, rowHeight)
+    local right = extension.right
     local featherAtlas = first.SlotArt and first.SlotArt:GetAtlas() or "UI-HUD-ActionBar-IconFrame-Slot"
     local atlas = C_Texture.GetAtlasInfo(featherAtlas)
     AddXPBacking(atlas)
@@ -539,101 +711,46 @@ local function LayoutArt()
         end
     end
 
-    -- Find the separate lower-right group in the supplied Edit Mode layout.
-    for _, prefix in ipairs({
-        "MultiBarBottomLeftButton", "MultiBarBottomRightButton", "MultiBar5Button",
-        "MultiBar6Button", "MultiBar7Button", "MultiBarLeftButton", "MultiBarRightButton",
-    }) do
-        for index = 1, 12 do
-            local button = _G[prefix .. index]
-            if button and button:IsVisible() then
-                local x, y, edge = GetScreenRect(button)
-                if x and x >= mainRight and edge <= rightLimit and math.abs(y - bottom) < rowHeight * 0.25 then
-                    if not extensionLeft or x < extensionLeft then
-                        extensionLeft, extensionFirst = x, button
-                    end
-                    if edge > right then
-                        right, extensionLast = edge, button
-                    end
-                    extensionButtons[button] = true
-                end
-            end
-        end
-    end
-
     for button in pairs(framedButtons) do
-        if not extensionButtons[button] then
+        if not extension.buttons[button] then
             framedButtons[button] = nil
             button:UpdateButtonArt()
         end
     end
-    for button in pairs(extensionButtons) do
+    for button in pairs(extension.buttons) do
         FrameButton(button)
         ShowSlotArtwork(button, featherAtlas)
     end
-    LayoutExtensionTrim(extensionFirst, extensionLast)
-    ledge:Hide()
-    if lift and lift > 0 and extensionTrim:IsShown() then
-        local _, _, rimRight, rimTop = GetScreenRect(extensionTrim)
-        local pixel = ScreenPixel()
-        ledge:ClearAllPoints()
-        SetScreenPoint(ledge, "BOTTOMLEFT", left - rowHeight * 0.09, rimTop - pixel)
-        SetScreenPoint(ledge, "TOPRIGHT", rimRight, rimTop + lift)
-        ledgeHighlight:SetHeight(pixel / GetRelativeScale(ledge))
-        ledge:Show()
-    end
 
-    local inset = rowHeight * 0.09
+    LayoutExtensionTrim(extension.first, extension.last)
+    LayoutLedge(lift, left, rowHeight)
+
+    local inset = rowHeight * BACKING_INSET_RATIO
     backing:ClearAllPoints()
     SetScreenPoint(backing, "BOTTOMLEFT", left - inset, bottom - inset)
     -- End the square backing under the last button, inside the rim's curved end.
     local backingRight = extensionTrim:IsShown() and (right - inset) or (right + inset)
     SetScreenPoint(backing, "TOPRIGHT", backingRight, top + inset)
     backing:Show()
+
     FitXPBar()
+    LayoutEagles(left, right, bottom, rowHeight, atlas)
+    LayoutPager(extension.left, mainRight, bottom, top, rowHeight)
+end
 
-    if endCaps then
-        endCaps:SetFrameStrata("BACKGROUND")
-        endCaps:SetFrameLevel(2)
-        for _, cap in pairs({ endCaps.LeftEndCap, endCaps.RightEndCap }) do
-            if cap.SetFrameStrata then
-                cap:SetFrameStrata("BACKGROUND")
-                cap:SetFrameLevel(2)
-            end
-        end
+---------------------------------------------------------------------------
+-- Events
+---------------------------------------------------------------------------
 
-        TuckEagle(endCaps.LeftEndCap, true, left, bottom, rowHeight, EAGLE_OUTWARD_LEFT_PX)
-        TuckEagle(endCaps.RightEndCap, false, right, bottom, rowHeight, EAGLE_OUTWARD_RIGHT_PX)
-        local leftOverlap = rowHeight * 0.38 + math.max(0, EAGLE_OUTWARD_LEFT_PX) * ScreenPixel()
-        local rightOverlap = rowHeight * 0.38 + math.max(0, EAGLE_OUTWARD_RIGHT_PX) * ScreenPixel()
-        local innerOverlap = rowHeight * 0.68
-        local joinBottom = math.max(0, bottom - rowHeight * 0.55)
-        local joinTop = bottom + rowHeight * 0.81
-        LayoutEagleJoin(leftJoin, left - leftOverlap, left + innerOverlap, joinBottom, joinTop, atlas, false)
-        LayoutEagleJoin(rightJoin, right - innerOverlap, right + rightOverlap, joinBottom, joinTop, atlas, true)
-        UpdateJoinVisibility()
-    end
-
-    local pager = bar.ActionBarPageNumber
-    pagerPlate:Hide()
-    if pager and extensionLeft and extensionLeft - mainRight > rowHeight * 0.35 then
-        pager:ClearAllPoints()
-        SetScreenPoint(pager, "CENTER", (mainRight + extensionLeft) / 2, (bottom + top) / 2)
-        if extensionTrim:IsShown() then
-            local trimLeft = GetScreenRect(extensionTrim)
-            local center = (mainRight + extensionLeft) / 2
-            LayoutPagerPlate(2 * center - trimLeft, trimLeft)
-        end
-
-        if pager.UpButton and pager.DownButton and pager.Text then
-            pager.UpButton:ClearAllPoints()
-            pager.UpButton:SetPoint("CENTER", pager, "CENTER", 0, 10)
-            pager.DownButton:ClearAllPoints()
-            pager.DownButton:SetPoint("CENTER", pager, "CENTER", 0, -10)
-            pager.Text:ClearAllPoints()
-            pager.Text:SetPoint("CENTER", pager, "CENTER", 0, 0)
-        end
-    end
+-- Several events can fire in the same frame (Edit Mode especially). Run one layout for all of them.
+local layoutQueued = false
+local function QueueLayout()
+    if layoutQueued then return end
+    layoutQueued = true
+    C_Timer.After(0, function()
+        layoutQueued = false
+        LayoutArt()
+    end)
 end
 
 local events = CreateFrame("Frame")
@@ -653,11 +770,9 @@ events:SetScript("OnEvent", function(_, event)
         C_Timer.After(0, UpdateRim)
         return
     end
-    C_Timer.After(0, LayoutArt)
+    QueueLayout()
 end)
 
 if EditModeManagerFrame and EditModeManagerFrame.ExitEditMode then
-    hooksecurefunc(EditModeManagerFrame, "ExitEditMode", function()
-        C_Timer.After(0, LayoutArt)
-    end)
+    hooksecurefunc(EditModeManagerFrame, "ExitEditMode", QueueLayout)
 end
