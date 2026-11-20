@@ -1,34 +1,23 @@
 
 CooldownManagerUtilsDB = {
-["cooldownManagerProfiles"] = {
-["ROGUE"] = {
-["starter"] = {
-["selected"] = {
-},
-["layoutVersion"] = 4,
-["layout"] = {
-},
-},
-},
-},
-["activeBuffs"] = {
-},
 ["options"] = {
 ["minimapPos"] = 0,
 ["CooldownManagerUtils"] = {
 },
+["SHAREDSETTINGS"] = {
+["D4MMBTNALWAYSSHOW"] = 0,
+},
 ["MMBtnCDM"] = {
 ["CooldownManagerUtilsCDM"] = {
 },
-["SHAREDSETTINGS"] = {
-["D4MMBTNALWAYSSHOW"] = 0,
-},
-["minimapPos"] = 0,
 ["MMBTNCDM"] = true,
-},
+["minimapPos"] = 0,
 ["SHAREDSETTINGS"] = {
 ["D4MMBTNALWAYSSHOW"] = 0,
 },
+},
+},
+["activeBuffs"] = {
 },
 ["learnedAuras"] = {
 ["charges"] = {
@@ -46,6 +35,17 @@ CooldownManagerUtilsDB = {
 ["names"] = {
 ["Escape Artist"] = 20589,
 ["Eureka!"] = 1259812,
+},
+},
+["cooldownManagerProfiles"] = {
+["ROGUE"] = {
+["starter"] = {
+["selected"] = {
+},
+["layout"] = {
+},
+["layoutVersion"] = 4,
+},
 },
 },
 }

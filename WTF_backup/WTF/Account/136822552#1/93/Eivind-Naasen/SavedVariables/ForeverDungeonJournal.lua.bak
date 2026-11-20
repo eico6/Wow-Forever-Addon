@@ -6,16 +6,13 @@ ForeverDungeonJournalCharacterDB = {
 },
 ["trackerSlots"] = {
 },
-["rpgQuests"] = {
-[96393] = true,
+["arrowChains"] = {
 },
 ["flightPointsVersion"] = 2,
-["flightPoints"] = {
-["ironforge, dun morogh"] = true,
+["journalMode"] = "gamer",
+["rpgKills"] = {
 },
 ["runTracker"] = {
-},
-["rpgKills"] = {
 },
 ["hearthSpot"] = {
 ["y"] = 0.5113924741744995,
@@ -25,12 +22,16 @@ ForeverDungeonJournalCharacterDB = {
 },
 ["hiddenDungeons"] = {
 },
-["journalMode"] = "gamer",
+["flightPoints"] = {
+["ironforge, dun morogh"] = true,
+["thelsamar, loch modan"] = true,
+},
 ["runLog"] = {
 ["nextID"] = 1,
 ["runs"] = {
 },
 },
-["arrowChains"] = {
+["rpgQuests"] = {
+[96393] = true,
 },
 }

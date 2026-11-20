@@ -13,6 +13,8 @@ WT_Crafting = {
 ["showReputationRecipes"] = false,
 },
 ["selectedProfessions"] = {
+[129] = true,
+[393] = true,
 },
 ["expandedProfessions"] = {
 {

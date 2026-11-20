@@ -2,12 +2,12 @@
 Details_StreamerDB = {
 ["characters"] = {
 ["Eivind - CAMWOW EU5 Realm 2 PvP"] = "Uteligger - CAMWOW EU5 Realm 1 PvE",
-["Eivind - CAMWOW EU5 Realm 1 PvE"] = "Uteligger - CAMWOW EU5 Realm 1 PvE",
-["Uteligger - CAMWOW EU4 Realm 10 RP"] = "Uteligger - CAMWOW EU5 Realm 1 PvE",
-["Mr - CAMWOW EU5 Realm 1 PvE"] = "Uteligger - CAMWOW EU5 Realm 1 PvE",
-["Big - CAMWOW EU5 Realm 2 PvP"] = "Uteligger - CAMWOW EU5 Realm 1 PvE",
-["Badboy - CAMWOW EU5 Realm 1 PvE"] = "Uteligger - CAMWOW EU5 Realm 1 PvE",
 ["Uteligger - CAMWOW EU5 Realm 1 PvE"] = "Uteligger - CAMWOW EU5 Realm 1 PvE",
+["Big - CAMWOW EU5 Realm 2 PvP"] = "Uteligger - CAMWOW EU5 Realm 1 PvE",
+["Mr - CAMWOW EU5 Realm 1 PvE"] = "Uteligger - CAMWOW EU5 Realm 1 PvE",
+["Uteligger - CAMWOW EU4 Realm 10 RP"] = "Uteligger - CAMWOW EU5 Realm 1 PvE",
+["Badboy - CAMWOW EU5 Realm 1 PvE"] = "Uteligger - CAMWOW EU5 Realm 1 PvE",
+["Eivind - CAMWOW EU5 Realm 1 PvE"] = "Uteligger - CAMWOW EU5 Realm 1 PvE",
 },
 ["profiles"] = {
 ["Uteligger - CAMWOW EU5 Realm 1 PvE"] = {
@@ -20,10 +20,7 @@ Details_StreamerDB = {
 0.5,
 },
 ["scale"] = 1,
-["main_frame_size"] = {
-300,
-500.0000305175781,
-},
+["arrow_anchor_y"] = 0,
 ["minimap"] = {
 ["minimapPos"] = 135.6185878011813,
 ["radius"] = 160,
@@ -44,6 +41,22 @@ Details_StreamerDB = {
 ["square_amount"] = 5,
 ["enabled"] = false,
 ["arrow_size"] = 10,
+["y"] = 0.0009002685546875,
+["row_spacement"] = 21,
+["main_frame_color"] = {
+0,
+0,
+0,
+0.2,
+},
+["row_color"] = {
+0.1,
+0.1,
+0.1,
+0.4,
+},
+["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+["use_spark"] = true,
 ["per_second"] = {
 ["enabled"] = false,
 ["point"] = "CENTER",
@@ -55,29 +68,16 @@ Details_StreamerDB = {
 ["update_speed"] = 0.05,
 ["attribute_type"] = 1,
 },
-["row_spacement"] = 21,
-["main_frame_color"] = {
-0,
-0,
-0,
-0.2,
-},
-["author"] = "Terciob",
-["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-["y"] = 0.0009002685546875,
-["font_size"] = 10,
 ["x"] = 0,
 ["font_face"] = "Friz Quadrata TT",
 ["square_size"] = 32,
-["use_spark"] = true,
-["row_color"] = {
-0.1,
-0.1,
-0.1,
-0.4,
-},
+["font_size"] = 10,
+["author"] = "Terciob",
 ["main_frame_locked"] = false,
-["arrow_anchor_y"] = 0,
+["main_frame_size"] = {
+300,
+500.0000305175781,
+},
 },
 },
 }

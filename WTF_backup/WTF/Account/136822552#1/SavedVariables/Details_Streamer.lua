@@ -2,12 +2,12 @@
 Details_StreamerDB = {
 ["characters"] = {
 ["Eivind - CAMWOW EU5 Realm 2 PvP"] = "Uteligger - CAMWOW EU5 Realm 1 PvE",
-["Uteligger - CAMWOW EU5 Realm 1 PvE"] = "Uteligger - CAMWOW EU5 Realm 1 PvE",
-["Big - CAMWOW EU5 Realm 2 PvP"] = "Uteligger - CAMWOW EU5 Realm 1 PvE",
-["Mr - CAMWOW EU5 Realm 1 PvE"] = "Uteligger - CAMWOW EU5 Realm 1 PvE",
-["Uteligger - CAMWOW EU4 Realm 10 RP"] = "Uteligger - CAMWOW EU5 Realm 1 PvE",
-["Badboy - CAMWOW EU5 Realm 1 PvE"] = "Uteligger - CAMWOW EU5 Realm 1 PvE",
 ["Eivind - CAMWOW EU5 Realm 1 PvE"] = "Uteligger - CAMWOW EU5 Realm 1 PvE",
+["Uteligger - CAMWOW EU4 Realm 10 RP"] = "Uteligger - CAMWOW EU5 Realm 1 PvE",
+["Mr - CAMWOW EU5 Realm 1 PvE"] = "Uteligger - CAMWOW EU5 Realm 1 PvE",
+["Big - CAMWOW EU5 Realm 2 PvP"] = "Uteligger - CAMWOW EU5 Realm 1 PvE",
+["Badboy - CAMWOW EU5 Realm 1 PvE"] = "Uteligger - CAMWOW EU5 Realm 1 PvE",
+["Uteligger - CAMWOW EU5 Realm 1 PvE"] = "Uteligger - CAMWOW EU5 Realm 1 PvE",
 },
 ["profiles"] = {
 ["Uteligger - CAMWOW EU5 Realm 1 PvE"] = {
@@ -19,11 +19,11 @@ Details_StreamerDB = {
 1,
 0.5,
 },
-["arrow_anchor_y"] = 0,
 ["main_frame_size"] = {
 300,
 500.0000305175781,
 },
+["arrow_anchor_y"] = 0,
 ["minimap"] = {
 ["minimapPos"] = 135.6185878011813,
 ["radius"] = 160,
@@ -31,20 +31,20 @@ Details_StreamerDB = {
 },
 ["main_frame_locked"] = false,
 ["arrow_anchor_x"] = 0,
+["author"] = "Terciob",
+["row_texture"] = "Details Serenity",
+["square_grow_direction"] = "right",
+["font_size"] = 10,
 ["row_color"] = {
 0.1,
 0.1,
 0.1,
 0.4,
 },
-["row_texture"] = "Details Serenity",
-["square_grow_direction"] = "right",
-["use_spark"] = true,
-["author"] = "Terciob",
 ["square_amount"] = 5,
 ["enabled"] = false,
 ["arrow_size"] = 10,
-["y"] = 0.0009002685546875,
+["use_spark"] = true,
 ["row_spacement"] = 21,
 ["main_frame_color"] = {
 0,
@@ -54,7 +54,6 @@ Details_StreamerDB = {
 },
 ["main_frame_strata"] = "LOW",
 ["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-["font_size"] = 10,
 ["per_second"] = {
 ["enabled"] = false,
 ["point"] = "CENTER",
@@ -66,6 +65,7 @@ Details_StreamerDB = {
 ["update_speed"] = 0.05,
 ["size"] = 32,
 },
+["y"] = 0.0009002685546875,
 ["x"] = 0,
 ["font_face"] = "Friz Quadrata TT",
 ["square_size"] = 32,

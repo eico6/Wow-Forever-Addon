@@ -1,0 +1,4 @@
+
+ForeverClassicUICharDB = {
+["profile"] = "Default",
+}
