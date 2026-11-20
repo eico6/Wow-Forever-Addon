@@ -1,11 +1,13 @@
 -- Appearance settings. Edit these numbers, save the file, then type /reload in WoW.
-local EAGLE_SIZE_PERCENT = 89     -- 100 is the original Blizzard size.
+local EAGLE_SIZE_PERCENT = 92      -- 100 is the original Blizzard size.
+local EAGLE_GRAY_PERCENT = 60      -- 0 keeps the original bronze. 100 makes both eagles fully gray.
 local EAGLE_OUTWARD_LEFT_PX = -6   -- Left eagle moves away from its nearest button. 0 is tucked in. EIV: -12 når BUTTON_SPACING_REDUCTION_PX = 3
 local EAGLE_OUTWARD_RIGHT_PX = -16 -- Right eagle moves away from its nearest button. 0 is tucked in. EIV: -24 når BUTTON_SPACING_REDUCTION_PX = 3
-local EAGLE_DOWN_PX = 4           -- Larger values lower the eagles toward the screen edge.
-local XP_EXTRA_HEIGHT_PX = 0      -- 0 meets the lower rim. +1 raises the top one pixel, -1 lowers it.
-local LEDGE_HEIGHT_PX = 4         -- Extra space for the stone ledge between the two bottom rows.
-local UPPER_BAR_GAP_PX = 1        -- Extra space between the stone ledge and the bar above it. Does not change the ledge art.
+local EAGLE_DOWN_PX = 4            -- Larger values lower the eagles toward the screen edge.
+local XP_EXTRA_HEIGHT_PX = 0       -- 0 meets the lower rim. +1 raises the top one pixel, -1 lowers it.
+local LEDGE_HEIGHT_PX = 6          -- Extra space for the stone ledge between the two bottom rows.
+local LEDGE_STONE_BRIGHTNESS = 0.5 -- Brightness of the stone ledge texture.
+local UPPER_BAR_GAP_PX = 0         -- Extra space between the stone ledge and the bar above it. Does not change the ledge art.
 local BUTTON_SPACING_REDUCTION_PX = 2 -- Reduce spacing between buttons by this many pixels.
 
 -- Constants tied to the sampled artwork. Leave these alone unless the art changes.
@@ -275,6 +277,11 @@ local bar3 = MultiBarBottomRight
 local strataOrder = { WORLD = 0, BACKGROUND = 1, LOW = 2, MEDIUM = 3, HIGH = 4,
     DIALOG = 5, FULLSCREEN = 6, FULLSCREEN_DIALOG = 7, TOOLTIP = 8 }
 
+local function IsActionDragActive()
+    local cursorType = GetCursorInfo and GetCursorInfo()
+    return gridShown or cursorType == "action" or cursorType == "spell"
+end
+
 local function UpdateRim()
     if not bar3 then return end
     local strata, level = bar3:GetFrameStrata(), bar3:GetFrameLevel()
@@ -292,9 +299,7 @@ local function UpdateRim()
     end
     extensionTrim:SetFrameStrata(strata)
     extensionTrim:SetFrameLevel(level + 1)
-    local cursorType = GetCursorInfo and GetCursorInfo()
-    local dragging = gridShown or cursorType == "action" or cursorType == "spell"
-    local light = dragging and RIM_DRAG_BRIGHTNESS or RIM_IDLE_BRIGHTNESS
+    local light = IsActionDragActive() and RIM_DRAG_BRIGHTNESS or RIM_IDLE_BRIGHTNESS
     rim:SetVertexColor(light, light, light)
     pagerPlate:SetVertexColor(light, light, light)
 end
@@ -439,7 +444,7 @@ ledge:SetFrameStrata("BACKGROUND")
 ledge:SetFrameLevel(0)
 local stone = ledge:CreateTexture(nil, "ARTWORK")
 stone:SetTexture("Interface\\AddOns\\EivindBars\\StoneLedge.tga")
-stone:SetVertexColor(0.34, 0.31, 0.27)
+stone:SetVertexColor(0.34 * LEDGE_STONE_BRIGHTNESS, 0.31 * LEDGE_STONE_BRIGHTNESS, 0.27 * LEDGE_STONE_BRIGHTNESS) -- 
 stone:SetAllPoints()
 local ledgeHighlight = ledge:CreateTexture(nil, "OVERLAY")
 ledgeHighlight:SetColorTexture(0.36, 0.27, 0.18, 0.75)
@@ -485,7 +490,7 @@ local function AlignBar3()
         local holder = button.container or button
         local hx, hy = GetScreenCenter(holder)
         if not hx then return end
-        positions[i] = { holder = holder, x = hx, y = y, offsetY = hy - y }
+        positions[i] = { button = button, holder = holder, x = hx, y = y, offsetY = hy - y }
     end
 
     local lift = LiftUpperBar()
@@ -494,8 +499,12 @@ local function AlignBar3()
         upperY = liftedUpperY
     end
 
+    local lowerRow = {}
+    local lowerCount = 0
     for _, pos in ipairs(positions) do
         local targetY = pos.y > (upperY + lowerY) / 2 and upperY or lowerY
+        lowerRow[pos.button] = targetY == lowerY
+        if lowerRow[pos.button] then lowerCount = lowerCount + 1 end
         local holder = pos.holder
         local parent = holder:GetParent()
         local px, py = GetScreenCenter(parent)
@@ -507,7 +516,57 @@ local function AlignBar3()
                 (targetY + pos.offsetY - py) / scale)
         end
     end
+    if lowerCount == 6 and MultiBarBottomRight.numButtonsShowable == 12 then
+        return lift, lowerRow
+    end
     return lift
+end
+
+local bar3Rows
+local savedHotkeyAlpha = {}
+local function UpdateBar3Hotkey(button, isLower)
+    local hotkey = button.HotKey
+    if isLower and not button:HasAction() and not IsActionDragActive() then
+        if savedHotkeyAlpha[button] == nil then
+            savedHotkeyAlpha[button] = hotkey:GetAlpha()
+        end
+        hotkey:SetAlpha(0)
+    elseif savedHotkeyAlpha[button] ~= nil then
+        hotkey:SetAlpha(savedHotkeyAlpha[button])
+        savedHotkeyAlpha[button] = nil
+    end
+end
+
+local function RefreshLowerHotkeys(slot)
+    if not bar3Rows then return end
+    for button, isLower in pairs(bar3Rows) do
+        if isLower and (not slot or slot == 0 or slot == button.action) then
+            UpdateBar3Hotkey(button, true)
+        end
+    end
+end
+
+-- Called during out-of-combat layout. Change only the Always Show Buttons bit
+-- so Blizzard still controls temporary grids such as dragging and keybinding.
+local function ApplyBar3Rows(rows)
+    local buttons = rows or bar3Rows
+    if not buttons then return end
+    local gridBit = ACTION_BUTTON_SHOW_GRID_REASON_CVAR
+    local barSetting = MultiBarBottomRight:GetSettingValueBool(Enum.EditModeActionBarSetting.AlwaysShowButtons)
+    local changed = false
+    for button, isLower in pairs(buttons) do
+        local alwaysShow = isLower
+        if not rows then alwaysShow = barSetting end
+        local grid = button:GetAttribute("showgrid") or 0
+        local updated = alwaysShow and bit.bor(grid, gridBit) or bit.band(grid, bit.bnot(gridBit))
+        if updated ~= grid then
+            button:SetAttribute("showgrid", updated)
+            changed = true
+        end
+        UpdateBar3Hotkey(button, rows and isLower)
+    end
+    bar3Rows = rows
+    if changed then MultiBarBottomRight:UpdateShownButtons() end
 end
 
 ---------------------------------------------------------------------------
@@ -543,7 +602,9 @@ local function LayoutEagles(left, right, bottom, rowHeight, atlas)
 
     endCaps:SetFrameStrata("BACKGROUND")
     endCaps:SetFrameLevel(2)
+    local gray = math.max(0, math.min(100, EAGLE_GRAY_PERCENT)) / 100
     for _, cap in pairs({ endCaps.LeftEndCap, endCaps.RightEndCap }) do
+        cap.Texture:SetDesaturation(gray)
         if cap.SetFrameStrata then
             cap:SetFrameStrata("BACKGROUND")
             cap:SetFrameLevel(2)
@@ -693,7 +754,8 @@ local function LayoutArt()
         return
     end
 
-    local lift = AlignBar3()
+    local lift, rows = AlignBar3()
+    ApplyBar3Rows(rows)
     local rowHeight = top - bottom
     local extension = FindExtension(mainRight, bottom, rowHeight)
     local right = extension.right
@@ -753,6 +815,11 @@ local function QueueLayout()
     end)
 end
 
+local function RefreshDragAppearance()
+    UpdateRim()
+    RefreshLowerHotkeys()
+end
+
 local events = CreateFrame("Frame")
 events:RegisterEvent("PLAYER_ENTERING_WORLD")
 events:RegisterEvent("PLAYER_REGEN_ENABLED")
@@ -760,18 +827,27 @@ events:RegisterEvent("UI_SCALE_CHANGED")
 events:RegisterEvent("EDIT_MODE_LAYOUTS_UPDATED")
 events:RegisterEvent("ACTIONBAR_SHOWGRID")
 events:RegisterEvent("ACTIONBAR_HIDEGRID")
+events:RegisterEvent("ACTIONBAR_SLOT_CHANGED")
 events:RegisterEvent("CURSOR_CHANGED")
-events:SetScript("OnEvent", function(_, event)
+events:SetScript("OnEvent", function(_, event, slot)
+    if event == "ACTIONBAR_SLOT_CHANGED" then
+        RefreshLowerHotkeys(slot)
+        return
+    end
     if event == "ACTIONBAR_SHOWGRID" or event == "ACTIONBAR_HIDEGRID" then
         gridShown = event == "ACTIONBAR_SHOWGRID"
     end
     if event == "CURSOR_CHANGED" or event == "ACTIONBAR_SHOWGRID" or event == "ACTIONBAR_HIDEGRID" then
-        -- Read the final strata after the game's handlers for this event have run.
-        C_Timer.After(0, UpdateRim)
+        -- Read the cursor and bar strata after Blizzard finishes handling the drag.
+        C_Timer.After(0, RefreshDragAppearance)
         return
     end
     QueueLayout()
 end)
+
+if MultiBarBottomRight then
+    hooksecurefunc(MultiBarBottomRight, "UpdateSystemSettingAlwaysShowButtons", QueueLayout)
+end
 
 if EditModeManagerFrame and EditModeManagerFrame.ExitEditMode then
     hooksecurefunc(EditModeManagerFrame, "ExitEditMode", QueueLayout)
