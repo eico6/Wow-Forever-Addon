@@ -6,7 +6,7 @@ local EAGLE_OUTWARD_RIGHT_PX = -16 -- Right eagle moves away from its nearest bu
 local EAGLE_DOWN_PX = 4            -- Larger values lower the eagles toward the screen edge.
 local XP_EXTRA_HEIGHT_PX = 0       -- 0 meets the lower rim. +1 raises the top one pixel, -1 lowers it.
 local LEDGE_HEIGHT_PX = 6          -- Extra space for the stone ledge between the two bottom rows.
-local LEDGE_STONE_BRIGHTNESS = 0.5 -- Brightness of the stone ledge texture.
+local LEDGE_STONE_BRIGHTNESS = 0.7 -- Brightness of the stone ledge texture.
 local UPPER_BAR_GAP_PX = 0         -- Extra space between the stone ledge and the bar above it. Does not change the ledge art.
 local BUTTON_SPACING_REDUCTION_PX = 2 -- Reduce spacing between buttons by this many pixels.
 
