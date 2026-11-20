@@ -1,10 +1,12 @@
 -- Appearance settings. Edit these numbers, save the file, then type /reload in WoW.
-local EAGLE_SIZE_PERCENT = 77    -- 100 is the original Blizzard size.
-local EAGLE_OUTWARD_PX = 9       -- Each eagle moves away from its nearest button. 0 is tucked in.
+local EAGLE_SIZE_PERCENT = 89    -- 100 is the original Blizzard size.
+local EAGLE_OUTWARD_PX = 3       -- Each eagle moves away from its nearest button. 0 is tucked in.
 local EAGLE_DOWN_PX = 4          -- Larger values lower the eagles toward the screen edge.
-local XP_EXTRA_HEIGHT_PX = 1     -- 0 meets the lower rim. +1 raises the top one pixel, -1 lowers it.
+local XP_EXTRA_HEIGHT_PX = 0     -- 0 meets the lower rim. +1 raises the top one pixel, -1 lowers it.
+local LEDGE_HEIGHT_PX = 5        -- Extra space for the stone ledge between the two bottom rows.
 local RIM_IDLE_BRIGHTNESS = 0.75 -- 1 uses the sampled bronze at full brightness.
 local RIM_DRAG_BRIGHTNESS = 1.00 -- Brightness while WoW shows the action-button grid.
+local UPPER_BAR_GAP_PX = 0       -- Extra space between the stone ledge and the bar above it. Does not change the ledge art.
 
 local function ScreenPixel()
     return UIParent:GetHeight() / select(2, GetPhysicalScreenSize())
@@ -226,8 +228,10 @@ local strataOrder = { WORLD = 0, BACKGROUND = 1, LOW = 2, MEDIUM = 3, HIGH = 4,
 local function UpdateRim()
     if not bar3 then return end
     local strata, level = bar3:GetFrameStrata(), bar3:GetFrameLevel()
-    -- Keep the thin rails visible where the backing and XP border meet.
-    for _, frame in ipairs({backing, MainStatusTrackingBarContainer}) do
+    -- The eagle can inherit a higher layer when WoW raises the drag grid.
+    local eagle = endCaps and endCaps.RightEndCap
+    for _, frame in pairs({backing, MainStatusTrackingBarContainer, endCaps,
+        eagle and eagle.GetFrameLevel and eagle}) do
         local other = frame:GetFrameStrata()
         if strataOrder[other] > strataOrder[strata] then
             strata, level = other, frame:GetFrameLevel()
@@ -362,6 +366,37 @@ local function FitXPBar()
     SetScreenPoint(xpFoot, "TOPRIGHT", targetRight, math.max(2 * pixel, (dockTop or 0) + pixel))
 end
 
+-- Keep the stone behind the eagle artwork even when action bars change strata.
+local ledge = CreateFrame("Frame", nil, UIParent)
+ledge:SetFrameStrata("BACKGROUND")
+ledge:SetFrameLevel(0)
+local stone = ledge:CreateTexture(nil, "ARTWORK")
+stone:SetTexture("Interface\\AddOns\\EivindBars\\StoneLedge.tga")
+stone:SetVertexColor(0.34, 0.31, 0.27)
+stone:SetAllPoints()
+local ledgeHighlight = ledge:CreateTexture(nil, "OVERLAY")
+ledgeHighlight:SetColorTexture(0.36, 0.27, 0.18, 0.75)
+ledgeHighlight:SetPoint("TOPLEFT")
+ledgeHighlight:SetPoint("TOPRIGHT")
+ledge:Hide()
+
+-- Remember the Edit Mode anchor so repeated layouts don't add the lift twice.
+local upperAnchor
+local function LiftUpperBar()
+    local upperBar = MultiBarBottomLeft
+    if not upperBar or upperBar:GetNumPoints() ~= 1 then return 0 end
+    local point, relative, relativePoint, x, y = upperBar:GetPoint(1)
+    if not upperAnchor or point ~= upperAnchor.point or relative ~= upperAnchor.relative
+        or relativePoint ~= upperAnchor.relativePoint or math.abs(y - upperAnchor.applied) > 0.001 then
+        upperAnchor = {point = point, relative = relative, relativePoint = relativePoint, base = y}
+    end
+    local lift = LEDGE_HEIGHT_PX * ScreenPixel()
+    local gap = UPPER_BAR_GAP_PX * ScreenPixel()
+    upperAnchor.applied = upperAnchor.base + (lift + gap) / GetRelativeScale(upperBar)
+    upperBar:SetPoint(point, relative, relativePoint, x, upperAnchor.applied)
+    return lift
+end
+
 -- Bar 3 has two rows of six. Measure both rows before moving any grid anchors.
 local function AlignBar3()
     local upper = MultiBarBottomLeftButton1
@@ -387,6 +422,8 @@ local function AlignBar3()
         positions[i] = {holder = holder, x = hx * holderScale, y = y * scale,
             offsetY = hy * holderScale - y * scale}
     end
+    local lift = LiftUpperBar()
+    upperY = select(2, upper:GetCenter()) * GetRelativeScale(upper)
     for _, pos in ipairs(positions) do
         local targetY = pos.y > (upperY + lowerY) / 2 and upperY or lowerY
         local holder = pos.holder
@@ -399,6 +436,7 @@ local function AlignBar3()
             (pos.x - px * parentScale) / scale,
             (targetY + pos.offsetY - py * parentScale) / scale)
     end
+    return lift
 end
 
 -- Keep the inner bottom corner fixed while shrinking the native eagle.
@@ -442,7 +480,7 @@ local function LayoutArt()
         return
     end
 
-    AlignBar3()
+    local lift = AlignBar3()
     local rowHeight = top - bottom
     local extensionLeft, right = nil, mainRight
     local extensionFirst, extensionLast
@@ -495,6 +533,16 @@ local function LayoutArt()
         ShowSlotArtwork(button, featherAtlas)
     end
     LayoutExtensionTrim(extensionFirst, extensionLast)
+    ledge:Hide()
+    if lift and lift > 0 and extensionTrim:IsShown() then
+        local _, _, rimRight, rimTop = GetScreenRect(extensionTrim)
+        local pixel = ScreenPixel()
+        ledge:ClearAllPoints()
+        SetScreenPoint(ledge, "BOTTOMLEFT", left - rowHeight * 0.09, rimTop - pixel)
+        SetScreenPoint(ledge, "TOPRIGHT", rimRight, rimTop + lift)
+        ledgeHighlight:SetHeight(pixel / GetRelativeScale(ledge))
+        ledge:Show()
+    end
 
     local inset = rowHeight * 0.09
     backing:ClearAllPoints()
