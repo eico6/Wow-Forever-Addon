@@ -1,14 +1,14 @@
 -- Appearance settings. Edit these numbers, save the file, then type /reload in WoW.
 local EAGLE_SIZE_PERCENT = 89     -- 100 is the original Blizzard size.
-local EAGLE_OUTWARD_LEFT_PX = -12   -- Left eagle moves away from its nearest button. 0 is tucked in.
-local EAGLE_OUTWARD_RIGHT_PX = -24 -- Right eagle moves away from its nearest button. 0 is tucked in.
+local EAGLE_OUTWARD_LEFT_PX = -6   -- Left eagle moves away from its nearest button. 0 is tucked in. EIV: -12 når BUTTON_SPACING_REDUCTION_PX = 3
+local EAGLE_OUTWARD_RIGHT_PX = -16 -- Right eagle moves away from its nearest button. 0 is tucked in. EIV: -24 når BUTTON_SPACING_REDUCTION_PX = 3
 local EAGLE_DOWN_PX = 4           -- Larger values lower the eagles toward the screen edge.
 local XP_EXTRA_HEIGHT_PX = 0      -- 0 meets the lower rim. +1 raises the top one pixel, -1 lowers it.
 local LEDGE_HEIGHT_PX = 5         -- Extra space for the stone ledge between the two bottom rows.
 local RIM_IDLE_BRIGHTNESS = 0.75  -- 1 uses the sampled bronze at full brightness.
 local RIM_DRAG_BRIGHTNESS = 1.00  -- Brightness while WoW shows the action-button grid.
 local UPPER_BAR_GAP_PX = 0        -- Extra space between the stone ledge and the bar above it. Does not change the ledge art.
-local BUTTON_SPACING_REDUCTION_PX = 3 -- Reduce spacing between buttons by this many pixels.
+local BUTTON_SPACING_REDUCTION_PX = 2 -- Reduce spacing between buttons by this many pixels.
 
 local function ScreenPixel()
     return UIParent:GetHeight() / select(2, GetPhysicalScreenSize())
