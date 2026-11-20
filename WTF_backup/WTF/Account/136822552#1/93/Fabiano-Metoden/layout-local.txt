@@ -1,0 +1,8 @@
+Version: 1
+Frame: SettingsPanel
+FrameLevel: 1
+Anchor: CENTER
+X: 0
+Y: 104
+W: 920
+H: 724

@@ -1,0 +1,25 @@
+
+ThreatPlatesDB = {
+["namespaces"] = {
+},
+["global"] = {
+["version"] = "13.3.8",
+},
+["profileKeys"] = {
+["Oldmen Strongclub"] = "Default",
+},
+["profiles"] = {
+["Default"] = {
+["ShowEnemyBlizzardNameplates"] = true,
+["ShowFriendlyBlizzardNameplates"] = true,
+["settings"] = {
+["frame"] = {
+["widthFriend"] = 212.1212228489541,
+["height"] = 30.30303183556487,
+["heightFriend"] = 30.30303183556487,
+["width"] = 212.1212228489541,
+},
+},
+},
+},
+}

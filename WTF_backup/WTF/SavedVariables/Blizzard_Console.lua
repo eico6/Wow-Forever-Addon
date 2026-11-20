@@ -3,524 +3,2132 @@ Blizzard_Console_SavedVars = {
 ["version"] = 3,
 ["messageHistory"] = {
 {
-"LoadAccountDataFromFile type=\"2\" pendingBefore=\"false\" hasCallback=\"true\" param=\"3211265\"",
-0,
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
 },
 {
-"AccountData_RequestLoad type=\"3\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"3080194\" newParam=\"3211266\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
 },
 {
-"AccountData_RequestLoad updated callback state type=\"3\" pending=\"false\" hasCallback=\"true\" param=\"3211266\"",
-0,
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
 },
 {
-"AccountData_RequestLoad forcing local file load type=\"3\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
 },
 {
-"LoadAccountDataFromFile type=\"3\" pendingBefore=\"false\" hasCallback=\"true\" param=\"3211266\"",
-0,
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
 },
 {
-"AccountData_RequestLoad type=\"6\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"0\" newParam=\"0\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
 },
 {
-"AccountData_RequestLoad updated callback state type=\"6\" pending=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
 },
 {
-"AccountData_RequestLoad forcing local file load type=\"6\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
 },
 {
-"LoadAccountDataFromFile type=\"6\" pendingBefore=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
 },
 {
-"AccountData_RequestLoad type=\"11\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"0\" newParam=\"0\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
 },
 {
-"AccountData_RequestLoad updated callback state type=\"11\" pending=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
 },
 {
-"AccountData_RequestLoad forcing local file load type=\"11\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
 },
 {
-"LoadAccountDataFromFile type=\"11\" pendingBefore=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
 },
 {
-"LoadGameCVars request dispatch initCounter=\"24\" pendingMask=\"32\" characterlessLogin=\"false\"",
-0,
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
 },
 {
-"AccountData_RequestLoad type=\"1\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"1507360\" newParam=\"1572896\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
 },
 {
-"AccountData_RequestLoad updated callback state type=\"1\" pending=\"false\" hasCallback=\"true\" param=\"1572896\"",
-0,
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
 },
 {
-"AccountData_RequestLoad forcing local file load type=\"1\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
 },
 {
-"LoadAccountDataFromFile type=\"1\" pendingBefore=\"false\" hasCallback=\"true\" param=\"1572896\"",
-0,
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
 },
 {
-"LoadGameCVarsCallback received callbackInitCounter=\"24\" currentInitCounter=\"24\" mask=\"32\" buffsize=\"793\" pendingMaskBefore=\"32\"",
-0,
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
 },
 {
-"LoadGameCVarsCallback applied response mask=\"32\" pendingMaskAfter=\"0\"",
-0,
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
 },
 {
-"LoadGameCVarsCheckDone areCVarsLoaded=\"true\" pendingMask=\"0\"",
-0,
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
 },
 {
-"LoadGameCVarsCheckDone signaled variables loaded pendingMask=\"0\"",
-0,
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
 },
 {
-"AccountData_RequestLoad type=\"4\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"65581\" newParam=\"65583\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
 },
 {
-"AccountData_RequestLoad updated callback state type=\"4\" pending=\"false\" hasCallback=\"true\" param=\"65583\"",
-0,
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
 },
 {
-"AccountData_RequestLoad forcing local file load type=\"4\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
 },
 {
-"LoadAccountDataFromFile type=\"4\" pendingBefore=\"false\" hasCallback=\"true\" param=\"65583\"",
-0,
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
 },
 {
-"AccountData_RequestLoad type=\"5\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"131117\" newParam=\"131119\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
 },
 {
-"AccountData_RequestLoad updated callback state type=\"5\" pending=\"false\" hasCallback=\"true\" param=\"131119\"",
-0,
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
 },
 {
-"AccountData_RequestLoad forcing local file load type=\"5\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
 },
 {
-"LoadAccountDataFromFile type=\"5\" pendingBefore=\"false\" hasCallback=\"true\" param=\"131119\"",
-0,
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
 },
 {
-"AccountData_RequestLoad type=\"7\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"0\" newParam=\"0\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
 },
 {
-"AccountData_RequestLoad updated callback state type=\"7\" pending=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
 },
 {
-"AccountData_RequestLoad forcing local file load type=\"7\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
 },
 {
-"LoadAccountDataFromFile type=\"7\" pendingBefore=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
 },
 {
-"Logout abort acknowledged",
-0,
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
+},
+{
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
 },
 {
 "-------------------------------------------------- Previous Session --------------------------------------------------",
 0,
 },
 {
-"GameUI::Shutdown invalidated load generation initCounter=\"25\" isClosingClient=\"false\"",
-0,
-},
-{
-"LimitedLuaResources: Reset Timer",
-0,
-},
-{
-"AccountData_CancelRequestLoad type=\"0\" pending=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"AccountData_CancelRequestLoad type=\"1\" pending=\"false\" hasCallback=\"true\" param=\"1572896\"",
-0,
-},
-{
-"GameUI::Shutdown canceled CVar account-data loads initCounter=\"25\" pendingMask=\"0\"",
-0,
-},
-{
-"LimitedLuaResources: Reset All",
-0,
-},
-{
-"PreLoadGameCVars initialized pending mask pendingMask=\"32\" initCounter=\"25\" characterlessLogin=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"2\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"3211265\" newParam=\"3342337\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"2\" pending=\"false\" hasCallback=\"true\" param=\"3342337\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"2\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"2\" pendingBefore=\"false\" hasCallback=\"true\" param=\"3342337\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"3\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"3211266\" newParam=\"3342338\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"3\" pending=\"false\" hasCallback=\"true\" param=\"3342338\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"3\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"3\" pendingBefore=\"false\" hasCallback=\"true\" param=\"3342338\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"6\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"0\" newParam=\"0\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"6\" pending=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"6\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"6\" pendingBefore=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"11\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"0\" newParam=\"0\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"11\" pending=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"11\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"11\" pendingBefore=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"LoadGameCVars request dispatch initCounter=\"25\" pendingMask=\"32\" characterlessLogin=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"1\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"1572896\" newParam=\"1638432\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"1\" pending=\"false\" hasCallback=\"true\" param=\"1638432\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"1\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"1\" pendingBefore=\"false\" hasCallback=\"true\" param=\"1638432\"",
-0,
-},
-{
-"LoadGameCVarsCallback received callbackInitCounter=\"25\" currentInitCounter=\"25\" mask=\"32\" buffsize=\"793\" pendingMaskBefore=\"32\"",
-0,
-},
-{
-"LoadGameCVarsCallback applied response mask=\"32\" pendingMaskAfter=\"0\"",
-0,
-},
-{
-"LoadGameCVarsCheckDone areCVarsLoaded=\"true\" pendingMask=\"0\"",
-0,
-},
-{
-"LoadGameCVarsCheckDone signaled variables loaded pendingMask=\"0\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"4\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"65583\" newParam=\"65585\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"4\" pending=\"false\" hasCallback=\"true\" param=\"65585\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"4\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"4\" pendingBefore=\"false\" hasCallback=\"true\" param=\"65585\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"5\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"131119\" newParam=\"131121\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"5\" pending=\"false\" hasCallback=\"true\" param=\"131121\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"5\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"5\" pendingBefore=\"false\" hasCallback=\"true\" param=\"131121\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"7\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"0\" newParam=\"0\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"7\" pending=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"7\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"7\" pendingBefore=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"Logout abort acknowledged",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"GameUI::Shutdown invalidated load generation initCounter=\"26\" isClosingClient=\"false\"",
-0,
-},
-{
-"LimitedLuaResources: Reset Timer",
-0,
-},
-{
-"AccountData_CancelRequestLoad type=\"0\" pending=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"AccountData_CancelRequestLoad type=\"1\" pending=\"false\" hasCallback=\"true\" param=\"1638432\"",
-0,
-},
-{
-"GameUI::Shutdown canceled CVar account-data loads initCounter=\"26\" pendingMask=\"0\"",
-0,
-},
-{
-"LimitedLuaResources: Reset All",
-0,
-},
-{
-"PreLoadGameCVars initialized pending mask pendingMask=\"32\" initCounter=\"26\" characterlessLogin=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"2\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"3342337\" newParam=\"3473409\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"2\" pending=\"false\" hasCallback=\"true\" param=\"3473409\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"2\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"2\" pendingBefore=\"false\" hasCallback=\"true\" param=\"3473409\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"3\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"3342338\" newParam=\"3473410\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"3\" pending=\"false\" hasCallback=\"true\" param=\"3473410\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"3\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"3\" pendingBefore=\"false\" hasCallback=\"true\" param=\"3473410\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"6\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"0\" newParam=\"0\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"6\" pending=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"6\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"6\" pendingBefore=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"11\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"0\" newParam=\"0\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"11\" pending=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"11\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"11\" pendingBefore=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"LoadGameCVars request dispatch initCounter=\"26\" pendingMask=\"32\" characterlessLogin=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"1\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"1638432\" newParam=\"1703968\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"1\" pending=\"false\" hasCallback=\"true\" param=\"1703968\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"1\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"1\" pendingBefore=\"false\" hasCallback=\"true\" param=\"1703968\"",
-0,
-},
-{
-"LoadGameCVarsCallback received callbackInitCounter=\"26\" currentInitCounter=\"26\" mask=\"32\" buffsize=\"793\" pendingMaskBefore=\"32\"",
-0,
-},
-{
-"LoadGameCVarsCallback applied response mask=\"32\" pendingMaskAfter=\"0\"",
-0,
-},
-{
-"LoadGameCVarsCheckDone areCVarsLoaded=\"true\" pendingMask=\"0\"",
-0,
-},
-{
-"LoadGameCVarsCheckDone signaled variables loaded pendingMask=\"0\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"4\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"65585\" newParam=\"65587\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"4\" pending=\"false\" hasCallback=\"true\" param=\"65587\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"4\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"4\" pendingBefore=\"false\" hasCallback=\"true\" param=\"65587\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"5\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"131121\" newParam=\"131123\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"5\" pending=\"false\" hasCallback=\"true\" param=\"131123\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"5\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"5\" pendingBefore=\"false\" hasCallback=\"true\" param=\"131123\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"7\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"0\" newParam=\"0\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"7\" pending=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"7\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"7\" pendingBefore=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"Logout abort acknowledged",
-0,
-},
-{
-"Skill 95 increased from 23 to 24",
-0,
-},
-{
-"Skill 95 increased from 24 to 25",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
+"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:698: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:644>\n[C]: in function 'CompactUnitFrame_UpdateHealthColor'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:737: in function 'CompactUnitFrame_UpdateHealth'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:226: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
+3,
 },
 {
 "GameUI::Shutdown invalidated load generation initCounter=\"27\" isClosingClient=\"false\"",
@@ -635,7 +2243,7 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"LoadGameCVarsCallback received callbackInitCounter=\"27\" currentInitCounter=\"27\" mask=\"32\" buffsize=\"793\" pendingMaskBefore=\"32\"",
+"LoadGameCVarsCallback received callbackInitCounter=\"27\" currentInitCounter=\"27\" mask=\"32\" buffsize=\"617\" pendingMaskBefore=\"32\"",
 0,
 },
 {
@@ -651,11 +2259,11 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"AccountData_RequestLoad type=\"4\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"65587\" newParam=\"65589\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
+"AccountData_RequestLoad type=\"4\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"65585\" newParam=\"65587\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
 0,
 },
 {
-"AccountData_RequestLoad updated callback state type=\"4\" pending=\"false\" hasCallback=\"true\" param=\"65589\"",
+"AccountData_RequestLoad updated callback state type=\"4\" pending=\"false\" hasCallback=\"true\" param=\"65587\"",
 0,
 },
 {
@@ -663,15 +2271,15 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"LoadAccountDataFromFile type=\"4\" pendingBefore=\"false\" hasCallback=\"true\" param=\"65589\"",
+"LoadAccountDataFromFile type=\"4\" pendingBefore=\"false\" hasCallback=\"true\" param=\"65587\"",
 0,
 },
 {
-"AccountData_RequestLoad type=\"5\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"131123\" newParam=\"131125\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
+"AccountData_RequestLoad type=\"5\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"131121\" newParam=\"131123\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
 0,
 },
 {
-"AccountData_RequestLoad updated callback state type=\"5\" pending=\"false\" hasCallback=\"true\" param=\"131125\"",
+"AccountData_RequestLoad updated callback state type=\"5\" pending=\"false\" hasCallback=\"true\" param=\"131123\"",
 0,
 },
 {
@@ -679,7 +2287,7 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"LoadAccountDataFromFile type=\"5\" pendingBefore=\"false\" hasCallback=\"true\" param=\"131125\"",
+"LoadAccountDataFromFile type=\"5\" pendingBefore=\"false\" hasCallback=\"true\" param=\"131123\"",
 0,
 },
 {
@@ -700,58 +2308,6 @@ Blizzard_Console_SavedVars = {
 },
 {
 "Logout abort acknowledged",
-0,
-},
-{
-"Skill 393 increased from 25 to 26",
-0,
-},
-{
-"Skill 2947 increased from 25 to 26",
-0,
-},
-{
-"Skill 393 increased from 26 to 27",
-0,
-},
-{
-"Skill 2947 increased from 26 to 27",
-0,
-},
-{
-"Skill 176 increased from 25 to 26",
-0,
-},
-{
-"Skill 95 increased from 25 to 26",
-0,
-},
-{
-"Skill 173 increased from 27 to 28",
-0,
-},
-{
-"Sending ping results from timeout timeoutNs=\"10171618764900\" nowNs=\"10171620809900\"",
-0,
-},
-{
-"Skill 95 increased from 26 to 27",
-0,
-},
-{
-"Skill 393 increased from 27 to 28",
-0,
-},
-{
-"Skill 2947 increased from 27 to 28",
-0,
-},
-{
-"Skill 393 increased from 28 to 29",
-0,
-},
-{
-"Skill 2947 increased from 28 to 29",
 0,
 },
 {
@@ -871,7 +2427,7 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"LoadGameCVarsCallback received callbackInitCounter=\"28\" currentInitCounter=\"28\" mask=\"32\" buffsize=\"793\" pendingMaskBefore=\"32\"",
+"LoadGameCVarsCallback received callbackInitCounter=\"28\" currentInitCounter=\"28\" mask=\"32\" buffsize=\"649\" pendingMaskBefore=\"32\"",
 0,
 },
 {
@@ -887,11 +2443,11 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"AccountData_RequestLoad type=\"4\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"65589\" newParam=\"65591\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
+"AccountData_RequestLoad type=\"4\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"65587\" newParam=\"65589\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
 0,
 },
 {
-"AccountData_RequestLoad updated callback state type=\"4\" pending=\"false\" hasCallback=\"true\" param=\"65591\"",
+"AccountData_RequestLoad updated callback state type=\"4\" pending=\"false\" hasCallback=\"true\" param=\"65589\"",
 0,
 },
 {
@@ -899,15 +2455,15 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"LoadAccountDataFromFile type=\"4\" pendingBefore=\"false\" hasCallback=\"true\" param=\"65591\"",
+"LoadAccountDataFromFile type=\"4\" pendingBefore=\"false\" hasCallback=\"true\" param=\"65589\"",
 0,
 },
 {
-"AccountData_RequestLoad type=\"5\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"131125\" newParam=\"131127\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
+"AccountData_RequestLoad type=\"5\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"131123\" newParam=\"131125\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
 0,
 },
 {
-"AccountData_RequestLoad updated callback state type=\"5\" pending=\"false\" hasCallback=\"true\" param=\"131127\"",
+"AccountData_RequestLoad updated callback state type=\"5\" pending=\"false\" hasCallback=\"true\" param=\"131125\"",
 0,
 },
 {
@@ -915,7 +2471,7 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"LoadAccountDataFromFile type=\"5\" pendingBefore=\"false\" hasCallback=\"true\" param=\"131127\"",
+"LoadAccountDataFromFile type=\"5\" pendingBefore=\"false\" hasCallback=\"true\" param=\"131125\"",
 0,
 },
 {
@@ -936,38 +2492,6 @@ Blizzard_Console_SavedVars = {
 },
 {
 "Logout abort acknowledged",
-0,
-},
-{
-"Skill 173 increased from 28 to 29",
-0,
-},
-{
-"Skill 393 increased from 29 to 30",
-0,
-},
-{
-"Skill 2947 increased from 29 to 30",
-0,
-},
-{
-"Skill 393 increased from 30 to 31",
-0,
-},
-{
-"Skill 2947 increased from 30 to 31",
-0,
-},
-{
-"Skill 95 increased from 27 to 28",
-0,
-},
-{
-"Skill 393 increased from 31 to 32",
-0,
-},
-{
-"Skill 2947 increased from 31 to 32",
 0,
 },
 {
@@ -1087,7 +2611,7 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"LoadGameCVarsCallback received callbackInitCounter=\"29\" currentInitCounter=\"29\" mask=\"32\" buffsize=\"793\" pendingMaskBefore=\"32\"",
+"LoadGameCVarsCallback received callbackInitCounter=\"29\" currentInitCounter=\"29\" mask=\"32\" buffsize=\"650\" pendingMaskBefore=\"32\"",
 0,
 },
 {
@@ -1103,11 +2627,11 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"AccountData_RequestLoad type=\"4\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"65591\" newParam=\"65593\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
+"AccountData_RequestLoad type=\"4\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"65589\" newParam=\"65591\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
 0,
 },
 {
-"AccountData_RequestLoad updated callback state type=\"4\" pending=\"false\" hasCallback=\"true\" param=\"65593\"",
+"AccountData_RequestLoad updated callback state type=\"4\" pending=\"false\" hasCallback=\"true\" param=\"65591\"",
 0,
 },
 {
@@ -1115,15 +2639,15 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"LoadAccountDataFromFile type=\"4\" pendingBefore=\"false\" hasCallback=\"true\" param=\"65593\"",
+"LoadAccountDataFromFile type=\"4\" pendingBefore=\"false\" hasCallback=\"true\" param=\"65591\"",
 0,
 },
 {
-"AccountData_RequestLoad type=\"5\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"131127\" newParam=\"131129\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
+"AccountData_RequestLoad type=\"5\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"131125\" newParam=\"131127\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
 0,
 },
 {
-"AccountData_RequestLoad updated callback state type=\"5\" pending=\"false\" hasCallback=\"true\" param=\"131129\"",
+"AccountData_RequestLoad updated callback state type=\"5\" pending=\"false\" hasCallback=\"true\" param=\"131127\"",
 0,
 },
 {
@@ -1131,7 +2655,7 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"LoadAccountDataFromFile type=\"5\" pendingBefore=\"false\" hasCallback=\"true\" param=\"131129\"",
+"LoadAccountDataFromFile type=\"5\" pendingBefore=\"false\" hasCallback=\"true\" param=\"131127\"",
 0,
 },
 {
@@ -1271,7 +2795,7 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"LoadGameCVarsCallback received callbackInitCounter=\"30\" currentInitCounter=\"30\" mask=\"32\" buffsize=\"843\" pendingMaskBefore=\"32\"",
+"LoadGameCVarsCallback received callbackInitCounter=\"30\" currentInitCounter=\"30\" mask=\"32\" buffsize=\"650\" pendingMaskBefore=\"32\"",
 0,
 },
 {
@@ -1287,11 +2811,11 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"AccountData_RequestLoad type=\"4\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"65593\" newParam=\"65595\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
+"AccountData_RequestLoad type=\"4\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"65591\" newParam=\"65593\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
 0,
 },
 {
-"AccountData_RequestLoad updated callback state type=\"4\" pending=\"false\" hasCallback=\"true\" param=\"65595\"",
+"AccountData_RequestLoad updated callback state type=\"4\" pending=\"false\" hasCallback=\"true\" param=\"65593\"",
 0,
 },
 {
@@ -1299,15 +2823,15 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"LoadAccountDataFromFile type=\"4\" pendingBefore=\"false\" hasCallback=\"true\" param=\"65595\"",
+"LoadAccountDataFromFile type=\"4\" pendingBefore=\"false\" hasCallback=\"true\" param=\"65593\"",
 0,
 },
 {
-"AccountData_RequestLoad type=\"5\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"131129\" newParam=\"131131\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
+"AccountData_RequestLoad type=\"5\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"131127\" newParam=\"131129\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
 0,
 },
 {
-"AccountData_RequestLoad updated callback state type=\"5\" pending=\"false\" hasCallback=\"true\" param=\"131131\"",
+"AccountData_RequestLoad updated callback state type=\"5\" pending=\"false\" hasCallback=\"true\" param=\"131129\"",
 0,
 },
 {
@@ -1315,7 +2839,7 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"LoadAccountDataFromFile type=\"5\" pendingBefore=\"false\" hasCallback=\"true\" param=\"131131\"",
+"LoadAccountDataFromFile type=\"5\" pendingBefore=\"false\" hasCallback=\"true\" param=\"131129\"",
 0,
 },
 {
@@ -1455,7 +2979,7 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"LoadGameCVarsCallback received callbackInitCounter=\"31\" currentInitCounter=\"31\" mask=\"32\" buffsize=\"843\" pendingMaskBefore=\"32\"",
+"LoadGameCVarsCallback received callbackInitCounter=\"31\" currentInitCounter=\"31\" mask=\"32\" buffsize=\"650\" pendingMaskBefore=\"32\"",
 0,
 },
 {
@@ -1471,11 +2995,11 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"AccountData_RequestLoad type=\"4\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"65595\" newParam=\"65597\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
+"AccountData_RequestLoad type=\"4\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"65593\" newParam=\"65595\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
 0,
 },
 {
-"AccountData_RequestLoad updated callback state type=\"4\" pending=\"false\" hasCallback=\"true\" param=\"65597\"",
+"AccountData_RequestLoad updated callback state type=\"4\" pending=\"false\" hasCallback=\"true\" param=\"65595\"",
 0,
 },
 {
@@ -1483,15 +3007,15 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"LoadAccountDataFromFile type=\"4\" pendingBefore=\"false\" hasCallback=\"true\" param=\"65597\"",
+"LoadAccountDataFromFile type=\"4\" pendingBefore=\"false\" hasCallback=\"true\" param=\"65595\"",
 0,
 },
 {
-"AccountData_RequestLoad type=\"5\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"131131\" newParam=\"131133\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
+"AccountData_RequestLoad type=\"5\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"131129\" newParam=\"131131\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
 0,
 },
 {
-"AccountData_RequestLoad updated callback state type=\"5\" pending=\"false\" hasCallback=\"true\" param=\"131133\"",
+"AccountData_RequestLoad updated callback state type=\"5\" pending=\"false\" hasCallback=\"true\" param=\"131131\"",
 0,
 },
 {
@@ -1499,7 +3023,7 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"LoadAccountDataFromFile type=\"5\" pendingBefore=\"false\" hasCallback=\"true\" param=\"131133\"",
+"LoadAccountDataFromFile type=\"5\" pendingBefore=\"false\" hasCallback=\"true\" param=\"131131\"",
 0,
 },
 {
@@ -1639,7 +3163,7 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"LoadGameCVarsCallback received callbackInitCounter=\"32\" currentInitCounter=\"32\" mask=\"32\" buffsize=\"843\" pendingMaskBefore=\"32\"",
+"LoadGameCVarsCallback received callbackInitCounter=\"32\" currentInitCounter=\"32\" mask=\"32\" buffsize=\"650\" pendingMaskBefore=\"32\"",
 0,
 },
 {
@@ -1655,11 +3179,11 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"AccountData_RequestLoad type=\"4\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"65597\" newParam=\"65599\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
+"AccountData_RequestLoad type=\"4\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"65595\" newParam=\"65597\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
 0,
 },
 {
-"AccountData_RequestLoad updated callback state type=\"4\" pending=\"false\" hasCallback=\"true\" param=\"65599\"",
+"AccountData_RequestLoad updated callback state type=\"4\" pending=\"false\" hasCallback=\"true\" param=\"65597\"",
 0,
 },
 {
@@ -1667,15 +3191,15 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"LoadAccountDataFromFile type=\"4\" pendingBefore=\"false\" hasCallback=\"true\" param=\"65599\"",
+"LoadAccountDataFromFile type=\"4\" pendingBefore=\"false\" hasCallback=\"true\" param=\"65597\"",
 0,
 },
 {
-"AccountData_RequestLoad type=\"5\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"131133\" newParam=\"131135\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
+"AccountData_RequestLoad type=\"5\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"131131\" newParam=\"131133\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
 0,
 },
 {
-"AccountData_RequestLoad updated callback state type=\"5\" pending=\"false\" hasCallback=\"true\" param=\"131135\"",
+"AccountData_RequestLoad updated callback state type=\"5\" pending=\"false\" hasCallback=\"true\" param=\"131133\"",
 0,
 },
 {
@@ -1683,7 +3207,7 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"LoadAccountDataFromFile type=\"5\" pendingBefore=\"false\" hasCallback=\"true\" param=\"131135\"",
+"LoadAccountDataFromFile type=\"5\" pendingBefore=\"false\" hasCallback=\"true\" param=\"131133\"",
 0,
 },
 {
@@ -1707,20 +3231,36 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"Lua Error: Interface/AddOns/EivindBars/EivindBars.lua:582: attempt to index global 'ledgeHighlight' (a nil value)\n[Interface/AddOns/EivindBars/EivindBars.lua]:582: in function <Interface/AddOns/EivindBars/EivindBars.lua:504>\n",
-3,
+"Sending ping results from timeout timeoutNs=\"19753616620200\" nowNs=\"19753618295400\"",
+0,
 },
 {
-"Lua Error: Interface/AddOns/EivindBars/EivindBars.lua:582: attempt to index global 'ledgeHighlight' (a nil value)\n[Interface/AddOns/EivindBars/EivindBars.lua]:582: in function <Interface/AddOns/EivindBars/EivindBars.lua:504>\n",
-3,
+"GameTimeSync: skipping forwards 2 game minutes, (current = 11/20/2026 (Fri) 14:43, newtime = 11/20/2026 (Fri) 14:45)",
+0,
 },
 {
-"Lua Error: Interface/AddOns/EivindBars/EivindBars.lua:582: attempt to index global 'ledgeHighlight' (a nil value)\n[Interface/AddOns/EivindBars/EivindBars.lua]:582: in function <Interface/AddOns/EivindBars/EivindBars.lua:504>\n",
-3,
+"GameTimeSync: skipping forwards 2 game minutes, (current = 11/20/2026 (Fri) 14:43, newtime = 11/20/2026 (Fri) 14:45)",
+5,
 },
 {
-"Lua Error: Interface/AddOns/EivindBars/EivindBars.lua:582: attempt to index global 'ledgeHighlight' (a nil value)\n[Interface/AddOns/EivindBars/EivindBars.lua]:582: in function <Interface/AddOns/EivindBars/EivindBars.lua:504>\n",
-3,
+"Skill 136 increased from 1 to 2",
+0,
+},
+{
+"Skill 95 increased from 1 to 2",
+0,
+},
+{
+"Skill 136 increased from 2 to 3",
+0,
+},
+{
+"Skill 136 increased from 3 to 4",
+0,
+},
+{
+"Skill 95 increased from 2 to 3",
+0,
 },
 {
 "-------------------------------------------------- Previous Session --------------------------------------------------",
@@ -1839,7 +3379,7 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"LoadGameCVarsCallback received callbackInitCounter=\"33\" currentInitCounter=\"33\" mask=\"32\" buffsize=\"843\" pendingMaskBefore=\"32\"",
+"LoadGameCVarsCallback received callbackInitCounter=\"33\" currentInitCounter=\"33\" mask=\"32\" buffsize=\"941\" pendingMaskBefore=\"32\"",
 0,
 },
 {
@@ -1855,11 +3395,11 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"AccountData_RequestLoad type=\"4\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"65599\" newParam=\"65601\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
+"AccountData_RequestLoad type=\"4\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"65597\" newParam=\"65599\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
 0,
 },
 {
-"AccountData_RequestLoad updated callback state type=\"4\" pending=\"false\" hasCallback=\"true\" param=\"65601\"",
+"AccountData_RequestLoad updated callback state type=\"4\" pending=\"false\" hasCallback=\"true\" param=\"65599\"",
 0,
 },
 {
@@ -1867,15 +3407,15 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"LoadAccountDataFromFile type=\"4\" pendingBefore=\"false\" hasCallback=\"true\" param=\"65601\"",
+"LoadAccountDataFromFile type=\"4\" pendingBefore=\"false\" hasCallback=\"true\" param=\"65599\"",
 0,
 },
 {
-"AccountData_RequestLoad type=\"5\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"131135\" newParam=\"131137\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
+"AccountData_RequestLoad type=\"5\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"131133\" newParam=\"131135\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
 0,
 },
 {
-"AccountData_RequestLoad updated callback state type=\"5\" pending=\"false\" hasCallback=\"true\" param=\"131137\"",
+"AccountData_RequestLoad updated callback state type=\"5\" pending=\"false\" hasCallback=\"true\" param=\"131135\"",
 0,
 },
 {
@@ -1883,7 +3423,7 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"LoadAccountDataFromFile type=\"5\" pendingBefore=\"false\" hasCallback=\"true\" param=\"131137\"",
+"LoadAccountDataFromFile type=\"5\" pendingBefore=\"false\" hasCallback=\"true\" param=\"131135\"",
 0,
 },
 {
@@ -2023,7 +3563,7 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"LoadGameCVarsCallback received callbackInitCounter=\"34\" currentInitCounter=\"34\" mask=\"32\" buffsize=\"842\" pendingMaskBefore=\"32\"",
+"LoadGameCVarsCallback received callbackInitCounter=\"34\" currentInitCounter=\"34\" mask=\"32\" buffsize=\"941\" pendingMaskBefore=\"32\"",
 0,
 },
 {
@@ -2039,11 +3579,11 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"AccountData_RequestLoad type=\"4\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"65601\" newParam=\"65603\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
+"AccountData_RequestLoad type=\"4\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"65599\" newParam=\"65601\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
 0,
 },
 {
-"AccountData_RequestLoad updated callback state type=\"4\" pending=\"false\" hasCallback=\"true\" param=\"65603\"",
+"AccountData_RequestLoad updated callback state type=\"4\" pending=\"false\" hasCallback=\"true\" param=\"65601\"",
 0,
 },
 {
@@ -2051,15 +3591,15 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"LoadAccountDataFromFile type=\"4\" pendingBefore=\"false\" hasCallback=\"true\" param=\"65603\"",
+"LoadAccountDataFromFile type=\"4\" pendingBefore=\"false\" hasCallback=\"true\" param=\"65601\"",
 0,
 },
 {
-"AccountData_RequestLoad type=\"5\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"131137\" newParam=\"131139\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
+"AccountData_RequestLoad type=\"5\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"131135\" newParam=\"131137\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
 0,
 },
 {
-"AccountData_RequestLoad updated callback state type=\"5\" pending=\"false\" hasCallback=\"true\" param=\"131139\"",
+"AccountData_RequestLoad updated callback state type=\"5\" pending=\"false\" hasCallback=\"true\" param=\"131137\"",
 0,
 },
 {
@@ -2067,7 +3607,7 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"LoadAccountDataFromFile type=\"5\" pendingBefore=\"false\" hasCallback=\"true\" param=\"131139\"",
+"LoadAccountDataFromFile type=\"5\" pendingBefore=\"false\" hasCallback=\"true\" param=\"131137\"",
 0,
 },
 {
@@ -2207,7 +3747,7 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"LoadGameCVarsCallback received callbackInitCounter=\"35\" currentInitCounter=\"35\" mask=\"32\" buffsize=\"842\" pendingMaskBefore=\"32\"",
+"LoadGameCVarsCallback received callbackInitCounter=\"35\" currentInitCounter=\"35\" mask=\"32\" buffsize=\"793\" pendingMaskBefore=\"32\"",
 0,
 },
 {
@@ -2223,11 +3763,11 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"AccountData_RequestLoad type=\"4\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"65603\" newParam=\"65605\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
+"AccountData_RequestLoad type=\"4\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"65601\" newParam=\"65603\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
 0,
 },
 {
-"AccountData_RequestLoad updated callback state type=\"4\" pending=\"false\" hasCallback=\"true\" param=\"65605\"",
+"AccountData_RequestLoad updated callback state type=\"4\" pending=\"false\" hasCallback=\"true\" param=\"65603\"",
 0,
 },
 {
@@ -2235,15 +3775,15 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"LoadAccountDataFromFile type=\"4\" pendingBefore=\"false\" hasCallback=\"true\" param=\"65605\"",
+"LoadAccountDataFromFile type=\"4\" pendingBefore=\"false\" hasCallback=\"true\" param=\"65603\"",
 0,
 },
 {
-"AccountData_RequestLoad type=\"5\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"131139\" newParam=\"131141\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
+"AccountData_RequestLoad type=\"5\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"131137\" newParam=\"131139\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
 0,
 },
 {
-"AccountData_RequestLoad updated callback state type=\"5\" pending=\"false\" hasCallback=\"true\" param=\"131141\"",
+"AccountData_RequestLoad updated callback state type=\"5\" pending=\"false\" hasCallback=\"true\" param=\"131139\"",
 0,
 },
 {
@@ -2251,7 +3791,7 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"LoadAccountDataFromFile type=\"5\" pendingBefore=\"false\" hasCallback=\"true\" param=\"131141\"",
+"LoadAccountDataFromFile type=\"5\" pendingBefore=\"false\" hasCallback=\"true\" param=\"131139\"",
 0,
 },
 {
@@ -2272,6 +3812,10 @@ Blizzard_Console_SavedVars = {
 },
 {
 "Logout abort acknowledged",
+0,
+},
+{
+"Sending ping results from timeout timeoutNs=\"21553468037700\" nowNs=\"21553469786200\"",
 0,
 },
 {
@@ -2391,7 +3935,7 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"LoadGameCVarsCallback received callbackInitCounter=\"36\" currentInitCounter=\"36\" mask=\"32\" buffsize=\"842\" pendingMaskBefore=\"32\"",
+"LoadGameCVarsCallback received callbackInitCounter=\"36\" currentInitCounter=\"36\" mask=\"32\" buffsize=\"793\" pendingMaskBefore=\"32\"",
 0,
 },
 {
@@ -2407,11 +3951,11 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"AccountData_RequestLoad type=\"4\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"65605\" newParam=\"65607\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
+"AccountData_RequestLoad type=\"4\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"65603\" newParam=\"65605\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
 0,
 },
 {
-"AccountData_RequestLoad updated callback state type=\"4\" pending=\"false\" hasCallback=\"true\" param=\"65607\"",
+"AccountData_RequestLoad updated callback state type=\"4\" pending=\"false\" hasCallback=\"true\" param=\"65605\"",
 0,
 },
 {
@@ -2419,15 +3963,15 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"LoadAccountDataFromFile type=\"4\" pendingBefore=\"false\" hasCallback=\"true\" param=\"65607\"",
+"LoadAccountDataFromFile type=\"4\" pendingBefore=\"false\" hasCallback=\"true\" param=\"65605\"",
 0,
 },
 {
-"AccountData_RequestLoad type=\"5\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"131141\" newParam=\"131143\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
+"AccountData_RequestLoad type=\"5\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"131139\" newParam=\"131141\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
 0,
 },
 {
-"AccountData_RequestLoad updated callback state type=\"5\" pending=\"false\" hasCallback=\"true\" param=\"131143\"",
+"AccountData_RequestLoad updated callback state type=\"5\" pending=\"false\" hasCallback=\"true\" param=\"131141\"",
 0,
 },
 {
@@ -2435,7 +3979,7 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"LoadAccountDataFromFile type=\"5\" pendingBefore=\"false\" hasCallback=\"true\" param=\"131143\"",
+"LoadAccountDataFromFile type=\"5\" pendingBefore=\"false\" hasCallback=\"true\" param=\"131141\"",
 0,
 },
 {
@@ -2575,7 +4119,7 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"LoadGameCVarsCallback received callbackInitCounter=\"37\" currentInitCounter=\"37\" mask=\"32\" buffsize=\"843\" pendingMaskBefore=\"32\"",
+"LoadGameCVarsCallback received callbackInitCounter=\"37\" currentInitCounter=\"37\" mask=\"32\" buffsize=\"793\" pendingMaskBefore=\"32\"",
 0,
 },
 {
@@ -2591,11 +4135,11 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"AccountData_RequestLoad type=\"4\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"65607\" newParam=\"65609\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
+"AccountData_RequestLoad type=\"4\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"65605\" newParam=\"65607\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
 0,
 },
 {
-"AccountData_RequestLoad updated callback state type=\"4\" pending=\"false\" hasCallback=\"true\" param=\"65609\"",
+"AccountData_RequestLoad updated callback state type=\"4\" pending=\"false\" hasCallback=\"true\" param=\"65607\"",
 0,
 },
 {
@@ -2603,15 +4147,15 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"LoadAccountDataFromFile type=\"4\" pendingBefore=\"false\" hasCallback=\"true\" param=\"65609\"",
+"LoadAccountDataFromFile type=\"4\" pendingBefore=\"false\" hasCallback=\"true\" param=\"65607\"",
 0,
 },
 {
-"AccountData_RequestLoad type=\"5\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"131143\" newParam=\"131145\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
+"AccountData_RequestLoad type=\"5\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"131141\" newParam=\"131143\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
 0,
 },
 {
-"AccountData_RequestLoad updated callback state type=\"5\" pending=\"false\" hasCallback=\"true\" param=\"131145\"",
+"AccountData_RequestLoad updated callback state type=\"5\" pending=\"false\" hasCallback=\"true\" param=\"131143\"",
 0,
 },
 {
@@ -2619,7 +4163,7 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"LoadAccountDataFromFile type=\"5\" pendingBefore=\"false\" hasCallback=\"true\" param=\"131145\"",
+"LoadAccountDataFromFile type=\"5\" pendingBefore=\"false\" hasCallback=\"true\" param=\"131143\"",
 0,
 },
 {
@@ -2643,183 +4187,59 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"-------------------------------------------------- Previous Session --------------------------------------------------",
+"Skill 95 increased from 3 to 4",
 0,
 },
 {
-"GameUI::Shutdown invalidated load generation initCounter=\"38\" isClosingClient=\"false\"",
+"Skill 6 increased from 5 to 10",
 0,
 },
 {
-"LimitedLuaResources: Reset Timer",
+"Skill 183 increased from 5 to 10",
 0,
 },
 {
-"AccountData_CancelRequestLoad type=\"0\" pending=\"false\" hasCallback=\"true\" param=\"0\"",
+"Skill 8 increased from 5 to 10",
 0,
 },
 {
-"AccountData_CancelRequestLoad type=\"1\" pending=\"false\" hasCallback=\"true\" param=\"2424864\"",
+"Skill 754 increased from 5 to 10",
 0,
 },
 {
-"GameUI::Shutdown canceled CVar account-data loads initCounter=\"38\" pendingMask=\"0\"",
+"Sending ping results from timeout timeoutNs=\"23353568323800\" nowNs=\"23353570458400\"",
 0,
 },
 {
-"LimitedLuaResources: Reset All",
+"Skill 136 increased from 4 to 5",
 0,
 },
 {
-"PreLoadGameCVars initialized pending mask pendingMask=\"32\" initCounter=\"38\" characterlessLogin=\"false\"",
+"Skill 95 increased from 4 to 5",
 0,
 },
 {
-"AccountData_RequestLoad type=\"2\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"4915201\" newParam=\"5046273\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
+"Skill 95 increased from 5 to 6",
 0,
 },
 {
-"AccountData_RequestLoad updated callback state type=\"2\" pending=\"false\" hasCallback=\"true\" param=\"5046273\"",
+"Skill 95 increased from 6 to 7",
 0,
 },
 {
-"AccountData_RequestLoad forcing local file load type=\"2\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
+"Skill 136 increased from 5 to 6",
 0,
 },
 {
-"LoadAccountDataFromFile type=\"2\" pendingBefore=\"false\" hasCallback=\"true\" param=\"5046273\"",
+"Skill 95 increased from 7 to 8",
 0,
 },
 {
-"AccountData_RequestLoad type=\"3\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"4915202\" newParam=\"5046274\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
+"Skill 136 increased from 6 to 7",
 0,
 },
 {
-"AccountData_RequestLoad updated callback state type=\"3\" pending=\"false\" hasCallback=\"true\" param=\"5046274\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"3\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"3\" pendingBefore=\"false\" hasCallback=\"true\" param=\"5046274\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"6\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"0\" newParam=\"0\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"6\" pending=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"6\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"6\" pendingBefore=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"11\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"0\" newParam=\"0\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"11\" pending=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"11\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"11\" pendingBefore=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"LoadGameCVars request dispatch initCounter=\"38\" pendingMask=\"32\" characterlessLogin=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"1\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"2424864\" newParam=\"2490400\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"1\" pending=\"false\" hasCallback=\"true\" param=\"2490400\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"1\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"1\" pendingBefore=\"false\" hasCallback=\"true\" param=\"2490400\"",
-0,
-},
-{
-"LoadGameCVarsCallback received callbackInitCounter=\"38\" currentInitCounter=\"38\" mask=\"32\" buffsize=\"843\" pendingMaskBefore=\"32\"",
-0,
-},
-{
-"LoadGameCVarsCallback applied response mask=\"32\" pendingMaskAfter=\"0\"",
-0,
-},
-{
-"LoadGameCVarsCheckDone areCVarsLoaded=\"true\" pendingMask=\"0\"",
-0,
-},
-{
-"LoadGameCVarsCheckDone signaled variables loaded pendingMask=\"0\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"4\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"65609\" newParam=\"65611\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"4\" pending=\"false\" hasCallback=\"true\" param=\"65611\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"4\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"4\" pendingBefore=\"false\" hasCallback=\"true\" param=\"65611\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"5\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"131145\" newParam=\"131147\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"5\" pending=\"false\" hasCallback=\"true\" param=\"131147\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"5\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"5\" pendingBefore=\"false\" hasCallback=\"true\" param=\"131147\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"7\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"0\" newParam=\"0\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"7\" pending=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"7\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"7\" pendingBefore=\"false\" hasCallback=\"true\" param=\"0\"",
+"Logout response received result=\"0\" instant=\"0\"",
 0,
 },
 {
@@ -2827,1363 +4247,7 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"GameUI::Shutdown invalidated load generation initCounter=\"39\" isClosingClient=\"false\"",
-0,
-},
-{
-"LimitedLuaResources: Reset Timer",
-0,
-},
-{
-"AccountData_CancelRequestLoad type=\"0\" pending=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"AccountData_CancelRequestLoad type=\"1\" pending=\"false\" hasCallback=\"true\" param=\"2490400\"",
-0,
-},
-{
-"GameUI::Shutdown canceled CVar account-data loads initCounter=\"39\" pendingMask=\"0\"",
-0,
-},
-{
-"LimitedLuaResources: Reset All",
-0,
-},
-{
-"PreLoadGameCVars initialized pending mask pendingMask=\"32\" initCounter=\"39\" characterlessLogin=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"2\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"5046273\" newParam=\"5177345\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"2\" pending=\"false\" hasCallback=\"true\" param=\"5177345\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"2\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"2\" pendingBefore=\"false\" hasCallback=\"true\" param=\"5177345\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"3\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"5046274\" newParam=\"5177346\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"3\" pending=\"false\" hasCallback=\"true\" param=\"5177346\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"3\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"3\" pendingBefore=\"false\" hasCallback=\"true\" param=\"5177346\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"6\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"0\" newParam=\"0\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"6\" pending=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"6\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"6\" pendingBefore=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"11\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"0\" newParam=\"0\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"11\" pending=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"11\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"11\" pendingBefore=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"LoadGameCVars request dispatch initCounter=\"39\" pendingMask=\"32\" characterlessLogin=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"1\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"2490400\" newParam=\"2555936\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"1\" pending=\"false\" hasCallback=\"true\" param=\"2555936\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"1\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"1\" pendingBefore=\"false\" hasCallback=\"true\" param=\"2555936\"",
-0,
-},
-{
-"LoadGameCVarsCallback received callbackInitCounter=\"39\" currentInitCounter=\"39\" mask=\"32\" buffsize=\"843\" pendingMaskBefore=\"32\"",
-0,
-},
-{
-"LoadGameCVarsCallback applied response mask=\"32\" pendingMaskAfter=\"0\"",
-0,
-},
-{
-"LoadGameCVarsCheckDone areCVarsLoaded=\"true\" pendingMask=\"0\"",
-0,
-},
-{
-"LoadGameCVarsCheckDone signaled variables loaded pendingMask=\"0\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"4\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"65611\" newParam=\"65613\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"4\" pending=\"false\" hasCallback=\"true\" param=\"65613\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"4\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"4\" pendingBefore=\"false\" hasCallback=\"true\" param=\"65613\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"5\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"131147\" newParam=\"131149\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"5\" pending=\"false\" hasCallback=\"true\" param=\"131149\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"5\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"5\" pendingBefore=\"false\" hasCallback=\"true\" param=\"131149\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"7\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"0\" newParam=\"0\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"7\" pending=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"7\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"7\" pendingBefore=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"Logout abort acknowledged",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"GameUI::Shutdown invalidated load generation initCounter=\"40\" isClosingClient=\"false\"",
-0,
-},
-{
-"LimitedLuaResources: Reset Timer",
-0,
-},
-{
-"AccountData_CancelRequestLoad type=\"0\" pending=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"AccountData_CancelRequestLoad type=\"1\" pending=\"false\" hasCallback=\"true\" param=\"2555936\"",
-0,
-},
-{
-"GameUI::Shutdown canceled CVar account-data loads initCounter=\"40\" pendingMask=\"0\"",
-0,
-},
-{
-"LimitedLuaResources: Reset All",
-0,
-},
-{
-"PreLoadGameCVars initialized pending mask pendingMask=\"32\" initCounter=\"40\" characterlessLogin=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"2\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"5177345\" newParam=\"5308417\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"2\" pending=\"false\" hasCallback=\"true\" param=\"5308417\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"2\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"2\" pendingBefore=\"false\" hasCallback=\"true\" param=\"5308417\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"3\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"5177346\" newParam=\"5308418\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"3\" pending=\"false\" hasCallback=\"true\" param=\"5308418\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"3\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"3\" pendingBefore=\"false\" hasCallback=\"true\" param=\"5308418\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"6\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"0\" newParam=\"0\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"6\" pending=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"6\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"6\" pendingBefore=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"11\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"0\" newParam=\"0\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"11\" pending=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"11\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"11\" pendingBefore=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"LoadGameCVars request dispatch initCounter=\"40\" pendingMask=\"32\" characterlessLogin=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"1\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"2555936\" newParam=\"2621472\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"1\" pending=\"false\" hasCallback=\"true\" param=\"2621472\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"1\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"1\" pendingBefore=\"false\" hasCallback=\"true\" param=\"2621472\"",
-0,
-},
-{
-"LoadGameCVarsCallback received callbackInitCounter=\"40\" currentInitCounter=\"40\" mask=\"32\" buffsize=\"843\" pendingMaskBefore=\"32\"",
-0,
-},
-{
-"LoadGameCVarsCallback applied response mask=\"32\" pendingMaskAfter=\"0\"",
-0,
-},
-{
-"LoadGameCVarsCheckDone areCVarsLoaded=\"true\" pendingMask=\"0\"",
-0,
-},
-{
-"LoadGameCVarsCheckDone signaled variables loaded pendingMask=\"0\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"4\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"65613\" newParam=\"65615\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"4\" pending=\"false\" hasCallback=\"true\" param=\"65615\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"4\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"4\" pendingBefore=\"false\" hasCallback=\"true\" param=\"65615\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"5\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"131149\" newParam=\"131151\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"5\" pending=\"false\" hasCallback=\"true\" param=\"131151\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"5\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"5\" pendingBefore=\"false\" hasCallback=\"true\" param=\"131151\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"7\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"0\" newParam=\"0\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"7\" pending=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"7\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"7\" pendingBefore=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"Logout abort acknowledged",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"GameUI::Shutdown invalidated load generation initCounter=\"41\" isClosingClient=\"false\"",
-0,
-},
-{
-"LimitedLuaResources: Reset Timer",
-0,
-},
-{
-"AccountData_CancelRequestLoad type=\"0\" pending=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"AccountData_CancelRequestLoad type=\"1\" pending=\"false\" hasCallback=\"true\" param=\"2621472\"",
-0,
-},
-{
-"GameUI::Shutdown canceled CVar account-data loads initCounter=\"41\" pendingMask=\"0\"",
-0,
-},
-{
-"LimitedLuaResources: Reset All",
-0,
-},
-{
-"PreLoadGameCVars initialized pending mask pendingMask=\"32\" initCounter=\"41\" characterlessLogin=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"2\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"5308417\" newParam=\"5439489\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"2\" pending=\"false\" hasCallback=\"true\" param=\"5439489\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"2\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"2\" pendingBefore=\"false\" hasCallback=\"true\" param=\"5439489\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"3\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"5308418\" newParam=\"5439490\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"3\" pending=\"false\" hasCallback=\"true\" param=\"5439490\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"3\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"3\" pendingBefore=\"false\" hasCallback=\"true\" param=\"5439490\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"6\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"0\" newParam=\"0\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"6\" pending=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"6\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"6\" pendingBefore=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"11\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"0\" newParam=\"0\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"11\" pending=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"11\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"11\" pendingBefore=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"LoadGameCVars request dispatch initCounter=\"41\" pendingMask=\"32\" characterlessLogin=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"1\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"2621472\" newParam=\"2687008\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"1\" pending=\"false\" hasCallback=\"true\" param=\"2687008\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"1\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"1\" pendingBefore=\"false\" hasCallback=\"true\" param=\"2687008\"",
-0,
-},
-{
-"LoadGameCVarsCallback received callbackInitCounter=\"41\" currentInitCounter=\"41\" mask=\"32\" buffsize=\"843\" pendingMaskBefore=\"32\"",
-0,
-},
-{
-"LoadGameCVarsCallback applied response mask=\"32\" pendingMaskAfter=\"0\"",
-0,
-},
-{
-"LoadGameCVarsCheckDone areCVarsLoaded=\"true\" pendingMask=\"0\"",
-0,
-},
-{
-"LoadGameCVarsCheckDone signaled variables loaded pendingMask=\"0\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"4\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"65615\" newParam=\"65617\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"4\" pending=\"false\" hasCallback=\"true\" param=\"65617\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"4\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"4\" pendingBefore=\"false\" hasCallback=\"true\" param=\"65617\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"5\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"131151\" newParam=\"131153\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"5\" pending=\"false\" hasCallback=\"true\" param=\"131153\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"5\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"5\" pendingBefore=\"false\" hasCallback=\"true\" param=\"131153\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"7\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"0\" newParam=\"0\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"7\" pending=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"7\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"7\" pendingBefore=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"Logout abort acknowledged",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"GameUI::Shutdown invalidated load generation initCounter=\"42\" isClosingClient=\"false\"",
-0,
-},
-{
-"LimitedLuaResources: Reset Timer",
-0,
-},
-{
-"AccountData_CancelRequestLoad type=\"0\" pending=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"AccountData_CancelRequestLoad type=\"1\" pending=\"false\" hasCallback=\"true\" param=\"2687008\"",
-0,
-},
-{
-"GameUI::Shutdown canceled CVar account-data loads initCounter=\"42\" pendingMask=\"0\"",
-0,
-},
-{
-"LimitedLuaResources: Reset All",
-0,
-},
-{
-"PreLoadGameCVars initialized pending mask pendingMask=\"32\" initCounter=\"42\" characterlessLogin=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"2\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"5439489\" newParam=\"5570561\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"2\" pending=\"false\" hasCallback=\"true\" param=\"5570561\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"2\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"2\" pendingBefore=\"false\" hasCallback=\"true\" param=\"5570561\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"3\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"5439490\" newParam=\"5570562\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"3\" pending=\"false\" hasCallback=\"true\" param=\"5570562\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"3\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"3\" pendingBefore=\"false\" hasCallback=\"true\" param=\"5570562\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"6\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"0\" newParam=\"0\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"6\" pending=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"6\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"6\" pendingBefore=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"11\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"0\" newParam=\"0\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"11\" pending=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"11\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"11\" pendingBefore=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"LoadGameCVars request dispatch initCounter=\"42\" pendingMask=\"32\" characterlessLogin=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"1\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"2687008\" newParam=\"2752544\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"1\" pending=\"false\" hasCallback=\"true\" param=\"2752544\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"1\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"1\" pendingBefore=\"false\" hasCallback=\"true\" param=\"2752544\"",
-0,
-},
-{
-"LoadGameCVarsCallback received callbackInitCounter=\"42\" currentInitCounter=\"42\" mask=\"32\" buffsize=\"843\" pendingMaskBefore=\"32\"",
-0,
-},
-{
-"LoadGameCVarsCallback applied response mask=\"32\" pendingMaskAfter=\"0\"",
-0,
-},
-{
-"LoadGameCVarsCheckDone areCVarsLoaded=\"true\" pendingMask=\"0\"",
-0,
-},
-{
-"LoadGameCVarsCheckDone signaled variables loaded pendingMask=\"0\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"4\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"65617\" newParam=\"65619\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"4\" pending=\"false\" hasCallback=\"true\" param=\"65619\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"4\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"4\" pendingBefore=\"false\" hasCallback=\"true\" param=\"65619\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"5\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"131153\" newParam=\"131155\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"5\" pending=\"false\" hasCallback=\"true\" param=\"131155\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"5\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"5\" pendingBefore=\"false\" hasCallback=\"true\" param=\"131155\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"7\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"0\" newParam=\"0\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"7\" pending=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"7\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"7\" pendingBefore=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"Logout abort acknowledged",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"GameUI::Shutdown invalidated load generation initCounter=\"43\" isClosingClient=\"false\"",
-0,
-},
-{
-"LimitedLuaResources: Reset Timer",
-0,
-},
-{
-"AccountData_CancelRequestLoad type=\"0\" pending=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"AccountData_CancelRequestLoad type=\"1\" pending=\"false\" hasCallback=\"true\" param=\"2752544\"",
-0,
-},
-{
-"GameUI::Shutdown canceled CVar account-data loads initCounter=\"43\" pendingMask=\"0\"",
-0,
-},
-{
-"LimitedLuaResources: Reset All",
-0,
-},
-{
-"PreLoadGameCVars initialized pending mask pendingMask=\"32\" initCounter=\"43\" characterlessLogin=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"2\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"5570561\" newParam=\"5701633\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"2\" pending=\"false\" hasCallback=\"true\" param=\"5701633\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"2\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"2\" pendingBefore=\"false\" hasCallback=\"true\" param=\"5701633\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"3\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"5570562\" newParam=\"5701634\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"3\" pending=\"false\" hasCallback=\"true\" param=\"5701634\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"3\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"3\" pendingBefore=\"false\" hasCallback=\"true\" param=\"5701634\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"6\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"0\" newParam=\"0\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"6\" pending=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"6\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"6\" pendingBefore=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"11\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"0\" newParam=\"0\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"11\" pending=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"11\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"11\" pendingBefore=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"LoadGameCVars request dispatch initCounter=\"43\" pendingMask=\"32\" characterlessLogin=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"1\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"2752544\" newParam=\"2818080\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"1\" pending=\"false\" hasCallback=\"true\" param=\"2818080\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"1\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"1\" pendingBefore=\"false\" hasCallback=\"true\" param=\"2818080\"",
-0,
-},
-{
-"LoadGameCVarsCallback received callbackInitCounter=\"43\" currentInitCounter=\"43\" mask=\"32\" buffsize=\"843\" pendingMaskBefore=\"32\"",
-0,
-},
-{
-"LoadGameCVarsCallback applied response mask=\"32\" pendingMaskAfter=\"0\"",
-0,
-},
-{
-"LoadGameCVarsCheckDone areCVarsLoaded=\"true\" pendingMask=\"0\"",
-0,
-},
-{
-"LoadGameCVarsCheckDone signaled variables loaded pendingMask=\"0\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"4\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"65619\" newParam=\"65621\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"4\" pending=\"false\" hasCallback=\"true\" param=\"65621\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"4\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"4\" pendingBefore=\"false\" hasCallback=\"true\" param=\"65621\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"5\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"131155\" newParam=\"131157\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"5\" pending=\"false\" hasCallback=\"true\" param=\"131157\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"5\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"5\" pendingBefore=\"false\" hasCallback=\"true\" param=\"131157\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"7\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"0\" newParam=\"0\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"7\" pending=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"7\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"7\" pendingBefore=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"Logout abort acknowledged",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"GameUI::Shutdown invalidated load generation initCounter=\"44\" isClosingClient=\"false\"",
-0,
-},
-{
-"LimitedLuaResources: Reset Timer",
-0,
-},
-{
-"AccountData_CancelRequestLoad type=\"0\" pending=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"AccountData_CancelRequestLoad type=\"1\" pending=\"false\" hasCallback=\"true\" param=\"2818080\"",
-0,
-},
-{
-"GameUI::Shutdown canceled CVar account-data loads initCounter=\"44\" pendingMask=\"0\"",
-0,
-},
-{
-"LimitedLuaResources: Reset All",
-0,
-},
-{
-"PreLoadGameCVars initialized pending mask pendingMask=\"32\" initCounter=\"44\" characterlessLogin=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"2\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"5701633\" newParam=\"5832705\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"2\" pending=\"false\" hasCallback=\"true\" param=\"5832705\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"2\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"2\" pendingBefore=\"false\" hasCallback=\"true\" param=\"5832705\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"3\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"5701634\" newParam=\"5832706\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"3\" pending=\"false\" hasCallback=\"true\" param=\"5832706\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"3\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"3\" pendingBefore=\"false\" hasCallback=\"true\" param=\"5832706\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"6\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"0\" newParam=\"0\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"6\" pending=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"6\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"6\" pendingBefore=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"11\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"0\" newParam=\"0\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"11\" pending=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"11\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"11\" pendingBefore=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"LoadGameCVars request dispatch initCounter=\"44\" pendingMask=\"32\" characterlessLogin=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"1\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"2818080\" newParam=\"2883616\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"1\" pending=\"false\" hasCallback=\"true\" param=\"2883616\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"1\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"1\" pendingBefore=\"false\" hasCallback=\"true\" param=\"2883616\"",
-0,
-},
-{
-"LoadGameCVarsCallback received callbackInitCounter=\"44\" currentInitCounter=\"44\" mask=\"32\" buffsize=\"843\" pendingMaskBefore=\"32\"",
-0,
-},
-{
-"LoadGameCVarsCallback applied response mask=\"32\" pendingMaskAfter=\"0\"",
-0,
-},
-{
-"LoadGameCVarsCheckDone areCVarsLoaded=\"true\" pendingMask=\"0\"",
-0,
-},
-{
-"LoadGameCVarsCheckDone signaled variables loaded pendingMask=\"0\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"4\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"65621\" newParam=\"65623\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"4\" pending=\"false\" hasCallback=\"true\" param=\"65623\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"4\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"4\" pendingBefore=\"false\" hasCallback=\"true\" param=\"65623\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"5\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"131157\" newParam=\"131159\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"5\" pending=\"false\" hasCallback=\"true\" param=\"131159\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"5\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"5\" pendingBefore=\"false\" hasCallback=\"true\" param=\"131159\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"7\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"0\" newParam=\"0\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"7\" pending=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"7\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"7\" pendingBefore=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"Logout abort acknowledged",
-0,
-},
-{
-"...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:698: attempt to compare local 'oldR' (a secret number value, while execution tainted by 'EivindBars')\n|cffffd200Stack:|r\n[C]: in function 'secureexecuterange'\n[Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua]:1487: in function 'UpdateSystems'\n[Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua]:1025: in function 'UpdateLayoutInfo'\n[Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua]:197: in function <.../AddOns/Blizzard_EditMode/Shared/EditModeManager.lua:196>\n[C]: in function 'pcall'\n[Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua]:196: in function <.../AddOns/Blizzard_EditMode/Shared/EditModeManager.lua:192>\n[C]: in function 'SetActiveLayout'\n[Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua]:1554: in function 'SelectLayout'\n[Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua]:1347: in function <.../AddOns/Blizzard_EditMode/Shared/EditModeManager.lua:1342>\n[tail call]: ?\n[C]: in function 'securecallfunction'\n[Interface/AddOns/Blizzard_Menu/Menu.lua]:934: in function 'Pick'\n[Interface/AddOns/Blizzard_Menu/MenuTemplates.lua]:137: in function <Interface/AddOns/Blizzard_Menu/MenuTemplates.lua:131>\n",
-3,
-},
-{
-"Lua Error: ...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:1205: attempt to compare local 'maxHealth' (a secret number value, while execution tainted by 'EivindBars')\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:1205: in function 'CompactUnitFrame_UpdateHealPrediction'\n[Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua]:232: in function <...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:213>\n",
-3,
-},
-{
-"Skill 176 increased from 26 to 27",
-0,
-},
-{
-"Lua Error: ...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:891: bad argument #1 to 'SetCooldown' (Usage: self:SetCooldown(start, duration [, modRate]). Secret values are only allowed during untainted execution for this argument.)\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:891: in function <...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:889>\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:910: in function 'ActionButton_ApplyCooldown'\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:886: in function <...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:867>\n[C]: in function 'ActionButton_UpdateCooldown'\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:1011: in function 'OnEvent'\n[Interface/AddOns/Blizzard_GamepadActionBars/ActionBarButton.lua]:973: in function 'OnEvent'\n[Interface/AddOns/Blizzard_GamepadActionBars/ActionBarButton.lua]:1068: in function 'OnEvent'\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:233: in function <...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:230>\n",
-3,
-},
-{
-"Lua Error: ...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:891: bad argument #1 to 'SetCooldown' (Usage: self:SetCooldown(start, duration [, modRate]). Secret values are only allowed during untainted execution for this argument.)\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:891: in function <...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:889>\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:910: in function 'ActionButton_ApplyCooldown'\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:886: in function <...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:867>\n[C]: in function 'ActionButton_UpdateCooldown'\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:1011: in function 'OnEvent'\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:233: in function <...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:230>\n",
-3,
-},
-{
-"Lua Error: ...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:891: bad argument #1 to 'SetCooldown' (Usage: self:SetCooldown(start, duration [, modRate]). Secret values are only allowed during untainted execution for this argument.)\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:891: in function <...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:889>\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:910: in function 'ActionButton_ApplyCooldown'\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:886: in function <...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:867>\n[C]: in function 'ActionButton_UpdateCooldown'\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:1011: in function 'OnEvent'\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:233: in function <...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:230>\n",
-3,
-},
-{
-"Lua Error: ...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:891: bad argument #1 to 'SetCooldown' (Usage: self:SetCooldown(start, duration [, modRate]). Secret values are only allowed during untainted execution for this argument.)\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:891: in function <...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:889>\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:910: in function 'ActionButton_ApplyCooldown'\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:886: in function <...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:867>\n[C]: in function 'ActionButton_UpdateCooldown'\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:1011: in function 'OnEvent'\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:233: in function <...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:230>\n",
-3,
-},
-{
-"Lua Error: ...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:891: bad argument #1 to 'SetCooldown' (Usage: self:SetCooldown(start, duration [, modRate]). Secret values are only allowed during untainted execution for this argument.)\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:891: in function <...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:889>\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:910: in function 'ActionButton_ApplyCooldown'\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:886: in function <...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:867>\n[C]: in function 'ActionButton_UpdateCooldown'\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:1011: in function 'OnEvent'\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:233: in function <...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:230>\n",
-3,
-},
-{
-"Lua Error: ...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:891: bad argument #1 to 'SetCooldown' (Usage: self:SetCooldown(start, duration [, modRate]). Secret values are only allowed during untainted execution for this argument.)\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:891: in function <...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:889>\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:910: in function 'ActionButton_ApplyCooldown'\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:886: in function <...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:867>\n[C]: in function 'ActionButton_UpdateCooldown'\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:1011: in function 'OnEvent'\n[Interface/AddOns/Blizzard_GamepadActionBars/ActionBarButton.lua]:973: in function 'OnEvent'\n[Interface/AddOns/Blizzard_GamepadActionBars/ActionBarButton.lua]:1068: in function 'OnEvent'\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:233: in function <...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:230>\n",
-3,
-},
-{
-"Lua Error: ...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:891: bad argument #1 to 'SetCooldown' (Usage: self:SetCooldown(start, duration [, modRate]). Secret values are only allowed during untainted execution for this argument.)\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:891: in function <...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:889>\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:910: in function 'ActionButton_ApplyCooldown'\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:886: in function <...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:867>\n[C]: in function 'ActionButton_UpdateCooldown'\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:587: in function 'Update'\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:556: in function 'UpdateAction'\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:1111: in function 'OnActionBarSlotChanged'\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:983: in function 'OnEvent'\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:233: in function <...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:230>\n[C]: in function 'PlaceAction'\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:1442: in function 'OnReceiveDrag'\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:1576: in function <...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:1575>\n",
-3,
-},
-{
-"Lua Error: ...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:891: bad argument #1 to 'SetCooldown' (Usage: self:SetCooldown(start, duration [, modRate]). Secret values are only allowed during untainted execution for this argument.)\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:891: in function <...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:889>\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:910: in function 'ActionButton_ApplyCooldown'\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:886: in function <...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:867>\n[C]: in function 'ActionButton_UpdateCooldown'\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:1011: in function 'OnEvent'\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:233: in function <...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:230>\n",
-3,
-},
-{
-"Lua Error: ...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:891: bad argument #1 to 'SetCooldown' (Usage: self:SetCooldown(start, duration [, modRate]). Secret values are only allowed during untainted execution for this argument.)\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:891: in function <...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:889>\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:910: in function 'ActionButton_ApplyCooldown'\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:886: in function <...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:867>\n[C]: in function 'ActionButton_UpdateCooldown'\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:1011: in function 'OnEvent'\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:233: in function <...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:230>\n",
-3,
-},
-{
-"Lua Error: ...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:891: bad argument #1 to 'SetCooldown' (Usage: self:SetCooldown(start, duration [, modRate]). Secret values are only allowed during untainted execution for this argument.)\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:891: in function <...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:889>\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:910: in function 'ActionButton_ApplyCooldown'\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:886: in function <...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:867>\n[C]: in function 'ActionButton_UpdateCooldown'\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:1011: in function 'OnEvent'\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:233: in function <...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:230>\n",
-3,
-},
-{
-"Lua Error: ...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:891: bad argument #1 to 'SetCooldown' (Usage: self:SetCooldown(start, duration [, modRate]). Secret values are only allowed during untainted execution for this argument.)\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:891: in function <...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:889>\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:910: in function 'ActionButton_ApplyCooldown'\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:886: in function <...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:867>\n[C]: in function 'ActionButton_UpdateCooldown'\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:1011: in function 'OnEvent'\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:233: in function <...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:230>\n",
-3,
-},
-{
-"Lua Error: ...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:891: bad argument #1 to 'SetCooldown' (Usage: self:SetCooldown(start, duration [, modRate]). Secret values are only allowed during untainted execution for this argument.)\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:891: in function <...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:889>\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:910: in function 'ActionButton_ApplyCooldown'\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:886: in function <...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:867>\n[C]: in function 'ActionButton_UpdateCooldown'\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:1011: in function 'OnEvent'\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:233: in function <...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:230>\n",
-3,
-},
-{
-"Lua Error: ...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:891: bad argument #1 to 'SetCooldown' (Usage: self:SetCooldown(start, duration [, modRate]). Secret values are only allowed during untainted execution for this argument.)\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:891: in function <...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:889>\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:910: in function 'ActionButton_ApplyCooldown'\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:886: in function <...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:867>\n[C]: in function 'ActionButton_UpdateCooldown'\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:1011: in function 'OnEvent'\n[Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua]:233: in function <...ce/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua:230>\n",
-3,
-},
-{
-"Skill 393 increased from 32 to 33",
-0,
-},
-{
-"Skill 2947 increased from 32 to 33",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"GameUI::Shutdown invalidated load generation initCounter=\"45\" isClosingClient=\"false\"",
-0,
-},
-{
-"LimitedLuaResources: Reset Timer",
-0,
-},
-{
-"AccountData_CancelRequestLoad type=\"0\" pending=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"AccountData_CancelRequestLoad type=\"1\" pending=\"false\" hasCallback=\"true\" param=\"2883616\"",
-0,
-},
-{
-"GameUI::Shutdown canceled CVar account-data loads initCounter=\"45\" pendingMask=\"0\"",
-0,
-},
-{
-"LimitedLuaResources: Reset All",
-0,
-},
-{
-"PreLoadGameCVars initialized pending mask pendingMask=\"32\" initCounter=\"45\" characterlessLogin=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"2\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"5832705\" newParam=\"5963777\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"2\" pending=\"false\" hasCallback=\"true\" param=\"5963777\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"2\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"2\" pendingBefore=\"false\" hasCallback=\"true\" param=\"5963777\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"3\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"5832706\" newParam=\"5963778\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"3\" pending=\"false\" hasCallback=\"true\" param=\"5963778\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"3\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"3\" pendingBefore=\"false\" hasCallback=\"true\" param=\"5963778\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"6\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"0\" newParam=\"0\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"6\" pending=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"6\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"6\" pendingBefore=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"11\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"0\" newParam=\"0\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"11\" pending=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"11\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"11\" pendingBefore=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"LoadGameCVars request dispatch initCounter=\"45\" pendingMask=\"32\" characterlessLogin=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"1\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"2883616\" newParam=\"2949152\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"1\" pending=\"false\" hasCallback=\"true\" param=\"2949152\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"1\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"1\" pendingBefore=\"false\" hasCallback=\"true\" param=\"2949152\"",
-0,
-},
-{
-"LoadGameCVarsCallback received callbackInitCounter=\"45\" currentInitCounter=\"45\" mask=\"32\" buffsize=\"843\" pendingMaskBefore=\"32\"",
-0,
-},
-{
-"LoadGameCVarsCallback applied response mask=\"32\" pendingMaskAfter=\"0\"",
-0,
-},
-{
-"LoadGameCVarsCheckDone areCVarsLoaded=\"true\" pendingMask=\"0\"",
-0,
-},
-{
-"LoadGameCVarsCheckDone signaled variables loaded pendingMask=\"0\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"4\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"65623\" newParam=\"65625\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"4\" pending=\"false\" hasCallback=\"true\" param=\"65625\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"4\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"4\" pendingBefore=\"false\" hasCallback=\"true\" param=\"65625\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"5\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"131159\" newParam=\"131161\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"5\" pending=\"false\" hasCallback=\"true\" param=\"131161\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"5\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"5\" pendingBefore=\"false\" hasCallback=\"true\" param=\"131161\"",
-0,
-},
-{
-"AccountData_RequestLoad type=\"7\" fromAuth=\"false\" pending=\"false\" existingHasCallback=\"true\" newHasCallback=\"true\" existingParam=\"0\" newParam=\"0\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"AccountData_RequestLoad updated callback state type=\"7\" pending=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"AccountData_RequestLoad forcing local file load type=\"7\" isReloadingUI=\"true\" loadOnDemandOnly=\"false\"",
-0,
-},
-{
-"LoadAccountDataFromFile type=\"7\" pendingBefore=\"false\" hasCallback=\"true\" param=\"0\"",
-0,
-},
-{
-"Logout abort acknowledged",
+"Logout response received result=\"0\" instant=\"0\"",
 0,
 },
 },
