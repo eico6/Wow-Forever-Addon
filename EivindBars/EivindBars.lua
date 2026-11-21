@@ -291,12 +291,12 @@ end
 local extensionTrim = CreateFrame("Frame", nil, UIParent)
 extensionTrim:Hide()
 local rim = extensionTrim:CreateTexture(nil, "ARTWORK")
-rim:SetTexture("Interface\\AddOns\\EivindBars\\LowerRowRim")
+rim:SetTexture("Interface\\AddOns\\EivindSpecial\\EivindBars\\LowerRowRim")
 rim:SetTexCoord(0, 353 / 512, 0, 63 / 64)
 rim:SetAllPoints()
 
 local pagerPlate = extensionTrim:CreateTexture(nil, "ARTWORK", nil, -1)
-pagerPlate:SetTexture("Interface\\AddOns\\EivindBars\\LowerRowRim")
+pagerPlate:SetTexture("Interface\\AddOns\\EivindSpecial\\EivindBars\\LowerRowRim")
 pagerPlate:SetTexCoord(140 / 512, 180 / 512, 0, 63 / 64)
 pagerPlate:Hide()
 
@@ -472,7 +472,7 @@ local ledge = CreateFrame("Frame", nil, UIParent)
 ledge:SetFrameStrata("BACKGROUND")
 ledge:SetFrameLevel(0)
 local stone = ledge:CreateTexture(nil, "ARTWORK")
-stone:SetTexture("Interface\\AddOns\\EivindBars\\StoneLedge.tga")
+stone:SetTexture("Interface\\AddOns\\EivindSpecial\\EivindBars\\StoneLedge.tga")
 stone:SetVertexColor(0.34 * LEDGE_STONE_BRIGHTNESS, 0.31 * LEDGE_STONE_BRIGHTNESS, 0.27 * LEDGE_STONE_BRIGHTNESS) -- 
 stone:SetAllPoints()
 local ledgeHighlight = ledge:CreateTexture(nil, "OVERLAY")

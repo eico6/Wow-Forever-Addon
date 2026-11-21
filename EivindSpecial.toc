@@ -1,0 +1,7 @@
+## Interface: 16001
+## Title: EivindSpecial
+## Notes: Personal action bar art and CVar settings for WoW Forever.
+## Version: 0.9
+
+EivindBars\EivindBars.lua
+EivindUtils\EivindUtils.lua
