@@ -6,7 +6,7 @@ local EAGLE_OUTWARD_RIGHT_PX = -16 -- Right eagle moves away from its nearest bu
 local EAGLE_DOWN_PX = 4            -- Larger values lower the eagles toward the screen edge.
 local XP_EXTRA_HEIGHT_PX = 0       -- 0 meets the lower rim. +1 raises the top one pixel, -1 lowers it.
 local LEDGE_HEIGHT_PX = 6          -- Extra space for the stone ledge between the two bottom rows.
-local LEDGE_STONE_BRIGHTNESS = 0.7 -- Brightness of the stone ledge texture.
+local LEDGE_STONE_BRIGHTNESS = 0.5 -- Brightness of the stone ledge texture.
 local UPPER_BAR_GAP_PX = 0         -- Extra space between the stone ledge and the bar above it. Does not change the ledge art.
 local BUTTON_SPACING_REDUCTION_PX = 2 -- Reduce spacing between buttons by this many pixels.
 
@@ -60,17 +60,45 @@ local function GetScreenCenter(frame)
     return x * scale, y * scale
 end
 
+-- Edit Mode's SetPoint also rewrites snap relationships and marks every system
+-- for an anchor update. These out-of-combat adjustments are display offsets.
+local function SetLayoutPoint(frame, ...)
+    local setPoint = frame.SetPointBase or frame.SetPoint
+    setPoint(frame, ...)
+end
+
+local function ClearLayoutPoints(frame)
+    local clearPoints = frame.ClearAllPointsBase or frame.ClearAllPoints
+    clearPoints(frame)
+end
+
 local function SetScreenPoint(frame, point, x, y)
     local scale = GetRelativeScale(frame)
-    frame:SetPoint(point, UIParent, "BOTTOMLEFT", x / scale, y / scale)
+    SetLayoutPoint(frame, point, UIParent, "BOTTOMLEFT", x / scale, y / scale)
 end
 
 ---------------------------------------------------------------------------
 -- Backing behind the main row
 ---------------------------------------------------------------------------
 
-local backing = CreateFrame("Frame", nil, bar, "BackdropTemplate")
-backing.ignoreInLayout = true
+-- Keep addon frames out of the child lists that Blizzard walks during layout.
+-- The visual parent mirrors the original owner's visibility and scale.
+local artParents = {}
+local function GetArtParent(owner)
+    local parent = artParents[owner]
+    if not parent then
+        parent = CreateFrame("Frame", nil, UIParent)
+        parent:SetAllPoints(UIParent)
+        owner:HookScript("OnShow", function() parent:Show() end)
+        owner:HookScript("OnHide", function() parent:Hide() end)
+        artParents[owner] = parent
+    end
+    parent:SetShown(owner:IsVisible())
+    parent:SetScale(GetRelativeScale(owner))
+    return parent
+end
+
+local backing = CreateFrame("Frame", nil, GetArtParent(bar), "BackdropTemplate")
 backing:SetFrameStrata("BACKGROUND")
 backing:SetFrameLevel(1)
 backing:SetBackdrop({
@@ -228,11 +256,11 @@ local function FrameButton(button)
 end
 
 local function ShowSlotArtwork(button, featherAtlas)
+    local parent = GetArtParent(button:GetParent())
     local art = slotArtwork[button]
     if not art then
         -- Keep the art visible when Blizzard hides the empty action button itself.
-        art = CreateFrame("Frame", nil, button:GetParent())
-        art.ignoreInLayout = true
+        art = CreateFrame("Frame", nil, parent)
         art:SetAllPoints(button)
 
         local feather = art:CreateTexture(nil, "BACKGROUND")
@@ -376,7 +404,8 @@ local function FitXPBar()
     -- Measured before SetScale below, because scaling changes the relative scale.
     local factor = (targetRight - targetLeft) / (r - l)
     local newX = targetLeft + (cx * GetRelativeScale(track) - l) * factor
-    track:SetScale(track:GetScale() * factor)
+    local setScale = track.SetScaleBase or track.SetScale
+    setScale(track, track:GetScale() * factor)
 
     local _, floorY = GetScreenRect(extensionTrim)
     local pixel = ScreenPixel()
@@ -385,7 +414,7 @@ local function FitXPBar()
         dockTop = (math.floor(floorY / pixel + 0.5) + XP_EXTRA_HEIGHT_PX) * pixel
     end
     if dockTop and dockTop > 2 * pixel then
-        track:ClearAllPoints()
+        ClearLayoutPoints(track)
         SetScreenPoint(track, "BOTTOMLEFT", targetLeft, 0)
         SetScreenPoint(track, "TOPRIGHT", targetRight, dockTop)
         if face ~= track then
@@ -395,7 +424,7 @@ local function FitXPBar()
     else
         local _, cy = track:GetCenter()
         local _, faceBottom = GetScreenRect(face, track)
-        track:ClearAllPoints()
+        ClearLayoutPoints(track)
         SetScreenPoint(track, "CENTER", newX, cy * GetRelativeScale(track) + b - faceBottom)
     end
 
@@ -467,7 +496,7 @@ local function LiftUpperBar()
     local lift = LEDGE_HEIGHT_PX * pixel
     local gap = UPPER_BAR_GAP_PX * pixel
     upperAnchor.applied = upperAnchor.base + (lift + gap) / GetRelativeScale(upperBar)
-    upperBar:SetPoint(point, relative, relativePoint, x, upperAnchor.applied)
+    SetLayoutPoint(upperBar, point, relative, relativePoint, x, upperAnchor.applied)
     return lift
 end
 
@@ -523,50 +552,43 @@ local function AlignBar3()
 end
 
 local bar3Rows
-local savedHotkeyAlpha = {}
-local function UpdateBar3Hotkey(button, isLower)
-    local hotkey = button.HotKey
-    if isLower and not button:HasAction() and not IsActionDragActive() then
-        if savedHotkeyAlpha[button] == nil then
-            savedHotkeyAlpha[button] = hotkey:GetAlpha()
-        end
-        hotkey:SetAlpha(0)
-    elseif savedHotkeyAlpha[button] ~= nil then
-        hotkey:SetAlpha(savedHotkeyAlpha[button])
-        savedHotkeyAlpha[button] = nil
+local savedAlpha = {}
+local function MaskRegion(region, mask)
+    if mask then
+        if savedAlpha[region] == nil then savedAlpha[region] = region:GetAlpha() end
+        region:SetAlpha(0)
+    elseif not mask and savedAlpha[region] ~= nil then
+        region:SetAlpha(savedAlpha[region])
+        savedAlpha[region] = nil
     end
 end
 
-local function RefreshLowerHotkeys(slot)
+-- Only fade artwork. Blizzard owns button visibility, mouse handling and cooldowns.
+local function RefreshBar3Art()
     if not bar3Rows then return end
+    local dragging = IsActionDragActive()
+    local preview = dragging or MultiBarBottomRight:GetShowAllButtons() or KeybindFrames_InQuickKeybindMode()
     for button, isLower in pairs(bar3Rows) do
-        if isLower and (not slot or slot == 0 or slot == button.action) then
-            UpdateBar3Hotkey(button, true)
+        local empty = not button:HasAction()
+        -- HotKey belongs to TextOverlayContainer, a child of the button.
+        if isLower then
+            MaskRegion(button.HotKey, empty and not dragging)
+        else
+            local maskUpper = empty and not preview
+            MaskRegion(button.HotKey, maskUpper)
+            for _, region in ipairs({ button:GetRegions() }) do
+                MaskRegion(region, maskUpper)
+            end
         end
     end
 end
 
--- Called during out-of-combat layout. Change only the Always Show Buttons bit
--- so Blizzard still controls temporary grids such as dragging and keybinding.
 local function ApplyBar3Rows(rows)
-    local buttons = rows or bar3Rows
-    if not buttons then return end
-    local gridBit = ACTION_BUTTON_SHOW_GRID_REASON_CVAR
-    local barSetting = MultiBarBottomRight:GetSettingValueBool(Enum.EditModeActionBarSetting.AlwaysShowButtons)
-    local changed = false
-    for button, isLower in pairs(buttons) do
-        local alwaysShow = isLower
-        if not rows then alwaysShow = barSetting end
-        local grid = button:GetAttribute("showgrid") or 0
-        local updated = alwaysShow and bit.bor(grid, gridBit) or bit.band(grid, bit.bnot(gridBit))
-        if updated ~= grid then
-            button:SetAttribute("showgrid", updated)
-            changed = true
-        end
-        UpdateBar3Hotkey(button, rows and isLower)
+    for region in pairs(savedAlpha) do
+        MaskRegion(region, false)
     end
     bar3Rows = rows
-    if changed then MultiBarBottomRight:UpdateShownButtons() end
+    RefreshBar3Art()
 end
 
 ---------------------------------------------------------------------------
@@ -588,13 +610,13 @@ local function TuckEagle(cap, isLeft, edge, baseline, rowHeight, outwardPx)
             bottom = (b - baseline) / rowHeight }
         eagleSizes[cap] = size
     end
-    cap:ClearAllPoints()
+    ClearLayoutPoints(cap)
     local sizeFactor = EAGLE_SIZE_PERCENT / 100
     cap:SetSize(size.width * sizeFactor, size.height * sizeFactor)
     local outward = outwardPx * ScreenPixel()
     local x = edge + size.inset * rowHeight + (isLeft and -outward or outward)
     local y = baseline + size.bottom * rowHeight - EAGLE_DOWN_PX * ScreenPixel()
-    cap:SetPoint(isLeft and "BOTTOMRIGHT" or "BOTTOMLEFT", UIParent, "BOTTOMLEFT", x / scale, y / scale)
+    SetLayoutPoint(cap, isLeft and "BOTTOMRIGHT" or "BOTTOMLEFT", UIParent, "BOTTOMLEFT", x / scale, y / scale)
 end
 
 local function LayoutEagles(left, right, bottom, rowHeight, atlas)
@@ -629,7 +651,6 @@ end
 -- Button spacing
 ---------------------------------------------------------------------------
 
-local paddingState = {}
 local horizontalAnchors = {}
 local function CenterTightenedBar(actionBar, offset)
     if not actionBar or actionBar:GetNumPoints() ~= 1 then return end
@@ -641,23 +662,44 @@ local function CenterTightenedBar(actionBar, offset)
         horizontalAnchors[actionBar] = state
     end
     state.applied = state.base + offset / GetRelativeScale(actionBar)
-    actionBar:SetPoint(point, relative, relativePoint, state.applied, y)
+    SetLayoutPoint(actionBar, point, relative, relativePoint, state.applied, y)
+end
+
+-- Offset buttons inside Blizzard's spacers. Writing padding or rebuilding the
+-- native grid here would put addon-owned state into later combat layout updates.
+local function TightenButtonSpacing(actionBar)
+    local holders = actionBar.shownButtonContainers
+    if not holders or #holders == 0 or not actionBar.numRows or actionBar.numRows < 1 then return end
+    local point = actionBar:GetPoint(1)
+    if not point then return end
+    local stride = math.ceil(#holders / actionBar.numRows)
+    local lines = math.ceil(#holders / stride)
+    local columns, rows = stride, lines
+    if not actionBar.isHorizontal then columns, rows = lines, stride end
+    -- Contract toward the same edge (or center) as the bar's Edit Mode anchor.
+    local pivotX = point:find("LEFT") and 0 or point:find("RIGHT") and 1 or 0.5
+    local pivotY = point:find("BOTTOM") and 0 or point:find("TOP") and 1 or 0.5
+    local padding = math.max(actionBar.buttonPadding, actionBar.minButtonPadding)
+    local reduction = math.min(BUTTON_SPACING_REDUCTION_PX * ScreenPixel(), padding * GetRelativeScale(actionBar))
+    local index = 0
+    for _, button in ipairs(actionBar.actionButtons) do
+        local holder = button.container
+        if holder == holders[index + 1] then
+            local col, row = index % stride, math.floor(index / stride)
+            if not actionBar.isHorizontal then col, row = row, col end
+            if not actionBar.addButtonsToRight then col = columns - 1 - col end
+            if not actionBar.addButtonsToTop then row = rows - 1 - row end
+            local step = reduction / GetRelativeScale(button)
+            button:SetPoint("CENTER", holder, "CENTER",
+                (pivotX * (columns - 1) - col) * step, (pivotY * (rows - 1) - row) * step)
+            index = index + 1
+        end
+    end
 end
 
 local function TightenBottomBars()
     for _, actionBar in pairs({ bar, MultiBarBottomLeft, MultiBarBottomRight, MultiBarRight, MultiBarLeft }) do
-        if actionBar.UpdateGridLayout and actionBar.buttonPadding and actionBar.minButtonPadding then
-            local state = paddingState[actionBar]
-            if not state or actionBar.buttonPadding ~= state.applied then
-                local reduction = BUTTON_SPACING_REDUCTION_PX * ScreenPixel() / GetRelativeScale(actionBar)
-                local original = actionBar.buttonPadding
-                actionBar.minButtonPadding = math.min(actionBar.minButtonPadding, math.max(0, original - reduction))
-                actionBar.buttonPadding = math.max(0, original - reduction)
-                paddingState[actionBar] = { applied = actionBar.buttonPadding }
-                actionBar.oldGridSettings = nil
-                actionBar:UpdateGridLayout()
-            end
-        end
+        TightenButtonSpacing(actionBar)
     end
     local inward = HALF_GAP_COUNT * BUTTON_SPACING_REDUCTION_PX * ScreenPixel()
     CenterTightenedBar(bar, inward)
@@ -681,7 +723,8 @@ local function FindExtension(mainRight, bottom, rowHeight)
     for _, prefix in ipairs(EXTENSION_BAR_PREFIXES) do
         for index = 1, 12 do
             local button = _G[prefix .. index]
-            if button and button:IsVisible() then
+            -- A hidden empty button still has a visible spacer for our lower-row artwork.
+            if button and (button:IsVisible() or (bar3Rows and bar3Rows[button] and button.container:IsVisible())) then
                 local x, y, edge = GetScreenRect(button)
                 if x and x >= mainRight and edge <= rightLimit and math.abs(y - bottom) < rowHeight * 0.25 then
                     if not found.left or x < found.left then
@@ -709,6 +752,35 @@ local function LayoutLedge(lift, left, rowHeight)
     SetScreenPoint(ledge, "TOPRIGHT", rimRight, rimTop + lift)
     ledgeHighlight:SetHeight(pixel / GetRelativeScale(ledge))
     ledge:Show()
+end
+
+-- The native border normally follows the full grid. Its right bevel must end
+-- at the last button after spacing is tightened, before the pager arrows.
+local originalBorderPoints
+local function FitMainBorder(first, last, fit)
+    local border = bar.BorderArt
+    if not border then return end
+    if not fit then
+        if originalBorderPoints then
+            border:ClearAllPoints()
+            for _, point in ipairs(originalBorderPoints) do
+                border:SetPoint(unpack(point, 1, 5))
+            end
+            originalBorderPoints = nil
+        end
+        return
+    end
+
+    if not originalBorderPoints then
+        originalBorderPoints = {}
+        for i = 1, border:GetNumPoints() do
+            originalBorderPoints[i] = { border:GetPoint(i) }
+        end
+    end
+    -- Keep the native texture's top-left and bottom-right margins.
+    border:ClearAllPoints()
+    border:SetPoint("TOPLEFT", first, "TOPLEFT", -6, 6)
+    border:SetPoint("BOTTOMRIGHT", last, "BOTTOMRIGHT", 4, -5)
 end
 
 local function LayoutPager(extensionLeft, mainRight, bottom, top, rowHeight)
@@ -741,6 +813,7 @@ local function LayoutArt()
         return
     end
 
+    GetArtParent(bar)
     TightenBottomBars()
     local first = ActionButton1
     local last = ActionButton12
@@ -785,6 +858,8 @@ local function LayoutArt()
     end
 
     LayoutExtensionTrim(extension.first, extension.last)
+    FitMainBorder(first, last, extensionTrim:IsShown() and bar.isHorizontal and bar.numRows == 1
+        and bar.numButtonsShowable == 12 and extension.left - mainRight > rowHeight * 0.35)
     LayoutLedge(lift, left, rowHeight)
 
     local inset = rowHeight * BACKING_INSET_RATIO
@@ -815,9 +890,17 @@ local function QueueLayout()
     end)
 end
 
+local artQueued = false
 local function RefreshDragAppearance()
+    artQueued = false
     UpdateRim()
-    RefreshLowerHotkeys()
+    RefreshBar3Art()
+end
+local function QueueBarArt()
+    if not artQueued then
+        artQueued = true
+        C_Timer.After(0, RefreshDragAppearance)
+    end
 end
 
 local events = CreateFrame("Frame")
@@ -829,24 +912,19 @@ events:RegisterEvent("ACTIONBAR_SHOWGRID")
 events:RegisterEvent("ACTIONBAR_HIDEGRID")
 events:RegisterEvent("ACTIONBAR_SLOT_CHANGED")
 events:RegisterEvent("CURSOR_CHANGED")
-events:SetScript("OnEvent", function(_, event, slot)
-    if event == "ACTIONBAR_SLOT_CHANGED" then
-        RefreshLowerHotkeys(slot)
-        return
-    end
+events:RegisterEvent("UPDATE_BINDINGS")
+events:SetScript("OnEvent", function(_, event)
     if event == "ACTIONBAR_SHOWGRID" or event == "ACTIONBAR_HIDEGRID" then
         gridShown = event == "ACTIONBAR_SHOWGRID"
-    end
-    if event == "CURSOR_CHANGED" or event == "ACTIONBAR_SHOWGRID" or event == "ACTIONBAR_HIDEGRID" then
-        -- Read the cursor and bar strata after Blizzard finishes handling the drag.
-        C_Timer.After(0, RefreshDragAppearance)
+    elseif event ~= "CURSOR_CHANGED" and event ~= "ACTIONBAR_SLOT_CHANGED" and event ~= "UPDATE_BINDINGS" then
+        QueueLayout()
         return
     end
-    QueueLayout()
+    QueueBarArt()
 end)
 
 if MultiBarBottomRight then
-    hooksecurefunc(MultiBarBottomRight, "UpdateSystemSettingAlwaysShowButtons", QueueLayout)
+    hooksecurefunc(MultiBarBottomRight, "SetShowGrid", QueueBarArt)
 end
 
 if EditModeManagerFrame and EditModeManagerFrame.ExitEditMode then
