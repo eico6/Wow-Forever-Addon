@@ -1,5 +1,5 @@
 ## Interface: 16001
 ## Title: EivindUtils
-## Notes: Applies preferred CVars on login and UI reload.
+## Notes: Personal utilities for WoW Forever.
 
 EivindUtils.lua

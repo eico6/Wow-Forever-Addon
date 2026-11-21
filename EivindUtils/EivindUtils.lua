@@ -1,5 +1,1 @@
-local frame = CreateFrame("Frame")
-frame:RegisterEvent("PLAYER_LOGIN")
-frame:SetScript("OnEvent", function()
-    -- Add SetCVar calls here.
-end)
+-- Personal utilities for WoW Forever.
