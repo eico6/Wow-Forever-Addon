@@ -10,7 +10,7 @@ ForeverDungeonJournalCharacterDB = {
 },
 ["arrowDone"] = {
 },
-["arrowChains"] = {
+["rpgQuests"] = {
 },
 ["rpgKills"] = {
 },
@@ -24,6 +24,6 @@ ForeverDungeonJournalCharacterDB = {
 ["runs"] = {
 },
 },
-["rpgQuests"] = {
+["arrowChains"] = {
 },
 }

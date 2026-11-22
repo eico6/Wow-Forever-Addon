@@ -4,37 +4,40 @@ ForeverDungeonJournalCharacterDB = {
 },
 ["favouriteItems"] = {
 },
-["trackedDungeons"] = {
-},
-["trackerSlots"] = {
-},
-["rpgQuests"] = {
-[96393] = true,
+["arrowChains"] = {
 },
 ["flightPointsVersion"] = 2,
-["flightPoints"] = {
-["ironforge, dun morogh"] = true,
-["thelsamar, loch modan"] = true,
+["trackerSlots"] = {
+},
+["trackedDungeons"] = {
+},
+["arrowDone"] = {
+},
+["journalMode"] = "gamer",
+["rpgKills"] = {
 },
 ["runTracker"] = {
 },
-["rpgKills"] = {
-},
 ["hearthSpot"] = {
-["y"] = 0.4844853281974793,
+["y"] = 0.484651505947113,
 ["mapID"] = 1432,
 ["name"] = "Stoutlager Inn",
-["x"] = 0.3549212217330933,
+["x"] = 0.3553276658058167,
 ["v"] = 2,
 },
 ["hiddenDungeons"] = {
 },
-["journalMode"] = "gamer",
+["flightPoints"] = {
+["ironforge, dun morogh"] = true,
+["thelsamar, loch modan"] = true,
+["refuge pointe, arathi"] = true,
+},
 ["runLog"] = {
 ["nextID"] = 1,
 ["runs"] = {
 },
 },
-["arrowChains"] = {
+["rpgQuests"] = {
+[96393] = true,
 },
 }

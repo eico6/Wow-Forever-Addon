@@ -1,2 +1,4 @@
 Blizzard_ObjectiveTracker: enabled
 Blizzard_CompactRaidFrames: enabled
+ForeverAurasCompanion: enabled
+ForeverAurasArchive: enabled

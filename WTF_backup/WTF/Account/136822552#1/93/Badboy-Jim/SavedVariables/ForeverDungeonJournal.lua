@@ -10,7 +10,7 @@ ForeverDungeonJournalCharacterDB = {
 },
 ["arrowDone"] = {
 },
-["rpgQuests"] = {
+["arrowChains"] = {
 },
 ["hearthSpot"] = {
 ["y"] = 0.5241011381149292,
@@ -31,6 +31,6 @@ ForeverDungeonJournalCharacterDB = {
 ["runs"] = {
 },
 },
-["arrowChains"] = {
+["rpgQuests"] = {
 },
 }

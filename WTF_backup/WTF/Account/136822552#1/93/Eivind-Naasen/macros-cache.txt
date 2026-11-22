@@ -1,5 +1,8 @@
 VER 3 0100000000000001 " " "134400"
 #showtooltip charge
 /startattack
+/cast Battle Stance
 /cast charge
+END
+VER 3 0100000000000002 " " "134400"
 END

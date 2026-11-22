@@ -3,3 +3,4 @@ Blizzard_CompactRaidFrames: enabled
 ForeverAurasCompanion: enabled
 ForeverAurasArchive: enabled
 ForestActionBars: disabled
+EivindBars: enabled

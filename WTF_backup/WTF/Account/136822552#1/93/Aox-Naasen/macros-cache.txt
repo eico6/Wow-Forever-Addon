@@ -1,0 +1,6 @@
+VER 3 0100000000000001 " " "134400"
+#showtooltip Charge
+/startattack
+/cast Battle Stance
+/cast Charge
+END

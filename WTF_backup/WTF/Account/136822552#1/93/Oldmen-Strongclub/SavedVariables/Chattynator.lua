@@ -1,0 +1,7 @@
+
+CHATTYNATOR_CURRENT_PROFILE = "DEFAULT"
+CHATTYNATOR_COMMAND_HISTORY = {
+"/bbp",
+"/reload",
+"/questie",
+}

@@ -1,12 +1,13 @@
 
 OpenMapCharDB = {
 ["worldmap"] = {
-["flightsKnown"] = {
-["Ironforge, Dun Morogh"] = true,
-["Thelsamar, Loch Modan"] = true,
-},
+["flightsKnownV"] = 2,
 ["cvars"] = {
 },
-["flightsKnownV"] = 2,
+["flightsKnown"] = {
+["Thelsamar, Loch Modan"] = true,
+["Ironforge, Dun Morogh"] = true,
+["Refuge Pointe, Arathi"] = true,
+},
 },
 }
