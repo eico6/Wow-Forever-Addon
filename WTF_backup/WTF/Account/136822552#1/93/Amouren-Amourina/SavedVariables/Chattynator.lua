@@ -1,0 +1,14 @@
+
+CHATTYNATOR_CURRENT_PROFILE = "DEFAULT"
+CHATTYNATOR_COMMAND_HISTORY = {
+"/s are you here",
+"/reload",
+"/kiss",
+"/hug",
+"/kiss",
+"/flirt",
+"/reload",
+"/macro",
+"/sleep",
+"/s god luck bggya",
+}

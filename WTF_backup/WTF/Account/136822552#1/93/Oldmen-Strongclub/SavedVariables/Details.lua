@@ -33,7 +33,7 @@ _detalhes_database = {
 },
 ["raid_roster"] = {
 },
-["CombatStartedAt"] = 107122.231,
+["CombatStartedAt"] = 554399.481,
 ["tempo_start"] = 19230.625,
 ["last_events_tables"] = {
 },
@@ -103,8 +103,8 @@ _detalhes_database = {
 ["enemy"] = "Unknown",
 ["trinketProcs"] = {
 },
-["TotalElapsedCombatTime"] = 4.601999999998952,
-["CombatEndedAt"] = 107126.833,
+["TotalElapsedCombatTime"] = 5.895000000018627,
+["CombatEndedAt"] = 554405.376,
 ["aura_timeline"] = {
 },
 ["compressed_charts"] = {
@@ -173,8 +173,9 @@ _detalhes_database = {
 ["show_options"] = false,
 ["ignored_cooldowns"] = {
 },
-["height"] = 18,
 ["framme_locked"] = false,
+["cooldowns"] = {
+},
 ["own_frame"] = {
 ["defensive-raid"] = false,
 ["ofensive"] = false,
@@ -182,8 +183,7 @@ _detalhes_database = {
 ["utility"] = false,
 ["defensive-personal"] = false,
 },
-["cooldowns"] = {
-},
+["height"] = 18,
 ["show_conditions"] = {
 ["only_inside_instance"] = true,
 ["only_in_group"] = true,
@@ -209,43 +209,47 @@ _detalhes_database = {
 },
 ["arena_data_compressed"] = {
 },
-["mythic_plus_log"] = {
+["coach"] = {
+["enabled"] = false,
+["welcome_panel_pos"] = {
+},
+["last_coach_name"] = false,
 },
 ["arena_data_index_selected"] = 1,
 ["damage_meter_sessions"] = {
-[4] = {
+{
 ["playerCasts"] = {
 },
-["endUnixTime"] = 1795357444,
-["sessionId"] = 4,
+["endUnixTime"] = 1795805933,
+["sessionId"] = 1,
 ["added"] = false,
 ["playerAuras"] = {
 },
-["endDate"] = "15:24:04",
-["startUnixTime"] = 1795357433,
-["endTime"] = 105851.519,
-["sessionName"] = "Kobold Vermin",
-["startDate"] = "15:23:53",
-["startTime"] = 105840.855,
-["alreadyAdded"] = false,
-["detailsId"] = "Kobold Vermin4",
-},
-[5] = {
-["playerCasts"] = {
-},
-["endUnixTime"] = 1795358719,
-["sessionId"] = 5,
-["added"] = false,
-["playerAuras"] = {
-},
-["endDate"] = "15:45:19",
-["startUnixTime"] = 1795358717,
-["endTime"] = 107127.141,
+["endDate"] = "19:58:53",
+["startUnixTime"] = 1795805930,
+["endTime"] = 554355.3200000001,
 ["sessionName"] = "Young Wolf",
-["startDate"] = "15:45:17",
-["startTime"] = 107124.697,
+["startDate"] = "19:58:50",
+["startTime"] = 554352.1410000001,
 ["alreadyAdded"] = false,
-["detailsId"] = "Young Wolf5",
+["detailsId"] = "Young Wolf1",
+},
+{
+["playerCasts"] = {
+},
+["endUnixTime"] = 1795805983,
+["sessionId"] = 2,
+["added"] = false,
+["playerAuras"] = {
+},
+["endDate"] = "19:59:43",
+["startUnixTime"] = 1795805978,
+["endTime"] = 554405.676,
+["sessionName"] = "Young Wolf",
+["startDate"] = "19:59:38",
+["startTime"] = 554400.594,
+["alreadyAdded"] = false,
+["detailsId"] = "Young Wolf2",
 },
 },
 ["on_death_menu"] = false,
@@ -319,10 +323,8 @@ _detalhes_database = {
 ["reverse"] = false,
 },
 ["active_profile"] = "EKTA",
+["last_day"] = "27",
 ["last_realversion"] = 172,
-["character_data"] = {
-["logons"] = 39,
-},
 ["benchmark_db"] = {
 ["frame"] = {
 },
@@ -342,28 +344,32 @@ _detalhes_database = {
 },
 ["damage_meter_session_info"] = {
 },
+["mythic_plus_log"] = {
+},
+["data_harvested_for_charts"] = {
+},
 ["plugin_database"] = {
 ["DETAILS_PLUGIN_TINY_THREAT"] = {
 ["enabled"] = true,
 ["only_my_group"] = false,
 ["animate"] = false,
-["updatespeed"] = 1,
+["disable_gouge"] = false,
 ["hide_pull_bar"] = false,
-["useclasscolors"] = false,
+["author"] = "Terciob",
 ["playercolor"] = {
 1,
 1,
 1,
 },
 ["usefocus"] = false,
-["disable_gouge"] = false,
+["updatespeed"] = 1,
 ["playSound"] = false,
 ["showamount"] = false,
 ["useplayercolor"] = false,
 ["absolute_mode"] = false,
 ["show_party_pets"] = false,
 ["playSoundFile"] = "Details Threat Warning Volume 3",
-["author"] = "Terciob",
+["useclasscolors"] = false,
 },
 ["DETAILS_PLUGIN_COMPARETWO_WINDOW"] = {
 ["enabled"] = true,
@@ -419,10 +425,7 @@ _detalhes_database = {
 0.5,
 },
 ["scale"] = 1,
-["main_frame_size"] = {
-300,
-500.0000305175781,
-},
+["arrow_anchor_y"] = 0,
 ["minimap"] = {
 ["minimapPos"] = 135.6185878011813,
 ["radius"] = 160,
@@ -443,7 +446,7 @@ _detalhes_database = {
 ["square_amount"] = 5,
 ["enabled"] = false,
 ["arrow_size"] = 10,
-["use_spark"] = true,
+["y"] = 0.00018310546875,
 ["row_spacement"] = 21,
 ["main_frame_color"] = {
 0,
@@ -451,13 +454,14 @@ _detalhes_database = {
 0,
 0.2,
 },
-["author"] = "Terciob",
+["row_color"] = {
+0.1,
+0.1,
+0.1,
+0.4,
+},
 ["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-["font_size"] = 10,
-["y"] = 0.00018310546875,
-["x"] = 0,
-["font_face"] = "Friz Quadrata TT",
-["square_size"] = 32,
+["use_spark"] = true,
 ["per_second"] = {
 ["enabled"] = false,
 ["point"] = "CENTER",
@@ -469,17 +473,18 @@ _detalhes_database = {
 ["update_speed"] = 0.05,
 ["attribute_type"] = 1,
 },
-["row_color"] = {
-0.1,
-0.1,
-0.1,
-0.4,
-},
+["x"] = 0,
+["font_face"] = "Friz Quadrata TT",
+["square_size"] = 32,
+["font_size"] = 10,
+["author"] = "Terciob",
 ["main_frame_locked"] = false,
-["arrow_anchor_y"] = 0,
+["main_frame_size"] = {
+300,
+500.0000305175781,
 },
 },
-["last_instance_time"] = 0,
+},
 ["nick_tag_cache"] = {
 ["nextreset"] = 1796476045,
 ["last_version"] = 16,
@@ -488,26 +493,20 @@ _detalhes_database = {
 ["enabled"] = true,
 ["channel"] = "SELF",
 },
-["last_day"] = "22",
 ["apocalypse_hashes"] = {
 },
 ["SoloTablesSaved"] = {
 ["Mode"] = 1,
 },
-["last_version"] = "1.60.1 15410",
+["last_version"] = "1.60.1 15450",
 ["combat_id"] = 0,
 ["savedStyles"] = {
-},
-["coach"] = {
-["enabled"] = false,
-["welcome_panel_pos"] = {
-},
-["last_coach_name"] = false,
 },
 ["announce_damagerecord"] = {
 ["enabled"] = true,
 ["channel"] = "SELF",
 },
+["last_instance_time"] = 0,
 ["announce_deaths"] = {
 ["enabled"] = false,
 ["last_hits"] = 1,
@@ -576,6 +575,28 @@ _detalhes_database = {
 ["frags_total"] = 0,
 ["voidzone_damage"] = 0,
 },
+["player_last_events"] = {
+},
+["frags_need_refresh"] = false,
+["overall_refreshed"] = true,
+["amountCasts"] = {
+},
+["instance_type"] = "none",
+["zoneName"] = "Eastern Kingdoms",
+["data_fim"] = "14:30:17",
+["cleu_timeline"] = {
+},
+["trinketProcs"] = {
+},
+["aura_timeline"] = {
+},
+["compressed_charts"] = {
+},
+["data_inicio"] = 0,
+["end_time"] = 19536.535,
+["mapId"] = 0,
+["raid_roster"] = {
+},
 ["totals_grupo"] = {
 0,
 0,
@@ -597,20 +618,12 @@ _detalhes_database = {
 ["dead"] = 0,
 },
 },
-["frags_need_refresh"] = false,
-["overall_refreshed"] = true,
-["amountCasts"] = {
+["is_challenge"] = false,
+["spells_cast_timeline"] = {
 },
-["instance_type"] = "none",
-["zoneName"] = "Eastern Kingdoms",
-["data_fim"] = "14:30:17",
-["cleu_timeline"] = {
-},
-["trinketProcs"] = {
-},
-["aura_timeline"] = {
-},
-["compressed_charts"] = {
+["combat_counter"] = 13,
+["overall_enemy_name"] = "Unknown",
+["frags"] = {
 },
 ["PhaseData"] = {
 {
@@ -626,20 +639,6 @@ _detalhes_database = {
 ["damage"] = {
 },
 },
-["end_time"] = 19536.535,
-["mapId"] = 0,
-["raid_roster"] = {
-},
-["player_last_events"] = {
-},
-["is_challenge"] = false,
-["spells_cast_timeline"] = {
-},
-["combat_counter"] = 13,
-["overall_enemy_name"] = "Unknown",
-["data_inicio"] = 0,
-["frags"] = {
-},
 ["start_time"] = 0,
 ["TimeData"] = {
 },
@@ -652,10 +651,6 @@ _detalhes_database = {
 },
 },
 },
-["data_harvested_for_charts"] = {
-},
-["arena_data_headers"] = {
-},
 ["mythic_dungeon_currentsaved"] = {
 ["dungeon_name"] = "",
 ["started"] = false,
@@ -666,6 +661,11 @@ _detalhes_database = {
 ["level"] = 0,
 ["dungeon_zone_id"] = 0,
 ["previous_boss_killed_at"] = 0,
+},
+["arena_data_headers"] = {
+},
+["character_data"] = {
+["logons"] = 41,
 },
 ["announce_cooldowns"] = {
 ["enabled"] = false,
@@ -681,6 +681,5 @@ _detalhes_database = {
 ["cached_roles"] = {
 },
 ["cached_specs"] = {
-["Player-6855-06AF01C9"] = 1482,
 },
 }

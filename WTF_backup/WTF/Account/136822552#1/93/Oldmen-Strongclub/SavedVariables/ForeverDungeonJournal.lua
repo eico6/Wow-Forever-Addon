@@ -10,6 +10,22 @@ ForeverDungeonJournalCharacterDB = {
 },
 ["arrowDone"] = {
 },
+["lootFilter"] = {
+["enabled"] = false,
+["stats"] = {
+},
+["weaponTypes"] = {
+},
+["schools"] = {
+},
+["matchAll"] = true,
+["resists"] = {
+},
+["armorTypes"] = {
+},
+["classOnly"] = false,
+["recipes"] = false,
+},
 ["rpgQuests"] = {
 },
 ["rpgKills"] = {

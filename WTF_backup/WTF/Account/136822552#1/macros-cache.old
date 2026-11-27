@@ -6,6 +6,13 @@ VER 3 0000000000000003 "focus" "3778340"
 /clearfocus
 /focus [@mouseover,exists,nodead]
 END
+VER 3 0000000000000004 "LUA errors" "134400"
+/console scriptErrors 0
+END
 VER 3 0000000000000002 "sharpening" "3192686"
 /run local o = GetCVarBool("ResampleAlwaysSharpen"); SetCVar("ResampleAlwaysSharpen", not o); print("Macro is now " .. (o and "off" or "on"))
+END
+VER 3 0000000000000005 "stance ability" "134400"
+#showtooltip
+/cast [stance:1] Execute; [stance:2] Taunt
 END

@@ -8,8 +8,8 @@ W: 920
 H: 724
 Frame: FramerateFrame
 FrameLevel: 1
-Anchor: BOTTOM
-X: 13
-Y: 80
-W: 12
+Anchor: BOTTOMRIGHT
+X: -224
+Y: 14
+W: 58
 H: 12

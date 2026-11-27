@@ -434,112 +434,19 @@ ForeverDungeonJournalDB = {
 },
 },
 ["rpgAccount"] = {
-["rpgMaps"] = {
+["rpgQuests"] = {
+[96393] = true,
 },
 ["rpgBosses"] = {
 },
 ["rpgKills"] = {
 },
-["rpgQuests"] = {
-[96393] = true,
+["rpgMaps"] = {
 },
 },
-["questFaction"] = "Alliance",
-["lootFilter"] = {
-["enabled"] = false,
-["classOnly"] = false,
-["recipes"] = false,
-["schools"] = {
-},
-["matchAll"] = true,
-["resists"] = {
-},
-["weaponTypes"] = {
-},
-["stats"] = {
-},
-["armorTypes"] = {
-},
-},
+["questFaction"] = "Horde",
+["lastBoss"] = 1,
 ["lastMode"] = "bosses",
-["learnedQuestIDs"] = {
-},
-["foreverOnlyReset"] = 1,
-["learnedItemIDs"] = {
-["grips of control"] = {
-["id"] = 276733,
-["name"] = "Grips of Control",
-},
-["lost researcher's hood"] = {
-["id"] = 279931,
-["name"] = "Lost Researcher's Hood",
-},
-["shamanic wristguards"] = {
-["id"] = 280069,
-["name"] = "Shamanic Wristguards",
-},
-["impish chain hood"] = {
-["id"] = 280058,
-["name"] = "Impish Chain Hood",
-},
-["burnished pridescales"] = {
-["id"] = 280073,
-["name"] = "Burnished Pridescales",
-},
-["flameslash crescent"] = {
-["id"] = 280056,
-["name"] = "Flameslash Crescent",
-},
-["veilpiercer girdle"] = {
-["id"] = 280070,
-["name"] = "Veilpiercer Girdle",
-},
-["tidesong wand"] = {
-["id"] = 276735,
-["name"] = "Tidesong Wand",
-},
-["bleak eye shoulderplates"] = {
-["id"] = 280075,
-["name"] = "Bleak Eye Shoulderplates",
-},
-["behemoth bones"] = {
-["id"] = 280065,
-["name"] = "Behemoth Bones",
-},
-["satyr's touch"] = {
-["id"] = 287036,
-["name"] = "Satyr's Touch",
-},
-["lucky shovelnose tuft"] = {
-["id"] = 280060,
-["name"] = "Lucky Shovelnose Tuft",
-},
-["trousers of the ebon giant"] = {
-["id"] = 280066,
-["name"] = "Trousers of the Ebon Giant",
-},
-["cutthroat chestguard"] = {
-["id"] = 276739,
-["name"] = "Cutthroat Chestguard",
-},
-["reward voucher"] = {
-["id"] = 8070,
-["name"] = "Reward Voucher",
-},
-["expeditionary legplates"] = {
-["id"] = 279901,
-["name"] = "Expeditionary Legplates",
-},
-},
-["trackerHintShown"] = true,
-["lastDungeon"] = "Hall of Thanes",
-["flightTimes"] = {
-["Thelsamar, Loch Modan>Ironforge, Dun Morogh"] = 109,
-["Ironforge, Dun Morogh>Thelsamar, Loch Modan"] = 101,
-},
-["lastQuest"] = 1,
-["portraitTexturesByNpcID"] = {
-},
 ["questText"] = {
 ["enUS"] = {
 [255] = {
@@ -553,6 +460,14 @@ ForeverDungeonJournalDB = {
 [96393] = {
 ["o"] = "Enter the Hall of Thanes beneath Old Ironforge and claim the Head of Durgen Dirgehammer.",
 ["d"] = "Gather some allies and head down into the caverns beneath Old Ironforge. Enter the Hall of Thanes there and push to the lower vaults. \r\n\r\nMy Dark Iron is a bit rusty, but I can make out a name--one Durgen Dirgehammer. It's likely that he's the commander. Take his head and deliver it to King Magni Bronzebeard. \r\n\r\nOh, and when you do, tell him his old friend Farsen sends his regards!",
+},
+[92464] = {
+["o"] = "Speak to Yala Windwatcher in Thendal Grove.",
+["d"] = "Ever since our elemental benefactors left us, it seems that we are simply moving from one unrest to another. The problem we face now is that the manifestations of the winds near the standing stones to the northeast are agitated.\r\n\r\nNot truly self-aware like the sentient wind spirits that once lived here, these simple sprites respond in kind to forces, emotions, and intentions of the creatures around them. \r\n\r\nMy apprentice Yala Windwatcher went to observe them. Seek her out and discover what she's learned.",
+},
+[92472] = {
+["o"] = "Report to Constable Aonda in Shen'dar Village.",
+["d"] = "One of the most pervasive threats on Zephras Isle is the Al'Aketh Cult. They are religious zealots devoted to the worship of the supposed elemental ruler of Skywall, Al'Akir the Windlord. They are brutal, single-minded, and their power and ambitions are growing more deadly by the day.\r\n\r\nYour path will soon take you to Shen'dar Village to the south. Present yourself to Constable Aonda when you arrive. The cult threatens Shen'dar and they are in need of aid. Tell Aonda that I sent you.",
 },
 [98322] = {
 ["o"] = "Check in on Mountaineer Gretchen west of Kharanos.",
@@ -586,6 +501,10 @@ ForeverDungeonJournalDB = {
 ["o"] = "Speak with Marshal McBride.",
 ["d"] = "I hope you strapped your belt on tight, young mage, because there is work to do here in Northshire.\n\nAnd I don't mean farming.\n\nThe Stormwind guards are hard pressed to keep the peace here, with so many of us in distant lands and so many threats pressing close.  And so we're enlisting the aid of anyone willing to defend their home.  And their alliance.\n\nIf you're here to answer the call, then speak with my superior, Marshal McBride.  He's inside the abbey behind me.",
 },
+[96638] = {
+["o"] = "Speak to Raan Wildwind near Shen'dar Village.",
+["d"] = "More and more adventurers like yourself have been seeking glory and fortune outside of the safety of Thendal Grove. There's one such adventurer who has made a camp outside of Shen'dar Village, along the road leading southwest out of Thendal Grove.\r\n\r\nSeek him out and see what you can learn from him that may help you in your own travels.",
+},
 [170] = {
 ["o"] = "Balir Frosthammer wants you to kill 6 Rockjaw Troggs and 6 Burly Rockjaw Troggs.",
 ["d"] = "I hope you're here to lend us a hand, rogue. After the last trogg attack, we could use all the help we can get.\n\nI hear the buggers have been popping up all across the lands, and it seems Coldridge Valley is no exception. They've been spotted all over the hills to the southeast and near the frozen lake.\n\nAnd that's not all, just a few nights ago, they attacked and overran our camp to the west! \n\nWe're a bit shorthanded here, lad, and we need strong arms to help drive the troggs back.",
@@ -598,13 +517,45 @@ ForeverDungeonJournalDB = {
 ["o"] = "Deliver Mountaineer Gretchen's Report back to Senir Whitebeard in Kharanos.",
 ["d"] = "Hopefully ye put down a fair number of the mongrels while you were in there. Shame about Cornelius, though.\r\n\r\nFrom what you described, there's not much to report other than the cave is a lost cause. Whitebeard's not gonna like that answer, but I'm not darin' sendin' anybody else into that death trap.\r\n\r\nFeel free tae pass along the message, N. I'm not leavin' this spot till the mountain's secure.",
 },
+[92473] = {
+["o"] = "Collect 6 Scrawny Ursera Claws from Scrawny Ursera in Thendal Grove.",
+["d"] = "The ursera den to the southwest is rapidly becoming a problem. Just last week the rangers had to kill an adolescent ursera who wandered too close to the village and attempted to attack a boy playing near the base of the elder tree in the center of the village.\r\n\r\nWe were fortunate that the boy escaped with his life. Hunger and desperation makes these beasts too dangerous to be left unchecked. Go south and put the scrawniest among the ursera down. Bring me their claws as proof when it is done.",
+},
+[282] = {
+["o"] = "Speak with Mountaineer Thalos.",
+["d"] = "I was planning on sending my apprentice to my brother Senir with my report, but I would feel much better were it placed in more... reliable hands. That is, of course, if you wouldn't mind?\n\nHmm... you'll have to take the tunnel to get to Kharanos.\n\nSpeak with Mountaineer Thalos before going through the tunnel. It's completely infested with troggs now.\n\nFollow the road back to Anvilmar, then keep heading east to the tunnel, Thalos is stationed nearby.",
+},
+[92471] = {
+["o"] = "Speak with Aetheen of the Gales in Thendal Grove.",
+["d"] = "You may not realize this but everything you've done has been a trial of sorts. A test for what is to come for you. It's a big island out there, and Zephras needs spirited young adventurers such as yourself if we are to survive the trials our people face.\r\n\r\nThe one called Aetheen of the Gales is one of the leaders of our people here on Zephras Isle, and she has been watching you. She has a task that you must complete. Speak with her to learn more.",
+},
 [182] = {
 ["o"] = "Grelin Whitebeard would like you to kill 14 Frostmane Troll Whelps.",
 ["d"] = "My brother Senir and I were sent to different parts of Dun Morogh to investigate the threat posed by the trolls. The Senate has its hands full with the troggs, so they've no need for further annoyances.\n\nFrom what I've seen, the trolls aren't well situated here in Coldridge Valley--mostly the southern cave. I'd say that the army will not be necessary. A few strong arms should be more than enough.\n\nPerhaps you'd like to assist in this endeavor? I have the authority to offer compensation for your help.",
 },
+[92544] = {
+["o"] = "Slay 6 Al'Aketh Brutes, 4 Al'Aketh Neophytes, and Malduko Cloudcrush in Thendal Grove.",
+["d"] = "A band of Al'Aketh cult ruffians have taken up residence near the temple ruins just southwest of here, led by a real monster called Malduko Cloudcrush. This rabble has no doubt been dispatched here by High Priestess Lorthuna at the Shrine of Akir to attack travelers and coerce our people into joining the cult.\r\n\r\nI need to stay here at my post to alert travelers leaving the grove of the danger, but I would be grateful if you could do something about those cultists and their leader for me.",
+},
+[384] = {
+["o"] = "Ragnar Thunderbrew in Kharanos wants 6 Crag Boar Ribs and a mug of Rhapsody Malt.",
+["d"] = "Nothing my tavern patrons enjoy more than some Beer Basted Boar Ribs!  Only problem is, the local trapper who used to bring me supplies enlisted in the King's Army to help with the war on the Alliance front. \n\nMaybe you can help me out?  If you bring me six crag boar ribs and a Rhapsody Malt from the tavern here, I'll give you the family recipe for my famous Beer Basted Boar Ribs, not to mention a free sample!  The secret's in the Malt!",
+},
+[307] = {
+["o"] = "Go to the Silver Stream Mine and collect 4 loads of Miners' Gear.\n\nReturn to Mountaineer Stormpike.",
+["d"] = "The Silver Stream Mine to the east ran dry long ago.  It was converted by the Miners' League into a storage depot, but now Kobolds have moved in, putting their filthy paws on good, Dwarven tools!\n\nWe'll root out those vermin soon enough, but the League wants someone to get their gear out of the mine before we warriors tromp in there and break things.  It'll be a tough delve - you might want cohorts at your side.\n\nThe gear is stored in Miners' League Crates throughout the mine.  Good luck.",
+},
 [95212] = {
 ["o"] = "Collect 6 Pristine Leopard Pelts and deliver them to Amberstill Ranch.",
 ["d"] = "We're getting ready to send a team of rams to reinforce the Alterac expedition, but we've run out of material to make their saddles.\r\n\r\nCollect pelts from the largest, fiercest leopards to the east and bring them to me. It's biting cold up there and our forces deserve nothing but the finest pelts to keep them warm!",
+},
+[319] = {
+["o"] = "Kill 6 Ice Claw Bears, 8 Elder Crag Boars, and 8 Snow Leopards, and then return to Rejold Barleybrew in Brewnall Village.",
+["d"] = "I have a cask of Evershine handy, but...can you do me a favor?  Brewnall village could use a hand against the wild animals that wander the nearby snows.  Sometimes they wander close.\n\nWe're not afraid of these bears and cats and boars - no self respecting dwarf would be - but if you can take care of those animals for us, then we'd have more time for our crafting and brewing.",
+},
+[98321] = {
+["o"] = "Collect 8 Flintfire Shipments from the Grizzled Den for Tongus Flintfire in Kharanos.",
+["d"] = "Hoha! Good to see a dwarf who's not afraid to get their hands dirty.\r\n\r\nIf yer lookin' fer work, I'm afraid I'm a little short on supplies at the moment. Our most reliable source of ore has been overrun by wendigo and now the cave has been abandoned. The miners had to drop everything when they fled!\r\n\r\nSay, why don't ye poke yer head around the Grizzled Den to the west and see if you can find some of our missing shipments. It would save us a great deal o' trouble.",
 },
 [263] = {
 ["o"] = "Mountaineer Wallbang in the southern guard tower wants you to kill 10 Stonesplinter Shaman and 10 Stonesplinter Bonesnappers.",
@@ -622,6 +573,14 @@ ForeverDungeonJournalDB = {
 ["o"] = "Bring Stormpike's Request to Furen Longbeard in Stormwind.",
 ["d"] = "There is a dwarven armorsmith whose work I admire greatly.  His name is Furen Longbeard, and his skill is unmatched.  I need a new shield, and I must have one of his!\n\nThe problem is... Furen is far to the south, in the dwarven district within Stormwind.  In human lands!  I can't imagine why he would live there, so far from Ironforge.  The humans must pay him a king's ransom to keep him there!\n\nSo, if you want to travel and don't mind making some money, then will you send Furen my request for a shield?",
 },
+[92474] = {
+["o"] = "Jump from the top of the watchtower in Thendal Grove and use your Walk on Air ability to slow your fall.",
+["d"] = "Well hello there, N! Want to play a game?\r\n\r\nAll you've got to do is step up on that ledge... then jump! Use your innate ability to walk on the air to slow your fall and see how far forward you can float.\r\n\r\nThe rules are made up and the points don't matter, but you get bonus points if you can land right in front of Rorian the Dayseeker and startle him! He won't like it but I'll certainly get a good laugh if you can get him all worked up! Hah!",
+},
+[96408] = {
+["o"] = "Investigate the campsite overlooking the Gol'Bolar Quarry.",
+["d"] = "Last night one of our mountaineers spotted a campfire on a hillside to the east. It looks to be pretty high up, overlooking the Gol'Bolar Quarry.\r\n\r\nIt's probably nothing, but I'd like you to go check on that camp. If they are friendly, no harm done. If they aren't friendly... well, you know what to do.",
+},
 [414] = {
 ["o"] = "Take the Cask of Shimmer Stout to Mountaineer Kadrell.",
 ["d"] = "I've been drinking more of that Shimmer Stout my brother made - it's great stuff!  I want a fellow Mountaineer to try it.  His name's Kadrell, and he's usually patrolling the road through Thelsamar in Loch Modan.\n\nTo get to Thelsamar, go southeast through the tunnel, then turn northeast when the path forks into a road.  Follow that road straight into Thelsamar.\n\nGive Mountaineer Kadrell this cask of Shimmer Stout and see what he thinks!",
@@ -630,9 +589,17 @@ ForeverDungeonJournalDB = {
 ["o"] = "Deliver Senir's report to Senator Barin Redstone in Ironforge.",
 ["d"] = "Excellent! Take my report to Senator Barin Redstone. He's a sour type, so don't let his less-than-sunny disposition get to you. He's in Ironforge, in the chamber where King Magni holds court.\n\nDon't know the way to Ironforge? Take the road out of Kharanos north, cross the bridge, then follow the road east--there are large banners flanking the road--up the mountainside.\n\nBy the way, if you might avoid mentioning how you assisted me? Can't let them think I'm not working hard out here, you know?",
 },
+[233] = {
+["o"] = "Deliver the stack of letters to Talin Keeneye.",
+["d"] = "Hm, I don't suppose you'd be willing to do a favor for me, lad? A stack of letters came through the pass today, but I don't have the time to send them along.\n\nThey're all addressed to Talin Keeneye. You can find him to the west down the road. He's set up camp next to the frozen lake.\n\nWhat do you say?",
+},
 [3106] = {
 ["o"] = "Read the Simple Rune and speak to Thran Khorman in Coldridge Valley.",
 ["d"] = "While you were helping me out, this rune was given to me to pass on to you. Take some time to read it when you have a chance. I'm thinkin' it came from the warrior trainer Thran. Take a gander at it and go find him inside Anvilmar when you've a chance.",
+},
+[96392] = {
+["o"] = "Speak with Earthseer Farsen and ask him to lend you his far sight to observe the Dark Iron threat.",
+["d"] = "Greetings to ye, friend. My name is Earthseer Farsen and I'm visiting Dun Morogh from Aerie Peak. As I was travelin', I couldn't help but notice that we have, well... a bit o' a Dark Iron Dwarf problem.\r\n\r\nIf ye have a moment, I can show ye what I mean. I've got a bit o' magic that should do the trick.",
 },
 [218] = {
 ["o"] = "Grelin Whitebeard wants you to kill Grik'nir the Cold, and retrieve his journal.",
@@ -646,121 +613,133 @@ ForeverDungeonJournalDB = {
 ["o"] = "Bring the Empty Powder Keg to Quarrymaster Thesten at Gol'Bolar Quarry.",
 ["d"] = "The keg is stamped:\r\n\r\nBLASTING POWDER - DANGER - DO NOT HANDLE - DANGER - QUARRYMASTER AUTHORIZATION ONLY - DANGER\r\n\r\nYou get a sinking feeling that the troggs shouldn't have this. It would be best to report this to the quarry sooner rather than later.",
 },
-[319] = {
-["o"] = "Kill 6 Ice Claw Bears, 8 Elder Crag Boars, and 8 Snow Leopards, and then return to Rejold Barleybrew in Brewnall Village.",
-["d"] = "I have a cask of Evershine handy, but...can you do me a favor?  Brewnall village could use a hand against the wild animals that wander the nearby snows.  Sometimes they wander close.\n\nWe're not afraid of these bears and cats and boars - no self respecting dwarf would be - but if you can take care of those animals for us, then we'd have more time for our crafting and brewing.",
+[224] = {
+["o"] = "Mountaineer Cobbleflint of the southern guard tower wants you to kill 10 Stonesplinter Troggs and 10 Stonesplinter Scouts.",
+["d"] = "We need to protect the Loch, N!  With so many of the King's soldiers fighting valiantly on remote battlefields, we've become overwhelmed on the home front.  Troggs are tunneling up from every crevice!  The Trogg infestation poses the largest threat to Ironforge.  These disgusting mutants must be destroyed.\n\nWe need you, brave adventurer, to venture forth and lay waste to the Trogg threat.  Slay 10 Stonesplinter Troggs and 10 Stonesplinter Scouts and report back.",
 },
 [2038] = {
 ["o"] = "Find and return Bingles' supplies:\n\nBingles' Wrench, Bingles' Screwdriver, Bingles' Hammer, and Bingles' Blastencapper.",
 ["d"] = "As if crashing into the Loch wasn't bad enough, troggs from the nearby island attacked me and stole my tools and special Blastenheimer Blastencapper explosives. With no gyrocopter and no explosives, the movement has no chance!\n\nGet my tools back and find my Blastencapper explosives, N. For Gnomeregan! ",
 },
+[315] = {
+["o"] = "Bring 6 Shimmerweeds to Rejold Barleybrew in the Brewnall Village.",
+["d"] = "I'm on a quest, a quest to make the perfect stout.  I know I can do it -- brewing's in my blood.  I just need to find the right recipe...\n\nThe Frostmane trolls grow a plant, shimmerweed, high up in the hills to the east.  They use it in their strange, tribal rituals.  We dwarves haven't found much use for it, but it has a unique taste...and I want to experiment with it in my brews!\n\nGet me some shimmerweed from Frostmane seers, or swipe it from the trolls' shimmerweed baskets.",
+},
 [97277] = {
 ["o"] = "Find Grund and Gozwin's camp in the hills to the northwest. Recover Gozwin's Mechanic's Log and kill the Snow Leopard Prowler.",
 ["d"] = "Oi, had me back turned gettin' the boar roast ready when I heard me pal Gozwin screamin' fer his life!\r\n\r\nWicked fangs and a blur are all I saw when I turned. Such huge paws! A snow leopard was draggin' its gnomish catch away. I grabbed me shotgun and fired above the beast. It dropped him and sprinted off.\r\n\r\nLuckily, it hadn't done more than give ol' Goz some deep scratches.\r\n\r\nHead back to camp in the northwestern hills and retrieve Gozwin's Mechanic's Log. Kill that snow leopard too if you see it!",
-},
-[234] = {
-["o"] = "Deliver the letter to Grelin Whitebeard.",
-["d"] = "If I remember correctly, Grelin's camp is down the road to the southeast. No doubt he'll be eager to get his mail.",
-},
-[258] = {
-["o"] = "Kill 5 Elder Mountain Boars and return to Daryl the Youngling in the Farstrider Lodge within 12 minutes.",
-["d"] = "Nath, is it? I can tell you're bursting with pride over completing the first test, hm? As I told you before, it's no large feat.\n\nYou should try your hand at boar hunting. Trust me, this is no Coldridge Valley boar hunt, so you'd best have a care with them. I'll give you just twelve minutes this time.\n\nDon't feel bad if you fail. I'd give you the shirt off my back if you succeeded!\n\nHave I ever related to you the story of how I received my famous scar? No? It was two years ago...",
-},
-[96047] = {
-["o"] = "Speak with Thamner Pol in Kharanos to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
-["d"] = "So you've taken up First Aid? That's an honorable... and pragmatic pursuit as a warrior.\r\n\r\nI reckon I know someone that can teach you how to craft a First Aid Kit for your camp. Injuries are a reality in the world of adventuring and offering some much-needed healing at your camp could even save lives.",
-},
-[86776] = {
-["o"] = "Bring 10 Bronze Bars to Morhan Coppertongue.",
-["d"] = "Thelsamar's a great place to live, but we don't have all of the amenities of Ironforge. I'm always running out of bronze! I need more bronze if I'm going to keep making tools and kettles and pots!\r\n\r\nI can tell you have a little experience at the forge. Think you could smelt me some bronze bars? I can pay you well for it!",
-},
-[237] = {
-["o"] = "Mountaineer Gravelgaw in the southern guard tower wants you to kill 10 Stonesplinter Skullthumpers and 10 Stonesplinter Seers and report back to him.",
-["d"] = "Mountaineer Cobbleflint had nothing but good things to say about you, dwarf.  For that reason I am going to entrust upon you a mission of utmost importance.  We need to keep pressure on the invading Trogg forces until our Dwarven brethren return from the Alliance front.\n\nSet forth into the southern hills and kill 10 Stonesplinter Skullthumpers and 10 Stonesplinter Seers.  Your attacks will buy us some time.  Report back when your mission is complete.",
-},
-[3364] = {
-["o"] = "Take a Scalding Mornbrew to Durnan Furcutter inside Anvilmar before it gets cold in five minutes!",
-["d"] = "Gah!  I was supposed to get this delicious scalding mornbrew to Durnan Furcutter inside Anvilmar a while ago now, but I had to deliver one to Grelin here first.  I'll never make it to Anvilmar before the brew runs cold!\n\nYou look fast.  Maybe you can make it.  This cup will only stay hot for five more minutes, and Durnan didn't order \"chilly\" mornbrew, so get going.  Anvilmar is to the northeast, a settlement dug into the mountain.\n\nThanks, N, and don't forget to bring me back my mug!",
 },
 [267] = {
 ["o"] = "Bring 8 Trogg Stone Teeth to Captain Rugelfuss in the southern guard tower.",
 ["d"] = "Warrior, you may or may not be aware of the Trogg threat looming over Dwarven lands.  With the Ironforge Reserve called up to the Alliance Front, we are left with a fraction of the defense forces needed to keep these lands safe.  My regiment is assigned to watch over the Gate here and we cannot leave our post for fear of invasion.\n\nBut we need some pressure put on those damned Troggs lurking in the hills.  If you're up to the task, wage an assault on the Troggs.  Bring me back 8 Trogg Stone Teeth as proof.",
 },
+[234] = {
+["o"] = "Deliver the letter to Grelin Whitebeard.",
+["d"] = "If I remember correctly, Grelin's camp is down the road to the southeast. No doubt he'll be eager to get his mail.",
+},
+[96047] = {
+["o"] = "Speak with Thamner Pol in Kharanos to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+["d"] = "So you've taken up First Aid? That's an honorable... and pragmatic pursuit as a warrior.\r\n\r\nI reckon I know someone that can teach you how to craft a First Aid Kit for your camp. Injuries are a reality in the world of adventuring and offering some much-needed healing at your camp could even save lives.",
+},
+[92483] = {
+["o"] = "Read the Simple Note then speak with Akeri Duskblade within the watchtower in Thendal Grove.",
+["d"] = "While you were away dealing with our vuldren problem, our resident rogue trainer--Akeri Duskblade--has requested to speak with you. He left this note, so read that first, then seek him out inside the watchtower, here in the village.\r\n\r\nHe's a shady fellow, but then again, so are you. I think you'll get along well.",
+},
+[86776] = {
+["o"] = "Bring 10 Bronze Bars to Morhan Coppertongue.",
+["d"] = "Thelsamar's a great place to live, but we don't have all of the amenities of Ironforge. I'm always running out of bronze! I need more bronze if I'm going to keep making tools and kettles and pots!\r\n\r\nI can tell you have a little experience at the forge. Think you could smelt me some bronze bars? I can pay you well for it!",
+},
+[258] = {
+["o"] = "Kill 5 Elder Mountain Boars and return to Daryl the Youngling in the Farstrider Lodge within 12 minutes.",
+["d"] = "Nath, is it? I can tell you're bursting with pride over completing the first test, hm? As I told you before, it's no large feat.\n\nYou should try your hand at boar hunting. Trust me, this is no Coldridge Valley boar hunt, so you'd best have a care with them. I'll give you just twelve minutes this time.\n\nDon't feel bad if you fail. I'd give you the shirt off my back if you succeeded!\n\nHave I ever related to you the story of how I received my famous scar? No? It was two years ago...",
+},
 [363] = {
 ["o"] = "Speak with Shadow Priest Sarvis.",
 ["d"] = "About time you woke up. We were ready to toss you into the fire with the others, but it looks like you made it.\n\nI am Mordo, the caretaker of the crypt of Deathknell. And you are the Lich King's slave no more.\n\nSpeak with Shadow Priest Sarvis in the chapel at the base of the hill, he will tell you more of what you must know.",
 },
-[86613] = {
-["o"] = "Return 6 Excavation Tools to Magmar Fellhew.",
-["d"] = "The excavation's tools, left behind when the dwarves fled from the troggs, seem mostly untouched. Returning them to the excavators will surely aid their work.",
+[3364] = {
+["o"] = "Take a Scalding Mornbrew to Durnan Furcutter inside Anvilmar before it gets cold in five minutes!",
+["d"] = "Gah!  I was supposed to get this delicious scalding mornbrew to Durnan Furcutter inside Anvilmar a while ago now, but I had to deliver one to Grelin here first.  I'll never make it to Anvilmar before the brew runs cold!\n\nYou look fast.  Maybe you can make it.  This cup will only stay hot for five more minutes, and Durnan didn't order \"chilly\" mornbrew, so get going.  Anvilmar is to the northeast, a settlement dug into the mountain.\n\nThanks, N, and don't forget to bring me back my mug!",
 },
-[95214] = {
-["o"] = "Recover 16 Stolen Blasting Powder from the troggs east of Gol'Bolar Quarry, then return to Quarrymaster Thesten.",
-["d"] = "This keg held enough powder to turn King Magni's throne room into an open air courtyard. We've got to get it back from the troggs before they work out how to ignite it.",
+[436] = {
+["o"] = "Speak with Explorer Fellhew.",
+["d"] = "Prospector Ironband is heading an excavation of ancient ruins east of the lake.  His progress has been slow lately, especially considering all the supplies we've sent him.\n\nIronband's a stout, honest dwarf who values results, which has me worried that forces are at work against him.\n\nGo to Ironband's Excavation and speak with Magmar Fellhew.  He manages the details of the site and will know why there's a slowdown.\n\nTo get to the excavation site, go around the southern tip of the lake, then head east.",
 },
-[7905] = {
-["o"] = "Deliver the Free Ticket Voucher to Gelvas Grimgate, located inside the Darkmoon Faire carnival.",
-["d"] = "The Darkmoon Faire is coming!  Be sure to experience all the wonders and excitement of it when it comes to town!\n\nIf you act right now, you can redeem this voucher for free prize tickets!  Just hand your voucher to Gelvas Grimgate located inside the carnival.\n\nRight now, the Faire is outside Goldshire, in the Elwynn Forest.  Don't miss out!  Go today!",
-},
-[3365] = {
-["o"] = "Return Nori's Mug to Nori Pridedrift.",
-["d"] = "Now that hit the spot!  Nothing like a piping hot - nay, SCALDING mornbrew on a cold winter's day to warm your cackles of yer soul.\n\nHere ya go N - be a pal and take this empty mug back to Nori for me, would ya now.",
-},
-[1339] = {
-["o"] = "Speak with Mountaineer Stormpike.",
-["d"] = "I hear Mountaineer Stormpike is looking for a runner.  Someone to do a little traveling for him.  How about it?  Are you the dwarf for the job?\n\nIf so, then you'll find Stormpike at the top of the northern guard tower.",
+[432] = {
+["o"] = "Kill 6 Rockjaw Skullthumpers for Foreman Stonebrow at the Gol'Bolar quarry.",
+["d"] = "Those Light-blasted troggs, turning my work site into a wreck! Look at that, there goes another barrel of powder!\n\nOhhh, I wish I could go down there and wring every one of their scrawny little necks! I want to kill them all!\n\nThis can't be good for my health, all this stress and anger... What have they left me with? Nothing!\n\nI'd kill them myself, but my aim's no good anymore! You go into the quarry and kill some of the filthy buggers! I'll pay you! Just hurt them, kill them!",
 },
 [287] = {
 ["o"] = "Explore Frostmane Hold, and kill 5 Frostmane Headhunters for Senir Whitebeard in Kharanos.",
 ["d"] = "I'm behind on my report, and could use your help, N. I just managed to find where the trolls are holed up, but I saw so many trolls, I was afraid to go in.\n\nHere's what I need... Go down to the cave, poke around inside, kill a few of the trolls, then come back here.\n\nTake the road north out of Kharanos, when you get to the bridge, follow the frozen river west until you reach Iceflow Lake. You'll find Brewnall Village on the west bank. The Hold is southwest of the village.",
 },
-[224] = {
-["o"] = "Mountaineer Cobbleflint of the southern guard tower wants you to kill 10 Stonesplinter Troggs and 10 Stonesplinter Scouts.",
-["d"] = "We need to protect the Loch, N!  With so many of the King's soldiers fighting valiantly on remote battlefields, we've become overwhelmed on the home front.  Troggs are tunneling up from every crevice!  The Trogg infestation poses the largest threat to Ironforge.  These disgusting mutants must be destroyed.\n\nWe need you, brave adventurer, to venture forth and lay waste to the Trogg threat.  Slay 10 Stonesplinter Troggs and 10 Stonesplinter Scouts and report back.",
+[3365] = {
+["o"] = "Return Nori's Mug to Nori Pridedrift.",
+["d"] = "Now that hit the spot!  Nothing like a piping hot - nay, SCALDING mornbrew on a cold winter's day to warm your cackles of yer soul.\n\nHere ya go N - be a pal and take this empty mug back to Nori for me, would ya now.",
+},
+[7905] = {
+["o"] = "Deliver the Free Ticket Voucher to Gelvas Grimgate, located inside the Darkmoon Faire carnival.",
+["d"] = "The Darkmoon Faire is coming!  Be sure to experience all the wonders and excitement of it when it comes to town!\n\nIf you act right now, you can redeem this voucher for free prize tickets!  Just hand your voucher to Gelvas Grimgate located inside the carnival.\n\nRight now, the Faire is outside Goldshire, in the Elwynn Forest.  Don't miss out!  Go today!",
+},
+[1680] = {
+["o"] = "Speak with Tormus Deepforge.",
+["d"] = "Now that you've learned some moves, it's time to get you a decent weapon.  Speak with Tormus Deepforge.  He can make you a weapon I'm sure you'll like.\n\nYou'll find Tormus here in Ironforge, at the Great Forge.",
+},
+[1339] = {
+["o"] = "Speak with Mountaineer Stormpike.",
+["d"] = "I hear Mountaineer Stormpike is looking for a runner.  Someone to do a little traveling for him.  How about it?  Are you the dwarf for the job?\n\nIf so, then you'll find Stormpike at the top of the northern guard tower.",
+},
+[95214] = {
+["o"] = "Recover 16 Stolen Blasting Powder from the troggs east of Gol'Bolar Quarry, then return to Quarrymaster Thesten.",
+["d"] = "This keg held enough powder to turn King Magni's throne room into an open air courtyard. We've got to get it back from the troggs before they work out how to ignite it.",
+},
+[92460] = {
+["o"] = "Speak with Rorian the Dayseeker in Thendal Grove.",
+["d"] = "Look at you, bright eyed and ready for adventure! We need all the help we can get here in Thendal Village and your arrival is most welcome. I imagine you are brimming with nerves for what is to come. After all, you only get to come of age once in a lifetime.\r\n\r\nGo, seek out our village leader Rorian the Dayseeker at the entrance to the greatfather tree just west of here. He will get you started on your journey.",
 },
 [2160] = {
 ["o"] = "Deliver the Crate of Inn Supplies to Tannok Frosthammer in Kharanos.",
 ["d"] = "Hey! You look like a hearty adventurer. If you're planning on braving the pass, do you suppose you could bring a package to the inn in Kharanos?\n\nYou were planning on stopping at the inn, right? If you make it through the pass, you'll definitely want to take a breather there.\n\nAnyways, bring this to Tannok Frosthammer, the innkeeper's assistant. I can't get through the pass myself, and it'll be days until a Mountaineer escort comes through!",
 },
-[99158] = {
-["o"] = "Bring the crate of candles to Father Gavin at Misty Pine Refuge.",
-["d"] = "There's a priest out in the mountains that belongs to an organization called the Argent Dawn. They're a holy group that is dedicated to finding and destroying the unholy and unnatural.\r\n\r\nFather Gavin though, he's mostly the type that seeks to help and heal everyone rather than grab a weapon. He's fixed up an old building to serve as a rest spot for travelers and called it Misty Pine Refuge. I've got a shipment of holy candles that I need to get him. Could you bring them to him if you're going that way?",
+[418] = {
+["o"] = "Bring 3 pieces of Bear Meat, 3 Boar Intestines, and 3 Spider Ichor to Vidra Hearthstove in Thelsamar.",
+["d"] = "There's never a shortage of empty bellies here in Thelsamar, kids running in and out, workers from the excavation coming in after  a hard day's work. We're famous for our blood sausages, I don't suppose you've ever tried them?\n\nNo? Well, around here you've got to work for your meals, and don't think just because you're a fancy warrior, you'll be any exception.\n\nI'll need bear meat, boar intestines for the casings, and spider ichor for spice. You get me some of those, and leave the cooking to Vidra!",
 },
 [98326] = {
 ["o"] = "Slay Frosthowl and collect the Sack of Fish for Gretta Ganter in Brewnall Village.",
 ["d"] = "Do ye know how hard it is to fish on a frozen lake? My poor husband, Paxton, has been out in the middle of it for days and we barely have a single sack to show fer it.\r\n\r\nWell, we DID have a sack to show fer it. Until the thrice-damned wendigo attacked me and made off with our haul. It'll take us weeks to fish all that back up! If that loudmouth Frosthowl didn't scare 'em all off, anyway.\r\n\r\nDo us a favor and get it back, aye? Drooling brute is hiding somewhere deep in the Grizzled Den to the southeast.",
 },
-[7] = {
-["o"] = "Kill 10 Kobold Vermin, then return to Marshal McBride.",
-["d"] = "Your first task is one of cleansing, N.  A clan of kobolds have infested the woods to the north.  Go there and fight the kobold vermin you find.  Reduce their numbers so that we may one day drive them from Northshire.",
+[96608] = {
+["o"] = "Sit near Eric's Basic Campfire and wait until you receive the Boosted Rest buff.",
+["d"] = "Greetings, rogue. I can see you've got the look of an adventurer about you. This is good. The world needs more of us restless souls, seeking fortune and glory.\r\n\r\nYou'll need to learn to thrive in the wilds to be successful in this line of work. Not sure how your outdoor skills are but I can probably teach you a thing or two, if you'd be apt to learn.\r\n\r\nHave a seat near the fire and get comfortable. I'll walk you through it.",
 },
 [96056] = {
 ["o"] = "Speak with Balthus Stoneflayer in Ironforge to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
 ["d"] = "Being able to skillfully harvest the skins and hides of fallen beasts is one of the more valuable skills an adventurer can possess.\r\n\r\nI reckon I know someone that can teach you how to craft a Camp Chair for your camp. Sometimes it's important to just take a load off, and you can use some of those hides you've gathered to make a comfy chair to sit in. A bit of relaxation can help ensure that you are at your peak condition and can strike where it counts the next time you find yourself in a dust-up.",
 },
-[217] = {
-["o"] = "Kill the Trogg leader, Grawmug, and his two guards, Gnasher and Brawler then report back to Captain Rugelfuss in the southern guard tower.",
-["d"] = "N, our scouts have identified the leader of this recent Trogg incursion.  It appears that these beasts in Loch Modan are following the lead of a chieftain named Grawmug.  Grawmug is heavily guarded, however.  Two of his most elite guards, Gnasher and Brawler, never leave his side.\n\nIf you feel yourself worthy, N, I want you to lead the assassination mission on Grawmug and his two thugs.  With the Trogg leadership dead, we just might stand a chance at pushing these beasts back into the ground.",
+[3361] = {
+["o"] = "Bring Felix's Box, Felix's Chest and Felix's Bucket of Bolts to Felix Whindlebolt in Anvilmar.",
+["d"] = "We drove the troggs out of Gnomeregan, but then it all went so horribly wrong!  Now our home is completely irradiated, and we gnomes have been scattered all over Dun Morogh.\n\nIn my haste to get away from the radiation, I lost all my personal belongings and tools.  It was the trolls that got them.  They stole my chest, my box, and my bucket of bolts!  They took them back to their camps southwest of Anvilmar.\n\nI'm no adventurer - could you find my things and bring them here to me, please?",
 },
-[418] = {
-["o"] = "Bring 3 pieces of Bear Meat, 3 Boar Intestines, and 3 Spider Ichor to Vidra Hearthstove in Thelsamar.",
-["d"] = "There's never a shortage of empty bellies here in Thelsamar, kids running in and out, workers from the excavation coming in after  a hard day's work. We're famous for our blood sausages, I don't suppose you've ever tried them?\n\nNo? Well, around here you've got to work for your meals, and don't think just because you're a fancy warrior, you'll be any exception.\n\nI'll need bear meat, boar intestines for the casings, and spider ichor for spice. You get me some of those, and leave the cooking to Vidra!",
+[92462] = {
+["o"] = "Slay 8 Pesky Cirrusflies in Thendal Grove.",
+["d"] = "One of our rangers recently reported an infestation of cirrusflies here in Thendal Grove. \r\n\r\nCirrusflies can be dangerous if the swarm is allowed to grow too large, so please head to the eastern end of the Grove and exterminate as many as you can.",
 },
 [6387] = {
 ["o"] = "Bring Brock's List to Thorgrum Borrelson in Thelsamar.",
 ["d"] = "I see a lot of young dwarves at my door, eager to learn the trade of mining.  And if there's one thing a miner needs more than anything, it's a pick!\n\nI have a list of mining students who scored high in their lessons and earned an honorary pick.  Take my list to Golnir Bouldertoe in Ironforge.  He'll get the picks ready.\n\nThe fastest way to Ironforge is on a gryphon, so bring the list to our gryphon master, Thorgrum Borrelson, and speak with him about transport to Ironforge.",
 },
-[297] = {
-["o"] = "Bring Magmar Fellhew 8 Carved Stone Idols.",
-["d"] = "Recently, just before the Troggs surfaced within the site, we had uncovered a large number of strange, carved idols.  But we didn't have the chance to study them, for soon after their discovery the Troggs chased us away from the ruins!  And those idols have a strange effect on the Troggs.  It makes them go berserk!\n\nBring me 8 idols - I want to study them, and I want them out of Trogg hands!  You can find the idols on the Troggs infesting the site.",
+[96046] = {
+["o"] = "Speak with Yarr Hammerstone in Kharanos to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+["d"] = "Mining isn't the most glamorous, but it's good honest work and a fine profession for you to explore.\r\n\r\nI reckon I know someone that can teach you how to craft a Lodestone for your camp. Build one of these and everyone who wants to swing a sword will be eager to gather round your fire and soak up the extra \"oomph\" it can provide to increase their combat prowess.",
 },
-[6388] = {
-["o"] = "Bring the Honorary Picks to Gryth Thurden in Ironforge.",
-["d"] = "Here are the honorary picks for Brock's students.  If you've already been to Thelsamar, then you should fly a gryphon back there!\n\nTake the picks to our gryphon master, Gryth Thurden, and speak with him about a ride back to Thelsamar.",
+[312] = {
+["o"] = "Retrieve Tundra MacGrann's dried meats from the stolen meat locker in Old Icebeard's cave.",
+["d"] = "I had a month's worth of dried meats salted and locked away for the cold season.  Kept it locked so the bears wouldn't get it!  But while I was off hunting deer, that beast, Old Icebeard, made off with the meat locker.  He won't be able to smash through that Thorium though.  But I'll starve if I can't get my meats back.\n\nYou seem a bit more stealthy than me.  Perhaps you can retrieve my stash?  I'll never make it in and out of that cave fast enough with this bum leg of mine.",
 },
-[282] = {
-["o"] = "Speak with Mountaineer Thalos.",
-["d"] = "I was planning on sending my apprentice to my brother Senir with my report, but I would feel much better were it placed in more... reliable hands. That is, of course, if you wouldn't mind?\n\nHmm... you'll have to take the tunnel to get to Kharanos.\n\nSpeak with Mountaineer Thalos before going through the tunnel. It's completely infested with troggs now.\n\nFollow the road back to Anvilmar, then keep heading east to the tunnel, Thalos is stationed nearby.",
+[6391] = {
+["o"] = "Buy a gryphon to Ironforge from the gryphon master Thorgrum Borrelson, then bring Brock's List to Golnir Bouldertoe in Ironforge.",
+["d"] = "For just a few coins, one of my gryphons will take you to Ironforge.  From there, deliver Brock's list to Golnir Bouldertoe.  You'll find him in the Deep Mountain Mining Guild.  That's in the Great Forge District of Ironforge, which is right where my gryphon will drop you off!\n\nSpeak to me again when you're ready for the journey.",
 },
 [99160] = {
 ["o"] = "Destroy 10 minor ice elementals.",
@@ -770,33 +749,33 @@ ForeverDungeonJournalDB = {
 ["o"] = "Deliver the Supply Bundle to Eric Brighthammer near Kharanos.",
 ["d"] = "Wait, N. I have another ask of you, before you brave that tunnel.\r\n\r\nMy mountaineers have reported an adventurer that's shown up just outside of Kharanos. Could you deliver these supplies to him?",
 },
-[312] = {
-["o"] = "Retrieve Tundra MacGrann's dried meats from the stolen meat locker in Old Icebeard's cave.",
-["d"] = "I had a month's worth of dried meats salted and locked away for the cold season.  Kept it locked so the bears wouldn't get it!  But while I was off hunting deer, that beast, Old Icebeard, made off with the meat locker.  He won't be able to smash through that Thorium though.  But I'll starve if I can't get my meats back.\n\nYou seem a bit more stealthy than me.  Perhaps you can retrieve my stash?  I'll never make it in and out of that cave fast enough with this bum leg of mine.",
+[6392] = {
+["o"] = "Buy a gryphon to Thelsamar from the gryphon master Gryth Thurden, then bring the Honorary Picks to Brock Stoneseeker in Thelsamar.",
+["d"] = "For a small fee you can buy a gryphon ride to Thelsamar... as long as you've already been there.  Gryphons will only fly you to places you've already been, so be sure to speak with every gryphon master you see so you can fly to him later.\n\nYou've already been to Thorgrum, the gryphon master of Thelsamar, so now you can return to him.  And once in Thelsamar, you can deliver the picks to Brock Stoneseeker.\n\nSpeak with me when you're ready to go.",
 },
 [96390] = {
 ["o"] = "Slay 10 Dark Iron Spies in Dun Morogh.",
 ["d"] = "Dark Iron spies have infiltrated Dun Morogh. To what end I canna' be sure, but this is a problem we need to nip in the bud before it is allowed to grow.\r\n\r\nHead eastward to Ironband's Compound and kill the Dark Iron spies that you find there.",
 },
-[6391] = {
-["o"] = "Buy a gryphon to Ironforge from the gryphon master Thorgrum Borrelson, then bring Brock's List to Golnir Bouldertoe in Ironforge.",
-["d"] = "For just a few coins, one of my gryphons will take you to Ironforge.  From there, deliver Brock's list to Golnir Bouldertoe.  You'll find him in the Deep Mountain Mining Guild.  That's in the Great Forge District of Ironforge, which is right where my gryphon will drop you off!\n\nSpeak to me again when you're ready for the journey.",
+[92461] = {
+["o"] = "Slay 8 Vuldren Juveniles in Thendal Grove.",
+["d"] = "We live in times of great uncertainty for our people. We face unprecedented challenges that may require bold solutions, but we also must contend with the ordinary and mundane here in Thendal Grove. Take, for example, the recent unsustainable rise in the vuldren population.\r\n\r\nThe vuldren are a vital part of our ecosystem. However, imbalances must be corrected to maintain the delicate harmony that all creatures in Thendal Grove share.\r\n\r\nHead east and cull some of the vuldren there.",
 },
-[6392] = {
-["o"] = "Buy a gryphon to Thelsamar from the gryphon master Gryth Thurden, then bring the Honorary Picks to Brock Stoneseeker in Thelsamar.",
-["d"] = "For a small fee you can buy a gryphon ride to Thelsamar... as long as you've already been there.  Gryphons will only fly you to places you've already been, so be sure to speak with every gryphon master you see so you can fly to him later.\n\nYou've already been to Thorgrum, the gryphon master of Thelsamar, so now you can return to him.  And once in Thelsamar, you can deliver the picks to Brock Stoneseeker.\n\nSpeak with me when you're ready to go.",
+[92469] = {
+["o"] = "Bring word of the Al'Aketh to Rorian the Dayseeker in Thendal Grove.",
+["d"] = "You've done enough here, rogue. I'll stay and clean up any stragglers down there.\r\n\r\nHead back to the Village and tell Rorian about the cult's presence. He will not be pleased.",
 },
 [98319] = {
 ["o"] = "Find Mountaineer Cornelius in the Grizzled Den for Mountaineer Gretchen.",
 ["d"] = "It's bad enough havin' a troll problem, but the mountains are filled tae the brim with wendigos! They normally keep to their own caves, but they seem tae be spreadin' like bunnies. Now they've filled the Grizzled Den north of here.\r\n\r\nIf we want Whitebeard's report, we're gonna need to find my partner Cornelius. The blockhead got a little too excited and charged in head first. Brave, but stupid.\r\n\r\nHead into the cave and see where he is. And feel free to take out some of the beasts while yer at it.",
 },
-[96046] = {
-["o"] = "Speak with Yarr Hammerstone in Kharanos to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
-["d"] = "Mining isn't the most glamorous, but it's good honest work and a fine profession for you to explore.\r\n\r\nI reckon I know someone that can teach you how to craft a Lodestone for your camp. Build one of these and everyone who wants to swing a sword will be eager to gather round your fire and soak up the extra \"oomph\" it can provide to increase their combat prowess.",
+[99161] = {
+["o"] = "Kill Avala and retrieve its core.",
+["d"] = "I noticed that the first elemental that appeared after the rockslide was larger than its peers. And from what I can tell, it has been the source of occasional weather changes and other minor slides.\r\n\r\nI've been calling it 'Avala', if you could kill it and retrieve the core as proof, I will reward you.",
 },
-[1678] = {
-["o"] = "Bring Vejrek's Head to Muren Stormpike in Ironforge.",
-["d"] = "If you want to rise in the ranks of the warriors, then you better be tough.  I can teach you new moves but before that, prove to me you can handle yourself against real foes.\n\nVejrek is the toughest troll you'll find in these parts, and he's who you have to beat.  He has a hut in the foothills just south of Frostmane Hold\n\nBring me Vejrek's head and I'll know you have mettle.",
+[6388] = {
+["o"] = "Bring the Honorary Picks to Gryth Thurden in Ironforge.",
+["d"] = "Here are the honorary picks for Brock's students.  If you've already been to Thelsamar, then you should fly a gryphon back there!\n\nTake the picks to our gryphon master, Gryth Thurden, and speak with him about a ride back to Thelsamar.",
 },
 [179] = {
 ["o"] = "Sten Stoutarm would like 8 pieces of Tough Wolf Meat.",
@@ -810,25 +789,25 @@ ForeverDungeonJournalDB = {
 ["o"] = "Talin Keeneye would like you to kill 12 Small Crag Boars.",
 ["d"] = "Nothing like a day of boar hunting, eh?\n\nThough, here in Coldridge Valley, there are so many boars it almost takes the fun out of it. No need to get them charging. They're all angry and ready without any help. In fact, recently, there've been so many boars in the area, it's become dangerous for me to do my daily hunting.\n\nLong story short, if you could help me kill some of the boars, I would appreciate it.",
 },
-[3113] = {
-["o"] = "Read the Encrypted Memorandum and speak to Solm Hargrin in Coldridge Valley.",
-["d"] = "While you were helping me out, this memorandum was given to me to pass on to you. Take some time to read it when you have a chance. I'm thinkin' it came from the rogue trainer Solm. Take a gander at it and go find him inside Anvilmar when you've a chance.",
-},
 [99159] = {
 ["o"] = "Collect 14 pieces of firewood.",
 ["d"] = "My hearth is open to warm any soul, but I'd like to ask you to help me if you could.\r\n\r\nI simply need more firewood. It is something I would normally do myself, but I have been preoccupied by other tasks.",
 },
-[99161] = {
-["o"] = "Kill Avala and retrieve its core.",
-["d"] = "I noticed that the first elemental that appeared after the rockslide was larger than its peers. And from what I can tell, it has been the source of occasional weather changes and other minor slides.\r\n\r\nI've been calling it 'Avala', if you could kill it and retrieve the core as proof, I will reward you.",
+[3113] = {
+["o"] = "Read the Encrypted Memorandum and speak to Solm Hargrin in Coldridge Valley.",
+["d"] = "While you were helping me out, this memorandum was given to me to pass on to you. Take some time to read it when you have a chance. I'm thinkin' it came from the rogue trainer Solm. Take a gander at it and go find him inside Anvilmar when you've a chance.",
+},
+[1678] = {
+["o"] = "Bring Vejrek's Head to Muren Stormpike in Ironforge.",
+["d"] = "If you want to rise in the ranks of the warriors, then you better be tough.  I can teach you new moves but before that, prove to me you can handle yourself against real foes.\n\nVejrek is the toughest troll you'll find in these parts, and he's who you have to beat.  He has a hut in the foothills just south of Frostmane Hold\n\nBring me Vejrek's head and I'll know you have mettle.",
+},
+[94414] = {
+["o"] = "Speak with Halaan Hawk-Eye and borrow his gift to view the anchor pylon in the distance.",
+["d"] = "Greetings, young N. I oftentimes come here to look upon the ancient anchor pylon. Gifts from the spirits of the winds, they bind and sustain our island. Of late however, their magic has grown unstable and inconsistent.\r\n\r\nThey suffer no distress I can see. Their splendor has not changed.\r\n\r\nIf you'd like, I can lend you my gift to look upon them yourself.",
 },
 [257] = {
 ["o"] = "Kill 6 Mountain Buzzards and return to Daryl the Youngling in the Farstrider Lodge within 15 minutes.",
 ["d"] = "Think you can match wits with Daryl the Bold, huh? I should think not! Of course, you're more than welcome to try. Here's a challenge that should prove to be above your abilities, so don't feel too bad if you can't face up to it.\n\nA flock of buzzards has nested here in Loch Modan. Why don't you try to take down some of the beasts? Tell you what, if you meet my challenge in fifteen minutes, I'll give you my bow or gun.\n\n<He looks you over dismissively.>\n\nIt seems you haven't much to lose, anyways.",
-},
-[384] = {
-["o"] = "Ragnar Thunderbrew in Kharanos wants 6 Crag Boar Ribs and a mug of Rhapsody Malt.",
-["d"] = "Nothing my tavern patrons enjoy more than some Beer Basted Boar Ribs!  Only problem is, the local trapper who used to bring me supplies enlisted in the King's Army to help with the war on the Alliance front. \n\nMaybe you can help me out?  If you bring me six crag boar ribs and a Rhapsody Malt from the tavern here, I'll give you the family recipe for my famous Beer Basted Boar Ribs, not to mention a free sample!  The secret's in the Malt!",
 },
 [96629] = {
 ["o"] = "Speak with Gremlock Pilsnor in Kharanos to learn to become a cook.",
@@ -846,13 +825,13 @@ ForeverDungeonJournalDB = {
 ["o"] = "Deliver Steelgrill's Tools to Beldin Steelgrill.",
 ["d"] = "Beldin Steelgrill owns the local mechanic shop, and he's the best siege engine tech there is!  But he's not forgiving to his tools.  I swear he almost breaks more arclight spanners than we can supply him with!\n\nWe just filled his last order for tools.  If you deliver it to him I'm sure he'll make it worth the effort.\n\nHis shop, Steelgrill's Depot, is just northeast of Kharanos.  And it's a local haunt for veteran siege engine pilots, so keep your ears open for opportunities while you're there.",
 },
-[3361] = {
-["o"] = "Bring Felix's Box, Felix's Chest and Felix's Bucket of Bolts to Felix Whindlebolt in Anvilmar.",
-["d"] = "We drove the troggs out of Gnomeregan, but then it all went so horribly wrong!  Now our home is completely irradiated, and we gnomes have been scattered all over Dun Morogh.\n\nIn my haste to get away from the radiation, I lost all my personal belongings and tools.  It was the trolls that got them.  They stole my chest, my box, and my bucket of bolts!  They took them back to their camps southwest of Anvilmar.\n\nI'm no adventurer - could you find my things and bring them here to me, please?",
+[92470] = {
+["o"] = "Slay 8 Ursera Scavengers and collect the head of the den mother, Urs'anah in Thendal Grove.",
+["d"] = "Rorian informed you that I've been watching you. I now offer you a test of resolve. However, be warned--it will send you into great danger.\r\n\r\nGo to the caves to the west. Thin out the ursera's numbers there, and find their matriarch, one the rangers call \"Urs'anah\". Put her down and bring me proof of her demise. Once you have done that, you will have taken an important step on your path.",
 },
-[96608] = {
-["o"] = "Sit near Eric's Basic Campfire and wait until you receive the Boosted Rest buff.",
-["d"] = "Greetings, rogue. I can see you've got the look of an adventurer about you. This is good. The world needs more of us restless souls, seeking fortune and glory.\r\n\r\nYou'll need to learn to thrive in the wilds to be successful in this line of work. Not sure how your outdoor skills are but I can probably teach you a thing or two, if you'd be apt to learn.\r\n\r\nHave a seat near the fire and get comfortable. I'll walk you through it.",
+[99158] = {
+["o"] = "Bring the crate of candles to Father Gavin at Misty Pine Refuge.",
+["d"] = "There's a priest out in the mountains that belongs to an organization called the Argent Dawn. They're a holy group that is dedicated to finding and destroying the unholy and unnatural.\r\n\r\nFather Gavin though, he's mostly the type that seeks to help and heal everyone rather than grab a weapon. He's fixed up an old building to serve as a rest spot for travelers and called it Misty Pine Refuge. I've got a shipment of holy candles that I need to get him. Could you bring them to him if you're going that way?",
 },
 [412] = {
 ["o"] = "Bring Razzle Sprysprocket in Kharanos 8 Restabilization Cogs and 8 Gyromechanic Gears.",
@@ -866,21 +845,21 @@ ForeverDungeonJournalDB = {
 ["o"] = "Deliver Grelin's report to Senir Whitebeard in Kharanos.",
 ["d"] = "The troggs in the tunnel are extremely hostile, and haven't shown any hesitation in attacking travelers through the tunnel. You seem tough enough, though, so you should probably be safe.\n\nDirections? If you're going to speak with Senir, you'll find him in Kharanos.\n\nMake your way through the tunnel, and after you come out on the other side, just keep following the road, it'll run right into Kharanos.",
 },
-[1680] = {
-["o"] = "Speak with Tormus Deepforge.",
-["d"] = "Now that you've learned some moves, it's time to get you a decent weapon.  Speak with Tormus Deepforge.  He can make you a weapon I'm sure you'll like.\n\nYou'll find Tormus here in Ironforge, at the Great Forge.",
+[297] = {
+["o"] = "Bring Magmar Fellhew 8 Carved Stone Idols.",
+["d"] = "Recently, just before the Troggs surfaced within the site, we had uncovered a large number of strange, carved idols.  But we didn't have the chance to study them, for soon after their discovery the Troggs chased us away from the ruins!  And those idols have a strange effect on the Troggs.  It makes them go berserk!\n\nBring me 8 idols - I want to study them, and I want them out of Trogg hands!  You can find the idols on the Troggs infesting the site.",
 },
 [301] = {
 ["o"] = "Take Ironband's Progress Report to Prospector Stormpike.",
 ["d"] = "We'll need approval to get Ironband more blastpowder. You'll have to take his report to the Explorers' League headquarters in Ironforge.\n\nHere's the report. Give it to Prospector Stormpike, and don't forget to duck after you deliver it. Stormpike is hotheaded, and he won't be happy to hear of Ironband's slow progress at the site.\n\nYou'll find Stormpike in the Assembly of Explorers.",
 },
-[432] = {
-["o"] = "Kill 6 Rockjaw Skullthumpers for Foreman Stonebrow at the Gol'Bolar quarry.",
-["d"] = "Those Light-blasted troggs, turning my work site into a wreck! Look at that, there goes another barrel of powder!\n\nOhhh, I wish I could go down there and wring every one of their scrawny little necks! I want to kill them all!\n\nThis can't be good for my health, all this stress and anger... What have they left me with? Nothing!\n\nI'd kill them myself, but my aim's no good anymore! You go into the quarry and kill some of the filthy buggers! I'll pay you! Just hurt them, kill them!",
+[217] = {
+["o"] = "Kill the Trogg leader, Grawmug, and his two guards, Gnasher and Brawler then report back to Captain Rugelfuss in the southern guard tower.",
+["d"] = "N, our scouts have identified the leader of this recent Trogg incursion.  It appears that these beasts in Loch Modan are following the lead of a chieftain named Grawmug.  Grawmug is heavily guarded, however.  Two of his most elite guards, Gnasher and Brawler, never leave his side.\n\nIf you feel yourself worthy, N, I want you to lead the assassination mission on Grawmug and his two thugs.  With the Trogg leadership dead, we just might stand a chance at pushing these beasts back into the ground.",
 },
-[436] = {
-["o"] = "Speak with Explorer Fellhew.",
-["d"] = "Prospector Ironband is heading an excavation of ancient ruins east of the lake.  His progress has been slow lately, especially considering all the supplies we've sent him.\n\nIronband's a stout, honest dwarf who values results, which has me worried that forces are at work against him.\n\nGo to Ironband's Excavation and speak with Magmar Fellhew.  He manages the details of the site and will know why there's a slowdown.\n\nTo get to the excavation site, go around the southern tip of the lake, then head east.",
+[7] = {
+["o"] = "Kill 10 Kobold Vermin, then return to Marshal McBride.",
+["d"] = "Your first task is one of cleansing, N.  A clan of kobolds have infested the woods to the north.  Go there and fight the kobold vermin you find.  Reduce their numbers so that we may one day drive them from Northshire.",
 },
 [313] = {
 ["o"] = "Gather 8 Wendigo Manes and bring them to Pilot Stonegear.",
@@ -894,39 +873,132 @@ ForeverDungeonJournalDB = {
 ["o"] = "Collect the rifles of fallen mountaineers.",
 ["d"] = "Even mountaineers from Ironforge have to keep their wits about them when traversing through the peaks of Dun Morogh. Falling snow and ice often spells the end of some more novice members' lives.\r\n\r\nAfter a slide, I usually try to find any sign of survivors or victims--while praying to the Light that there's nothing to be found. But with the elements acting up, I've held off wandering too far. If you could look for some lost mountaineers and bring me their rifles, I will return them to Ironforge.",
 },
-[315] = {
-["o"] = "Bring 6 Shimmerweeds to Rejold Barleybrew in the Brewnall Village.",
-["d"] = "I'm on a quest, a quest to make the perfect stout.  I know I can do it -- brewing's in my blood.  I just need to find the right recipe...\n\nThe Frostmane trolls grow a plant, shimmerweed, high up in the hills to the east.  They use it in their strange, tribal rituals.  We dwarves haven't found much use for it, but it has a unique taste...and I want to experiment with it in my brews!\n\nGet me some shimmerweed from Frostmane seers, or swipe it from the trolls' shimmerweed baskets.",
+[8372] = {
+["o"] = "Bring 3 Warsong Gulch Marks of Honor to an Alliance Brigadier General outside the battlegrounds.",
+["d"] = "The Silverwing Sentinels are at war with the Warsong Outriders due to the destruction the Orcs are causing to the forest.  There are, however, more reasons to defend this particular forest than plain love for nature.\n\nThe forest forms a strategic barrier that makes Ashenvale defendable against a large-scale attack.  Without it, Astranaar would last a day or two before being annexed to the Barrens.\n\nDo your part in fighting the Warsong Outriders, N!  For the Alliance!",
 },
 [1681] = {
 ["o"] = "Bring a load of Umbral Ore to Tormus Deepforge in Ironforge.",
 ["d"] = "My mentor, Sturgy Ironband, had a compound south of Helm's Bed Lake in eastern Dun Morogh.  There he taught blacksmithing and he was the best.\n\nBut one day, one of his students brought him a load of strange ore.  Master Ironband called it umbral ore and was eager to work with it, but soon after it arrived... a band of Dark Iron dwarves attacked his compound.  They killed everyone!\n\nEnter Ironband's compound, N, and avenge my master's death.  And bring me the load of umbral ore that caused it.",
 },
-[96392] = {
-["o"] = "Speak with Earthseer Farsen and ask him to lend you his far sight to observe the Dark Iron threat.",
-["d"] = "Greetings to ye, friend. My name is Earthseer Farsen and I'm visiting Dun Morogh from Aerie Peak. As I was travelin', I couldn't help but notice that we have, well... a bit o' a Dark Iron Dwarf problem.\r\n\r\nIf ye have a moment, I can show ye what I mean. I've got a bit o' magic that should do the trick.",
+[86613] = {
+["o"] = "Return 6 Excavation Tools to Magmar Fellhew.",
+["d"] = "The excavation's tools, left behind when the dwarves fled from the troggs, seem mostly untouched. Returning them to the excavators will surely aid their work.",
 },
-[233] = {
-["o"] = "Deliver the stack of letters to Talin Keeneye.",
-["d"] = "Hm, I don't suppose you'd be willing to do a favor for me, lad? A stack of letters came through the pass today, but I don't have the time to send them along.\n\nThey're all addressed to Talin Keeneye. You can find him to the west down the road. He's set up camp next to the frozen lake.\n\nWhat do you say?",
+[92463] = {
+["o"] = "Destroy the Cirrusfly Queen in Thendal Grove.",
+["d"] = "If the forest is as thick with these insects as it sounds, simply killing the workers won't be enough.\r\n\r\nGo deeper into the forest and find the queen. She'll be close to the hive and surrounded by bigger and more aggressive soldiers, so be careful.\r\n\r\nPut her down and return here when it's done. That'll be one less problem to think about around here.",
 },
-[96408] = {
-["o"] = "Investigate the campsite overlooking the Gol'Bolar Quarry.",
-["d"] = "Last night one of our mountaineers spotted a campfire on a hillside to the east. It looks to be pretty high up, overlooking the Gol'Bolar Quarry.\r\n\r\nIt's probably nothing, but I'd like you to go check on that camp. If they are friendly, no harm done. If they aren't friendly... well, you know what to do.",
+[92598] = {
+["o"] = "Use your Skysight racial ability at the Elemental Convergence in Thendal Grove.",
+["d"] = "As a Windshaper, you have the ability to use the sacred skysight gifted to us by the elemental spirits. Travel to the standing stones to the northeast of the village. Find the elemental convergence there and use your gift.\r\n\r\nYou'll find that you may draw upon the skysight anywhere, but its boon is much more powerful if you do so in the presence of an elemental convergence. You may at times receive other bits of wisdom from the spirits that are drawn to such places of power, as well.",
 },
-[98321] = {
-["o"] = "Collect 8 Flintfire Shipments from the Grizzled Den for Tongus Flintfire in Kharanos.",
-["d"] = "Hoha! Good to see a dwarf who's not afraid to get their hands dirty.\r\n\r\nIf yer lookin' fer work, I'm afraid I'm a little short on supplies at the moment. Our most reliable source of ore has been overrun by wendigo and now the cave has been abandoned. The miners had to drop everything when they fled!\r\n\r\nSay, why don't ye poke yer head around the Grizzled Den to the west and see if you can find some of our missing shipments. It would save us a great deal o' trouble.",
+[237] = {
+["o"] = "Mountaineer Gravelgaw in the southern guard tower wants you to kill 10 Stonesplinter Skullthumpers and 10 Stonesplinter Seers and report back to him.",
+["d"] = "Mountaineer Cobbleflint had nothing but good things to say about you, dwarf.  For that reason I am going to entrust upon you a mission of utmost importance.  We need to keep pressure on the invading Trogg forces until our Dwarven brethren return from the Alliance front.\n\nSet forth into the southern hills and kill 10 Stonesplinter Skullthumpers and 10 Stonesplinter Seers.  Your attacks will buy us some time.  Report back when your mission is complete.",
 },
-[307] = {
-["o"] = "Go to the Silver Stream Mine and collect 4 loads of Miners' Gear.\n\nReturn to Mountaineer Stormpike.",
-["d"] = "The Silver Stream Mine to the east ran dry long ago.  It was converted by the Miners' League into a storage depot, but now Kobolds have moved in, putting their filthy paws on good, Dwarven tools!\n\nWe'll root out those vermin soon enough, but the League wants someone to get their gear out of the mine before we warriors tromp in there and break things.  It'll be a tough delve - you might want cohorts at your side.\n\nThe gear is stored in Miners' League Crates throughout the mine.  Good luck.",
+[93552] = {
+["o"] = "Collect 15 Windstone Clusters from Raw Windstones in Thendal Grove.",
+["d"] = "Windstones are a critical resource on Zephras Isle as they contain the raw, concentrated energy of the winds themselves. The wind elementals who used to live here on Zephras with us vanished a number of years ago, and since then, the magic that sustains this island is slowly fading. Not without limitations, the windstones are still a reliable energy source, and are incredibly valuable to us.\r\n\r\nYou'll find raw windstones scattered around the grove. Think you can help me harvest them?",
 },
-[8372] = {
-["o"] = "Bring 3 Warsong Gulch Marks of Honor to an Alliance Brigadier General outside the battlegrounds.",
-["d"] = "The Silverwing Sentinels are at war with the Warsong Outriders due to the destruction the Orcs are causing to the forest.  There are, however, more reasons to defend this particular forest than plain love for nature.\n\nThe forest forms a strategic barrier that makes Ashenvale defendable against a large-scale attack.  Without it, Astranaar would last a day or two before being annexed to the Barrens.\n\nDo your part in fighting the Warsong Outriders, N!  For the Alliance!",
+[92465] = {
+["o"] = "Slay 6 Roiling Winds and 7 Al'Aketh Converts in Thendal Grove.",
+["d"] = "The Al'Aketh cult is a blight upon this island. These cultists are surely the ones responsible for agitating the simple wind sprites that reside here and turning them violent.\r\n\r\nRegrettably, we'll need to disperse these roiling winds here before they harm someone. We also need to send a clear message to the cult that they are not welcome in the grove.\r\n\r\nWill you lend me your aid, rogue?",
 },
 },
 },
-["lastBoss"] = 1,
+["foreverOnlyReset"] = 1,
+["lastQuest"] = 1,
+["trackerHintShown"] = true,
+["lastDungeon"] = "Hall of Thanes",
+["flightTimes"] = {
+["Thelsamar, Loch Modan>Ironforge, Dun Morogh"] = 109,
+["Ironforge, Dun Morogh>Thelsamar, Loch Modan"] = 101,
+},
+["learnedItemIDs"] = {
+["lost researcher's hood"] = {
+["id"] = 279931,
+["name"] = "Lost Researcher's Hood",
+},
+["expeditionary legplates"] = {
+["id"] = 279901,
+["name"] = "Expeditionary Legplates",
+},
+["shamanic wristguards"] = {
+["id"] = 280069,
+["name"] = "Shamanic Wristguards",
+},
+["impish chain hood"] = {
+["id"] = 280058,
+["name"] = "Impish Chain Hood",
+},
+["burnished pridescales"] = {
+["id"] = 280073,
+["name"] = "Burnished Pridescales",
+},
+["flameslash crescent"] = {
+["id"] = 280056,
+["name"] = "Flameslash Crescent",
+},
+["veilpiercer girdle"] = {
+["id"] = 280070,
+["name"] = "Veilpiercer Girdle",
+},
+["behemoth bones"] = {
+["id"] = 280065,
+["name"] = "Behemoth Bones",
+},
+["bleak eye shoulderplates"] = {
+["id"] = 280075,
+["name"] = "Bleak Eye Shoulderplates",
+},
+["cutthroat chestguard"] = {
+["id"] = 276739,
+["name"] = "Cutthroat Chestguard",
+},
+["satyr's touch"] = {
+["id"] = 287036,
+["name"] = "Satyr's Touch",
+},
+["lucky shovelnose tuft"] = {
+["id"] = 280060,
+["name"] = "Lucky Shovelnose Tuft",
+},
+["trousers of the ebon giant"] = {
+["id"] = 280066,
+["name"] = "Trousers of the Ebon Giant",
+},
+["tidesong wand"] = {
+["id"] = 276735,
+["name"] = "Tidesong Wand",
+},
+["reward voucher"] = {
+["id"] = 8070,
+["name"] = "Reward Voucher",
+},
+["grips of control"] = {
+["id"] = 276733,
+["name"] = "Grips of Control",
+},
+},
+["portraitTexturesByNpcID"] = {
+},
+["learnedQuestIDs"] = {
+},
+["lootFilter"] = {
+["enabled"] = false,
+["classOnly"] = false,
+["recipes"] = false,
+["schools"] = {
+},
+["matchAll"] = true,
+["resists"] = {
+},
+["armorTypes"] = {
+},
+["stats"] = {
+},
+["weaponTypes"] = {
+},
+},
 }
