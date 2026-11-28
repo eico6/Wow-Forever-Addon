@@ -26,3 +26,5 @@ Blizzard_CompactRaidFrames: enabled
 ForeverAurasCompanion: enabled
 TidyPlates_ThreatPlates: disabled
 Plater: disabled
+Bagnon_GuildBank: enabled
+Bagnon_Bank: enabled

@@ -8,9 +8,18 @@ ForeverDungeonJournalCharacterDB = {
 },
 ["trackerSlots"] = {
 },
+["rpgQuests"] = {
+},
 ["arrowDone"] = {
 },
-["rpgQuests"] = {
+["hearthSpot"] = {
+["y"] = 0.6410599946975708,
+["mapID"] = 1412,
+["name"] = "Bloodhoof Village",
+["x"] = 0.4598020911216736,
+["v"] = 2,
+},
+["arrowChains"] = {
 },
 ["rpgKills"] = {
 },
@@ -24,6 +33,20 @@ ForeverDungeonJournalCharacterDB = {
 ["runs"] = {
 },
 },
-["arrowChains"] = {
+["lootFilter"] = {
+["armorTypes"] = {
+},
+["stats"] = {
+},
+["recipes"] = false,
+["schools"] = {
+},
+["matchAll"] = true,
+["resists"] = {
+},
+["classOnly"] = false,
+["enabled"] = false,
+["weaponTypes"] = {
+},
 },
 }

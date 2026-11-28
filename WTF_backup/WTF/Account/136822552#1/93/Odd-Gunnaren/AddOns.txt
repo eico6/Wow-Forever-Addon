@@ -27,3 +27,5 @@ WhatsTraining: enabled
 Blizzard_ObjectiveTracker: enabled
 Blizzard_CompactRaidFrames: enabled
 ForeverAurasCompanion: enabled
+Bagnon_GuildBank: enabled
+Bagnon_Bank: enabled

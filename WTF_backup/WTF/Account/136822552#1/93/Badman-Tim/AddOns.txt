@@ -21,3 +21,5 @@ Blizzard_CompactRaidFrames: enabled
 ForeverAurasCompanion: enabled
 ForeverAurasArchive: enabled
 ForestActionBars: disabled
+Bagnon_GuildBank: enabled
+Bagnon_Bank: enabled

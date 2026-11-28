@@ -4,3 +4,5 @@ ForeverAurasCompanion: enabled
 ForeverAurasArchive: enabled
 ForestActionBars: disabled
 EivindBars: enabled
+Bagnon_GuildBank: enabled
+Bagnon_Bank: enabled

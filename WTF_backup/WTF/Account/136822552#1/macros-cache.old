@@ -2,6 +2,9 @@ VER 3 0000000000000001 " " "133052"
 #showtooltip Attack
 /startattack
 END
+VER 3 0000000000000006 "EIV" "134400"
+husk å flytt error message popup placement
+END
 VER 3 0000000000000003 "focus" "3778340"
 /clearfocus
 /focus [@mouseover,exists,nodead]

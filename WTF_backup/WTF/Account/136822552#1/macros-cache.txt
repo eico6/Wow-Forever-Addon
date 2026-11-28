@@ -3,7 +3,7 @@ VER 3 0000000000000001 " " "133052"
 /startattack
 END
 VER 3 0000000000000006 "EIV" "134400"
-husk å flytt error message popup placement
+- weapon swing timer kopier gamle setup
 END
 VER 3 0000000000000003 "focus" "3778340"
 /clearfocus
