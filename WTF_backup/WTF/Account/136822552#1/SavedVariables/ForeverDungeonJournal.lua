@@ -540,6 +540,10 @@ ForeverDungeonJournalDB = {
 ["o"] = "Bring Felix's Box, Felix's Chest and Felix's Bucket of Bolts to Felix Whindlebolt in Anvilmar.",
 ["d"] = "We drove the troggs out of Gnomeregan, but then it all went so horribly wrong!  Now our home is completely irradiated, and we gnomes have been scattered all over Dun Morogh.\n\nIn my haste to get away from the radiation, I lost all my personal belongings and tools.  It was the trolls that got them.  They stole my chest, my box, and my bucket of bolts!  They took them back to their camps southwest of Anvilmar.\n\nI'm no adventurer - could you find my things and bring them here to me, please?",
 },
+[749] = {
+["o"] = "Morin Cloudstalker wants you to examine the contents of a supply crate at the Ravaged Caravan.",
+["d"] = "A few days ago, we found a Venture Co. caravan traveling under guard on the northern shore of Stonebull Lake. We'd lost two of our number in an earlier battle, so we were quick to attack and lay waste to the caravan.\n\nWe left their supply crates, thinking that our torches would destroy anything of value, but given that Venture Co. salvagers have been spotted near the burned wagons, maybe we were wrong.\n\nPerhaps you could go to the caravan and examine the contents of the crates.",
+},
 [96391] = {
 ["o"] = "Deliver the Dark Iron Map to Earthseer Farsen in Dun Morogh.",
 ["d"] = "The map you are holding seems to show a complex series of underground tunnels and highways that all seem to converge on a point underneath Ironforge itself.\r\n\r\nYou can't be sure what the runes say as they are written in the ugly jagged rune language of the Dark Iron dwarves, but you can guess at the purpose of these tunnels. As you are reading the map, a gust of wind washes over you and you can faintly hear a dwarven voice carried on it, urging you to seek out an Earthseer named \"Farsen\".",
@@ -627,6 +631,10 @@ ForeverDungeonJournalDB = {
 [95214] = {
 ["o"] = "Recover 16 Stolen Blasting Powder from the troggs east of Gol'Bolar Quarry, then return to Quarrymaster Thesten.",
 ["d"] = "This keg held enough powder to turn King Magni's throne room into an open air courtyard. We've got to get it back from the troggs before they work out how to ignite it.",
+},
+[754] = {
+["o"] = "Use the Winterhoof Cleansing Totem at the Winterhoof Water Well, then return to Mull Thunderhorn.",
+["d"] = "I have crafted the totem to cleanse the Winterhoof Water Well. Now, you must take it to the well and perform a cleansing ritual. You will find it to the southeast, guarded by foul goblins!\n\nThis will not be an easy task, but you must do it if we are ever to use its waters again.\n\nFortune to you, N.",
 },
 [98322] = {
 ["o"] = "Check in on Mountaineer Gretchen west of Kharanos.",
@@ -768,9 +776,21 @@ ForeverDungeonJournalDB = {
 ["o"] = "Kill 6 Rockjaw Skullthumpers for Foreman Stonebrow at the Gol'Bolar quarry.",
 ["d"] = "Those Light-blasted troggs, turning my work site into a wreck! Look at that, there goes another barrel of powder!\n\nOhhh, I wish I could go down there and wring every one of their scrawny little necks! I want to kill them all!\n\nThis can't be good for my health, all this stress and anger... What have they left me with? Nothing!\n\nI'd kill them myself, but my aim's no good anymore! You go into the quarry and kill some of the filthy buggers! I'll pay you! Just hurt them, kill them!",
 },
+[263] = {
+["o"] = "Mountaineer Wallbang in the southern guard tower wants you to kill 10 Stonesplinter Shaman and 10 Stonesplinter Bonesnappers.",
+["d"] = "The Mountaineers tell me you are quite brave and capable, N.  We need a dwarf like you around here.  The Trogg problem isn't getting any better.  The reserves have been called to the front and we're all alone out here.  But now that we have a seasoned warrior here, let's see what you can do.\n\nGo out and kill 10 Stonesplinter Shaman and 10 Stonesplinter Bonesnappers.  Let's see if you live up to your reputation, Trogg-Slayer.",
+},
 [1338] = {
 ["o"] = "Bring Stormpike's Request to Furen Longbeard in Stormwind.",
 ["d"] = "There is a dwarven armorsmith whose work I admire greatly.  His name is Furen Longbeard, and his skill is unmatched.  I need a new shield, and I must have one of his!\n\nThe problem is... Furen is far to the south, in the dwarven district within Stormwind.  In human lands!  I can't imagine why he would live there, so far from Ironforge.  The humans must pay him a king's ransom to keep him there!\n\nSo, if you want to travel and don't mind making some money, then will you send Furen my request for a shield?",
+},
+[182] = {
+["o"] = "Grelin Whitebeard would like you to kill 14 Frostmane Troll Whelps.",
+["d"] = "My brother Senir and I were sent to different parts of Dun Morogh to investigate the threat posed by the trolls. The Senate has its hands full with the troggs, so they've no need for further annoyances.\n\nFrom what I've seen, the trolls aren't well situated here in Coldridge Valley--mostly the southern cave. I'd say that the army will not be necessary. A few strong arms should be more than enough.\n\nPerhaps you'd like to assist in this endeavor? I have the authority to offer compensation for your help.",
+},
+[99101] = {
+["o"] = "Bring Longwalker Malah's Report to Baine Bloodhoof.",
+["d"] = "Baine Bloodhoof leads our village. He must know of this incursion at once.\r\n\r\nBring him Longwalker Malah's report. You will find him at the center of town.\r\n\r\nQuickly, now. There is no time to waste!",
 },
 [257] = {
 ["o"] = "Kill 6 Mountain Buzzards and return to Daryl the Youngling in the Farstrider Lodge within 15 minutes.",
@@ -779,6 +799,10 @@ ForeverDungeonJournalDB = {
 [1339] = {
 ["o"] = "Speak with Mountaineer Stormpike.",
 ["d"] = "I hear Mountaineer Stormpike is looking for a runner.  Someone to do a little traveling for him.  How about it?  Are you the dwarf for the job?\n\nIf so, then you'll find Stormpike at the top of the northern guard tower.",
+},
+[745] = {
+["o"] = "Kill 10 Palemane Tanners, 8 Palemane Skinners, and 5 Palemane Poachers, then return to Baine Bloodhoof in Bloodhoof Village.",
+["d"] = "N, there are many conflicts that wound this land. It is my hope that you will not bear witness to as many of them as I have. Yet there is one that I would ask you to seek out. It will give you some sense of how terrible, if left unchecked, even a small threat can be to the land.\n\nPalemane gnolls have settled to the south of Bloodhoof and in a cave to the west. They disrespect our attempts to communicate with them, and they slay the wildlife of Mulgore unbridled.\n\nWords are no longer the answer.",
 },
 [86667] = {
 ["o"] = "Deliver a Jar of Snow to Norric Lochthane at his house on the northwest coast of the Loch.",
@@ -896,9 +920,9 @@ ForeverDungeonJournalDB = {
 ["o"] = "Use your Skysight racial ability at the Elemental Convergence in Thendal Grove.",
 ["d"] = "As a Windshaper, you have the ability to use the sacred skysight gifted to us by the elemental spirits. Travel to the standing stones to the northeast of the village. Find the elemental convergence there and use your gift.\r\n\r\nYou'll find that you may draw upon the skysight anywhere, but its boon is much more powerful if you do so in the presence of an elemental convergence. You may at times receive other bits of wisdom from the spirits that are drawn to such places of power, as well.",
 },
-[771] = {
-["o"] = "Collect 2 Well Stones and 2 Ambercorn and bring them back to Zarlman Two-Moons in Bloodhoof Village.",
-["d"] = "In order to pass through the Rite of Vision, you must gather the reagents needed to make the Water of the Seers.\n\nI will need well stones, which can be found around the water wells in Mulgore. With those I will combine Ambercorn, which fall beneath the mighty trees in our land.\n\nThese reagents contain magical elements, and when brewed and consumed before the tribal fire, will cause you to encounter a vision. Follow it, and it will lead you to the next step of this holy quest.",
+[7905] = {
+["o"] = "Deliver the Free Ticket Voucher to Gelvas Grimgate, located inside the Darkmoon Faire carnival.",
+["d"] = "The Darkmoon Faire is coming!  Be sure to experience all the wonders and excitement of it when it comes to town!\n\nIf you act right now, you can redeem this voucher for free prize tickets!  Just hand your voucher to Gelvas Grimgate located inside the carnival.\n\nRight now, the Faire is outside Goldshire, in the Elwynn Forest.  Don't miss out!  Go today!",
 },
 [86776] = {
 ["o"] = "Bring 10 Bronze Bars to Morhan Coppertongue.",
@@ -928,13 +952,13 @@ ForeverDungeonJournalDB = {
 ["o"] = "Collect 6 Scrawny Ursera Claws from Scrawny Ursera in Thendal Grove.",
 ["d"] = "The ursera den to the southwest is rapidly becoming a problem. Just last week the rangers had to kill an adolescent ursera who wandered too close to the village and attempted to attack a boy playing near the base of the elder tree in the center of the village.\r\n\r\nWe were fortunate that the boy escaped with his life. Hunger and desperation makes these beasts too dangerous to be left unchecked. Go south and put the scrawniest among the ursera down. Bring me their claws as proof when it is done.",
 },
-[263] = {
-["o"] = "Mountaineer Wallbang in the southern guard tower wants you to kill 10 Stonesplinter Shaman and 10 Stonesplinter Bonesnappers.",
-["d"] = "The Mountaineers tell me you are quite brave and capable, N.  We need a dwarf like you around here.  The Trogg problem isn't getting any better.  The reserves have been called to the front and we're all alone out here.  But now that we have a seasoned warrior here, let's see what you can do.\n\nGo out and kill 10 Stonesplinter Shaman and 10 Stonesplinter Bonesnappers.  Let's see if you live up to your reputation, Trogg-Slayer.",
+[772] = {
+["o"] = "Consume the Water of the Seers in front of the tribal fire in Bloodhoof Village and follow the vision once it appears.",
+["d"] = "I now present you with the Water of the Seers.\n\nWhen you are ready, consume the waters near the tribal fire. Once you have ingested the holy waters, it will take a few moments before the vision materializes before the fire.\n\nAt that point, it is up to you to follow it to your destiny....",
 },
-[182] = {
-["o"] = "Grelin Whitebeard would like you to kill 14 Frostmane Troll Whelps.",
-["d"] = "My brother Senir and I were sent to different parts of Dun Morogh to investigate the threat posed by the trolls. The Senate has its hands full with the troggs, so they've no need for further annoyances.\n\nFrom what I've seen, the trolls aren't well situated here in Coldridge Valley--mostly the southern cave. I'd say that the army will not be necessary. A few strong arms should be more than enough.\n\nPerhaps you'd like to assist in this endeavor? I have the authority to offer compensation for your help.",
+[99080] = {
+["o"] = "Kill 6 Galak Centaurs, 4 Galak Outrunners, and bring the head of Herak the Pillager to Baine Bloodhoof.",
+["d"] = "Hear my words well: we will not yield a single blade of grass to the centaur.\r\n\r\nGo to their camp now, before they have rested and have a chance to ride to our village. Slaughter them all. Ensure none escape to the Barrens to rally others to their aid.\r\n\r\nIf you find the leader of this would-be raiding party, bring me his head so that it may serve as a warning to others who dare tread on our ancestral homeland.",
 },
 [92463] = {
 ["o"] = "Destroy the Cirrusfly Queen in Thendal Grove.",
@@ -956,9 +980,9 @@ ForeverDungeonJournalDB = {
 ["o"] = "Destroy 10 minor ice elementals.",
 ["d"] = "You may have noticed the elementals nearby. A shelf of rock and ice fell from the mountain peaks a few days ago and riled them up.\r\n\r\nThese frozen mountains are already treacherous for the average dwarf or human without the elements taking form. I am not one for fighting anymore--so any of the spirits you can kill would help make the road safer.",
 },
-[7905] = {
-["o"] = "Deliver the Free Ticket Voucher to Gelvas Grimgate, located inside the Darkmoon Faire carnival.",
-["d"] = "The Darkmoon Faire is coming!  Be sure to experience all the wonders and excitement of it when it comes to town!\n\nIf you act right now, you can redeem this voucher for free prize tickets!  Just hand your voucher to Gelvas Grimgate located inside the carnival.\n\nRight now, the Faire is outside Goldshire, in the Elwynn Forest.  Don't miss out!  Go today!",
+[771] = {
+["o"] = "Collect 2 Well Stones and 2 Ambercorn and bring them back to Zarlman Two-Moons in Bloodhoof Village.",
+["d"] = "In order to pass through the Rite of Vision, you must gather the reagents needed to make the Water of the Seers.\n\nI will need well stones, which can be found around the water wells in Mulgore. With those I will combine Ambercorn, which fall beneath the mighty trees in our land.\n\nThese reagents contain magical elements, and when brewed and consumed before the tribal fire, will cause you to encounter a vision. Follow it, and it will lead you to the next step of this holy quest.",
 },
 [6391] = {
 ["o"] = "Buy a gryphon to Ironforge from the gryphon master Thorgrum Borrelson, then bring Brock's List to Golnir Bouldertoe in Ironforge.",
@@ -996,9 +1020,9 @@ ForeverDungeonJournalDB = {
 ["o"] = "Bring the Bundle of Furs to Innkeeper Kauth in Bloodhoof Village.",
 ["d"] = "N, please, I beg of you, can you help me? I have not finished my tasks here on the Mesa--I'm in the middle of my Rite of Strength--and my father asked me to deliver these furs to the inn in Bloodhoof.\n\nI'm far from rested enough to complete both my rite and this task for my father. Would you mind going on for me?\n\nThe inn is pleasant and a perfect place to rest during your long travels. I'm sure you'll agree once you see it.",
 },
-[745] = {
-["o"] = "Kill 10 Palemane Tanners, 8 Palemane Skinners, and 5 Palemane Poachers, then return to Baine Bloodhoof in Bloodhoof Village.",
-["d"] = "N, there are many conflicts that wound this land. It is my hope that you will not bear witness to as many of them as I have. Yet there is one that I would ask you to seek out. It will give you some sense of how terrible, if left unchecked, even a small threat can be to the land.\n\nPalemane gnolls have settled to the south of Bloodhoof and in a cave to the west. They disrespect our attempts to communicate with them, and they slay the wildlife of Mulgore unbridled.\n\nWords are no longer the answer.",
+[99081] = {
+["o"] = "Bring Longwalker Malah's Report to Brave Wildrunner in Bloodhoof Village.",
+["d"] = "You can see what appears to be a new centaur camp in the direction the arrows in Malah's back would have come from. There is a stir of activity, suggesting a small raiding party has made its way into Mulgore.\r\n\r\nThe Longwalker has a report in her still-clenched hand. Brave Wildrunner will want to know of Malah's fate--and her killers.",
 },
 [420] = {
 ["o"] = "Deliver Grelin's report to Senir Whitebeard in Kharanos.",
@@ -1030,13 +1054,13 @@ ForeverDungeonJournalDB = {
 ["exportHintSeen"] = true,
 ["lastQuest"] = 1,
 ["learnedItemIDs"] = {
-["lost researcher's hood"] = {
-["id"] = 279931,
-["name"] = "Lost Researcher's Hood",
-},
 ["expeditionary legplates"] = {
 ["id"] = 279901,
 ["name"] = "Expeditionary Legplates",
+},
+["grips of control"] = {
+["id"] = 276733,
+["name"] = "Grips of Control",
 },
 ["shamanic wristguards"] = {
 ["id"] = 280069,
@@ -1058,17 +1082,17 @@ ForeverDungeonJournalDB = {
 ["id"] = 280070,
 ["name"] = "Veilpiercer Girdle",
 },
-["behemoth bones"] = {
-["id"] = 280065,
-["name"] = "Behemoth Bones",
+["cutthroat chestguard"] = {
+["id"] = 276739,
+["name"] = "Cutthroat Chestguard",
 },
 ["bleak eye shoulderplates"] = {
 ["id"] = 280075,
 ["name"] = "Bleak Eye Shoulderplates",
 },
-["cutthroat chestguard"] = {
-["id"] = 276739,
-["name"] = "Cutthroat Chestguard",
+["tidesong wand"] = {
+["id"] = 276735,
+["name"] = "Tidesong Wand",
 },
 ["satyr's touch"] = {
 ["id"] = 287036,
@@ -1082,17 +1106,17 @@ ForeverDungeonJournalDB = {
 ["id"] = 280066,
 ["name"] = "Trousers of the Ebon Giant",
 },
-["tidesong wand"] = {
-["id"] = 276735,
-["name"] = "Tidesong Wand",
+["behemoth bones"] = {
+["id"] = 280065,
+["name"] = "Behemoth Bones",
 },
 ["reward voucher"] = {
 ["id"] = 8070,
 ["name"] = "Reward Voucher",
 },
-["grips of control"] = {
-["id"] = 276733,
-["name"] = "Grips of Control",
+["lost researcher's hood"] = {
+["id"] = 279931,
+["name"] = "Lost Researcher's Hood",
 },
 },
 ["trackerHintShown"] = true,

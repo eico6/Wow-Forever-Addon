@@ -1,0 +1,150 @@
+
+Bagnon_Sets = {
+["latest"] = {
+},
+["global"] = {
+["inventory"] = {
+["rules"] = {
+["sidebar"] = {
+"all",
+"normal",
+"trade",
+},
+},
+["point"] = "BOTTOMRIGHT",
+["scale"] = 1,
+["borderColor"] = {
+},
+["sidebar"] = false,
+["activeRules"] = {
+["sidebar"] = "all",
+},
+["bagBreak"] = 1,
+["spacing"] = 2,
+["serverSort"] = true,
+["options"] = false,
+["color"] = {
+0,
+0,
+0,
+0.5,
+},
+["money"] = true,
+["brokerObject"] = "DetailsStreamer",
+["itemScale"] = 1,
+["skin"] = "Bagnonium",
+["y"] = 196.9699401855469,
+["x"] = -256.8692859361336,
+["search"] = false,
+["broker"] = false,
+["reverseSlots"] = false,
+["reverseBags"] = false,
+["bagToggle"] = false,
+["partialFirst"] = false,
+},
+["vault"] = {
+["color"] = {
+},
+["rules"] = {
+["sidebar"] = {
+"all",
+"tradegoods",
+"consumable",
+"armor",
+"questitem",
+"miscellaneous",
+},
+},
+["activeRules"] = {
+},
+["borderColor"] = {
+},
+},
+["guild"] = {
+["y"] = 397.3182067871094,
+["rules"] = {
+["sidebar"] = {
+"all",
+"tradegoods",
+"consumable",
+"armor",
+"questitem",
+"miscellaneous",
+},
+},
+["point"] = "BOTTOMLEFT",
+["borderColor"] = {
+},
+["color"] = {
+},
+["activeRules"] = {
+},
+["x"] = 754.343505859375,
+},
+["bank"] = {
+["y"] = 532.3181762695312,
+["rules"] = {
+["sidebar"] = {
+"all",
+"tradegoods",
+"consumable",
+"armor",
+"questitem",
+"miscellaneous",
+},
+},
+["point"] = "BOTTOMLEFT",
+["borderColor"] = {
+},
+["color"] = {
+},
+["activeRules"] = {
+},
+["x"] = 95.00000762939453,
+},
+},
+["countGuild"] = false,
+["color"] = {
+["quiver"] = {
+},
+["herb"] = {
+},
+["normal"] = {
+},
+["soul"] = {
+},
+["leather"] = {
+},
+["mine"] = {
+},
+["gem"] = {
+},
+["inscribe"] = {
+},
+["reagent"] = {
+},
+["engineer"] = {
+},
+["key"] = {
+},
+["tackle"] = {
+},
+["fridge"] = {
+},
+["enchant"] = {
+},
+["account"] = {
+},
+},
+["countCurrency"] = true,
+["profiles"] = {
+},
+["locked"] = false,
+["customRules"] = {
+},
+["slotBackground"] = 2,
+["countPerFaction"] = true,
+["glowAlpha"] = 0.25,
+["display"] = {
+},
+}

@@ -4,6 +4,432 @@ ForeverAurasSaved = {
 },
 ["editor_tab_spaces"] = 4,
 ["displays"] = {
+["Battle Shout"] = {
+["iconSource"] = -1,
+["color"] = {
+1,
+1,
+1,
+1,
+},
+["adjustedMax"] = "",
+["adjustedMin"] = "",
+["yOffset"] = 0,
+["anchorPoint"] = "CENTER",
+["cooldownSwipe"] = false,
+["cooldownEdge"] = false,
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
+["triggers"] = {
+{
+["trigger"] = {
+["type"] = "secretAura",
+["subeventSuffix"] = "_CAST_START",
+["auraspellids"] = {
+},
+["auraTracking"] = "native",
+["auraReadableSettings"] = {
+["debuffType"] = "HELPFUL",
+},
+["event"] = "Health",
+["names"] = {
+},
+["secretUseRankSpellIDs"] = true,
+["useExactSpellId"] = true,
+["spellIds"] = {
+},
+["subeventPrefix"] = "SPELL",
+["auraRankSpellIDs"] = {
+"Battle Shout",
+},
+["unit"] = "player",
+["secretUseSpellIDs"] = false,
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+["activeTriggerMode"] = 1,
+},
+["internalVersion"] = 93,
+["progressSource"] = {
+-1,
+"",
+},
+["animation"] = {
+["start"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["desaturate"] = false,
+["subRegions"] = {
+{
+["type"] = "subbackground",
+},
+{
+["text_shadowXOffset"] = 0,
+["text_text"] = "%p",
+["text_shadowColor"] = {
+0,
+0,
+0,
+1,
+},
+["text_selfPoint"] = "AUTO",
+["text_automaticWidth"] = "Auto",
+["text_fixedWidth"] = 64,
+["text_anchorYOffset"] = 0,
+["anchorYOffset"] = 0,
+["text_justify"] = "CENTER",
+["rotateText"] = "NONE",
+["text_text_format_p_time_precision"] = 1,
+["text_text_format_p_time_legacy_floor"] = false,
+["text_text_format_p_time_mod_rate"] = true,
+["type"] = "subtext",
+["text_anchorXOffset"] = 0,
+["text_color"] = {
+1,
+1,
+1,
+1,
+},
+["text_font"] = "Friz Quadrata TT",
+["text_text_format_p_time_dynamic_threshold"] = 60,
+["text_shadowYOffset"] = 0,
+["text_text_format_p_time_format"] = 0,
+["text_wordWrap"] = "WordWrap",
+["text_visible"] = false,
+["text_text_format_p_format"] = "timed",
+["text_alpha"] = 1,
+["anchor_point"] = "CENTER",
+["text_fontSize"] = 16,
+["anchorXOffset"] = 0,
+["text_fontType"] = "OUTLINE",
+},
+{
+["glowFrequency"] = 0.25,
+["type"] = "subglow",
+["useGlowColor"] = false,
+["glowType"] = "buttonOverlay",
+["glowLength"] = 10,
+["glowYOffset"] = 0,
+["glowColor"] = {
+1,
+1,
+1,
+1,
+},
+["glowDuration"] = 1,
+["glowXOffset"] = 0,
+["glow"] = false,
+["glowScale"] = 1,
+["glowThickness"] = 1,
+["glowLines"] = 8,
+["glowBorder"] = false,
+},
+},
+["height"] = 50,
+["load"] = {
+["size"] = {
+["multi"] = {
+},
+},
+["spec"] = {
+["multi"] = {
+},
+},
+["class"] = {
+["multi"] = {
+},
+},
+["talent"] = {
+["multi"] = {
+},
+},
+},
+["useAdjustededMax"] = false,
+["displayIcon"] = 132333,
+["uid"] = "2sSTPcsPSb8",
+["frameStrata"] = 1,
+["useAdjustededMin"] = false,
+["regionType"] = "icon",
+["cooldown"] = true,
+["width"] = 50,
+["zoom"] = 0,
+["parent"] = "Buffs",
+["xOffset"] = 0,
+["keepAspectRatio"] = false,
+["cooldownTextDisabled"] = false,
+["useCooldownModRate"] = true,
+["authorOptions"] = {
+},
+["id"] = "Battle Shout",
+["icon"] = true,
+["alpha"] = 1,
+["anchorFrameType"] = "SCREEN",
+["blizzardAuraDisplay"] = {
+["actionSounds"] = true,
+["sharedDisplay"] = true,
+},
+["config"] = {
+},
+["inverse"] = false,
+["selfPoint"] = "CENTER",
+["conditions"] = {
+},
+["information"] = {
+},
+["texYOffset"] = 0,
+},
+["Buffs"] = {
+["controlledChildren"] = {
+"Battle Shout",
+},
+["borderBackdrop"] = "Blizzard Tooltip",
+["xOffset"] = -83.73232958922597,
+["yOffset"] = 78.5003378217556,
+["anchorPoint"] = "CENTER",
+["borderColor"] = {
+0,
+0,
+0,
+1,
+},
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
+["triggers"] = {
+{
+["trigger"] = {
+["type"] = "aura2",
+["subeventSuffix"] = "_CAST_START",
+["auraTracking"] = "readable",
+["event"] = "Health",
+["subeventPrefix"] = "SPELL",
+["spellIds"] = {
+},
+["names"] = {
+},
+["unit"] = "player",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+},
+["internalVersion"] = 93,
+["animation"] = {
+["start"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["subRegions"] = {
+},
+["load"] = {
+["size"] = {
+["multi"] = {
+},
+},
+["spec"] = {
+["multi"] = {
+},
+},
+["class"] = {
+["multi"] = {
+},
+},
+["talent"] = {
+["multi"] = {
+},
+},
+},
+["backdropColor"] = {
+1,
+1,
+1,
+0.5,
+},
+["anchorFrameFrame"] = "PlayerFrame",
+["scale"] = 0.5,
+["border"] = false,
+["borderEdge"] = "Square Full White",
+["regionType"] = "group",
+["borderSize"] = 2,
+["blizzardFlow"] = true,
+["parent"] = "WARRIOR",
+["blizzardFlowOrigin"] = "group",
+["selfPoint"] = "CENTER",
+["blizzardFlowSpacing"] = 2,
+["frameStrata"] = 1,
+["borderPixelPerfect"] = true,
+["id"] = "Buffs",
+["blizzardFlowGrowth"] = "RIGHT",
+["alpha"] = 1,
+["anchorFrameType"] = "SELECTFRAME",
+["authorOptions"] = {
+},
+["config"] = {
+},
+["borderOffset"] = 4,
+["borderInset"] = 1,
+["conditions"] = {
+},
+["information"] = {
+},
+["uid"] = "LnUrzxZM7nu",
+},
+["WARRIOR"] = {
+["backdropColor"] = {
+1,
+1,
+1,
+0.5,
+},
+["controlledChildren"] = {
+"Buffs",
+},
+["borderBackdrop"] = "Blizzard Tooltip",
+["xOffset"] = 0,
+["yOffset"] = 0,
+["border"] = false,
+["borderEdge"] = "Square Full White",
+["anchorPoint"] = "CENTER",
+["borderSize"] = 2,
+["scale"] = 1,
+["borderColor"] = {
+0,
+0,
+0,
+1,
+},
+["uid"] = "AYD70THQe)(",
+["regionType"] = "group",
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
+["triggers"] = {
+{
+["trigger"] = {
+["type"] = "aura2",
+["subeventSuffix"] = "_CAST_START",
+["auraTracking"] = "readable",
+["event"] = "Health",
+["subeventPrefix"] = "SPELL",
+["spellIds"] = {
+},
+["names"] = {
+},
+["unit"] = "player",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+},
+["authorOptions"] = {
+},
+["internalVersion"] = 93,
+["borderPixelPerfect"] = true,
+["selfPoint"] = "CENTER",
+["id"] = "WARRIOR",
+["borderOffset"] = 4,
+["frameStrata"] = 1,
+["anchorFrameType"] = "SCREEN",
+["animation"] = {
+["start"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["config"] = {
+},
+["alpha"] = 1,
+["subRegions"] = {
+},
+["borderInset"] = 1,
+["conditions"] = {
+},
+["load"] = {
+["size"] = {
+["multi"] = {
+},
+},
+["spec"] = {
+["multi"] = {
+},
+},
+["class"] = {
+["multi"] = {
+},
+},
+["talent"] = {
+["multi"] = {
+},
+},
+},
+["information"] = {
+},
+},
 },
 ["dynamicIconCache"] = {
 },

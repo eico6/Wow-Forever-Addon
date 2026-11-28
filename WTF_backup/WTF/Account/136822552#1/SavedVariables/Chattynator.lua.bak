@@ -264,10 +264,10 @@ CHATTYNATOR_CONFIG = {
 ["g"] = 1,
 ["b"] = 0.6235294342041016,
 },
-["BG_SYSTEM_NEUTRAL"] = {
+["CHANNEL_Trade"] = {
 ["r"] = 1,
-["g"] = 0.4705882668495178,
-["b"] = 0.03921568766236305,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
 },
 ["FILTERED"] = {
 ["r"] = 1,
@@ -339,20 +339,20 @@ CHATTYNATOR_CONFIG = {
 ["g"] = 0.501960813999176,
 ["b"] = 0.501960813999176,
 },
-["CHANNEL18"] = {
-["r"] = 1,
-["g"] = 0.7529412508010864,
-["b"] = 0.7529412508010864,
-},
 ["CHANNEL_Services"] = {
 ["r"] = 1,
 ["g"] = 0.7529412508010864,
 ["b"] = 0.7529412508010864,
 },
-["BN_WHISPER_INFORM"] = {
-["r"] = 0,
-["g"] = 1,
-["b"] = 0.9647059440612793,
+["GUILD_DISCORD"] = {
+["r"] = 0.4470588564872742,
+["g"] = 0.4941176772117615,
+["b"] = 1,
+},
+["INSTANCE_CHAT"] = {
+["r"] = 1,
+["g"] = 0.4980392456054688,
+["b"] = 0,
 },
 ["PET_INFO"] = {
 ["r"] = 0.501960813999176,
@@ -369,15 +369,15 @@ CHATTYNATOR_CONFIG = {
 ["g"] = 1,
 ["b"] = 0,
 },
-["ACHIEVEMENT"] = {
+["ARENA_POINTS"] = {
 ["r"] = 1,
 ["g"] = 1,
-["b"] = 0,
+["b"] = 1,
 },
-["INSTANCE_CHAT"] = {
-["r"] = 1,
-["g"] = 0.4980392456054688,
-["b"] = 0,
+["BN_WHISPER_INFORM"] = {
+["r"] = 0,
+["g"] = 1,
+["b"] = 0.9647059440612793,
 },
 ["CHANNEL8"] = {
 ["r"] = 1,
@@ -454,15 +454,15 @@ CHATTYNATOR_CONFIG = {
 ["g"] = 1,
 ["b"] = 0,
 },
-["ARENA_POINTS"] = {
+["ACHIEVEMENT"] = {
 ["r"] = 1,
 ["g"] = 1,
-["b"] = 1,
+["b"] = 0,
 },
-["GUILD_DISCORD"] = {
-["r"] = 0.4470588564872742,
-["g"] = 0.4941176772117615,
-["b"] = 1,
+["CHANNEL18"] = {
+["r"] = 1,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
 },
 ["ENCOUNTER_EVENT"] = {
 ["r"] = 1,
@@ -484,10 +484,10 @@ CHATTYNATOR_CONFIG = {
 ["g"] = 0.7725490927696228,
 ["b"] = 1,
 },
-["CHANNEL_Trade"] = {
+["BG_SYSTEM_NEUTRAL"] = {
 ["r"] = 1,
-["g"] = 0.7529412508010864,
-["b"] = 0.7529412508010864,
+["g"] = 0.4705882668495178,
+["b"] = 0.03921568766236305,
 },
 ["BN_INLINE_TOAST_BROADCAST"] = {
 ["r"] = 0.5098039507865906,
@@ -547,10 +547,10 @@ CHATTYNATOR_CONFIG = {
 ["isTemporary"] = false,
 ["backgroundColor"] = "1a1a1a",
 ["groups"] = {
-["PET_BATTLE_COMBAT_LOG"] = false,
-["COMBAT_MISC_INFO"] = false,
-["VOICE_TEXT"] = false,
 ["OPENING"] = false,
+["PET_BATTLE_COMBAT_LOG"] = false,
+["VOICE_TEXT"] = false,
+["COMBAT_MISC_INFO"] = false,
 ["COMBAT_XP_GAIN"] = false,
 ["PET_INFO"] = false,
 ["TRADESKILLS"] = false,
@@ -658,7 +658,7 @@ CHATTYNATOR_CONFIG = {
 },
 }
 CHATTYNATOR_MESSAGE_LOG = {
-["cleanIndex"] = 1872,
+["cleanIndex"] = 1875,
 ["current"] = {
 {
 ["recordedBy"] = "Aox-Naasen",
@@ -37053,6 +37053,452 @@ CHATTYNATOR_MESSAGE_LOG = {
 ["text"] = "Stormwind Crier yells: Hear me! I bring news from beyond our borders!",
 ["timestamp"] = 1795858701,
 ["id"] = "s0_1872",
+},
+{
+["recordedBy"] = "Aox-Naasen",
+["typeInfo"] = {
+["player"] = {
+["name"] = "Kyle the Frenzied",
+},
+["event"] = "CHAT_MSG_MONSTER_EMOTE",
+["type"] = "MONSTER_EMOTE",
+},
+["color"] = {
+["r"] = 1,
+["g"] = 0.501960813999176,
+["b"] = 0.250980406999588,
+},
+["text"] = "Kyle the Frenzied howls in delight at the sight of his lunch!",
+["timestamp"] = 1795863235,
+["id"] = "s0_1873",
+},
+{
+["recordedBy"] = "Aox-Naasen",
+["typeInfo"] = {
+["player"] = {
+["name"] = "Kyle the Frenzied",
+},
+["event"] = "CHAT_MSG_MONSTER_EMOTE",
+["type"] = "MONSTER_EMOTE",
+},
+["color"] = {
+["r"] = 1,
+["g"] = 0.501960813999176,
+["b"] = 0.250980406999588,
+},
+["text"] = "Kyle the Frenzied eats his lunch.",
+["timestamp"] = 1795863238,
+["id"] = "s0_1874",
+},
+{
+["recordedBy"] = "Aox-Naasen",
+["typeInfo"] = {
+["player"] = {
+["name"] = "Kyle the Friendly",
+},
+["event"] = "CHAT_MSG_MONSTER_EMOTE",
+["type"] = "MONSTER_EMOTE",
+},
+["color"] = {
+["r"] = 1,
+["g"] = 0.501960813999176,
+["b"] = 0.250980406999588,
+},
+["text"] = "Kyle the Friendly thanks you with a special dance.",
+["timestamp"] = 1795863245,
+["id"] = "s0_1875",
+},
+{
+["recordedBy"] = "Aox-Naasen",
+["typeInfo"] = {
+["player"] = {
+["race"] = "Tauren",
+["name"] = "Aox Naasen",
+["sex"] = 2,
+["class"] = "WARRIOR",
+["level"] = 7,
+},
+["type"] = "LOOT",
+["event"] = "CHAT_MSG_LOOT",
+},
+["color"] = {
+["b"] = 0,
+["g"] = 0.6666666865348816,
+["r"] = 0,
+},
+["text"] = "You receive item: |cnIQ1:|Hitem:4960::::::::7:1491:::::::::|h[Flash Pellet]|h|rx25",
+["id"] = "s0_1876",
+["timestamp"] = 1795864096,
+},
+{
+["recordedBy"] = "Aox-Naasen",
+["typeInfo"] = {
+["type"] = "SKILL",
+["event"] = "CHAT_MSG_SKILL",
+},
+["color"] = {
+["b"] = 1,
+["g"] = 0.3333333432674408,
+["r"] = 0.3333333432674408,
+},
+["text"] = "Your skill in Defense has increased to 33.",
+["id"] = "s0_1877",
+["timestamp"] = 1795864332,
+},
+{
+["recordedBy"] = "Aox-Naasen",
+["typeInfo"] = {
+["player"] = {
+["race"] = "Tauren",
+["name"] = "Aox Naasen",
+["sex"] = 2,
+["class"] = "WARRIOR",
+["level"] = 7,
+},
+["type"] = "LOOT",
+["event"] = "CHAT_MSG_LOOT",
+},
+["color"] = {
+["b"] = 0,
+["g"] = 0.6666666865348816,
+["r"] = 0,
+},
+["text"] = "You receive loot: |cnIQ1:|Hitem:2672::::::::7:1491:::::::::|h[Stringy Wolf Meat]|h|r",
+["id"] = "s0_1878",
+["timestamp"] = 1795864345,
+},
+{
+["recordedBy"] = "Aox-Naasen",
+["typeInfo"] = {
+["player"] = {
+["name"] = "Adult Plainstrider",
+},
+["type"] = "MONSTER_EMOTE",
+["event"] = "CHAT_MSG_MONSTER_EMOTE",
+},
+["color"] = {
+["b"] = 0.250980406999588,
+["g"] = 0.501960813999176,
+["r"] = 1,
+},
+["text"] = "Adult Plainstrider attempts to run away in fear!",
+["id"] = "s0_1879",
+["timestamp"] = 1795864436,
+},
+{
+["recordedBy"] = "Aox-Naasen",
+["typeInfo"] = {
+["player"] = {
+["name"] = "Adult Plainstrider",
+},
+["type"] = "MONSTER_EMOTE",
+["event"] = "CHAT_MSG_MONSTER_EMOTE",
+},
+["color"] = {
+["b"] = 0.250980406999588,
+["g"] = 0.501960813999176,
+["r"] = 1,
+},
+["text"] = "Adult Plainstrider attempts to run away in fear!",
+["id"] = "s0_1880",
+["timestamp"] = 1795864472,
+},
+{
+["recordedBy"] = "Aox-Naasen",
+["typeInfo"] = {
+["player"] = {
+["race"] = "Troll",
+["name"] = "Maggar Jargon",
+["sex"] = 2,
+["class"] = "PRIEST",
+["level"] = 7,
+},
+["type"] = "SAY",
+["event"] = "CHAT_MSG_SAY",
+},
+["color"] = {
+["b"] = 1,
+["g"] = 1,
+["r"] = 1,
+},
+["text"] = "|Hplayer:Maggar Jargon:1741:SAY:|h[|cffffffffMaggar Jargon|r]|h says: what do you have to do here?",
+["id"] = "s0_1881",
+["timestamp"] = 1795864820,
+},
+{
+["recordedBy"] = "Aox-Naasen",
+["typeInfo"] = {
+["player"] = {
+["race"] = "Tauren",
+["name"] = "Aox Naasen",
+["sex"] = 2,
+["class"] = "WARRIOR",
+["level"] = 7,
+},
+["type"] = "SAY",
+["event"] = "CHAT_MSG_SAY",
+},
+["color"] = {
+["b"] = 1,
+["g"] = 1,
+["r"] = 1,
+},
+["text"] = "|Hplayer:Aox Naasen:1742:SAY:|h[|cffc69b6dAox Naasen|r]|h says: hmmm",
+["id"] = "s0_1882",
+["timestamp"] = 1795864824,
+},
+{
+["recordedBy"] = "Aox-Naasen",
+["typeInfo"] = {
+["player"] = {
+["race"] = "Troll",
+["name"] = "Maggar Jargon",
+["sex"] = 2,
+["class"] = "PRIEST",
+["level"] = 7,
+},
+["type"] = "SAY",
+["event"] = "CHAT_MSG_SAY",
+},
+["color"] = {
+["b"] = 1,
+["g"] = 1,
+["r"] = 1,
+},
+["text"] = "|Hplayer:Maggar Jargon:1743:SAY:|h[|cffffffffMaggar Jargon|r]|h says: Is it a pickup or a mob?",
+["id"] = "s0_1883",
+["timestamp"] = 1795864828,
+},
+{
+["recordedBy"] = "Aox-Naasen",
+["typeInfo"] = {
+["player"] = {
+["race"] = "Tauren",
+["name"] = "Aox Naasen",
+["sex"] = 2,
+["class"] = "WARRIOR",
+["level"] = 7,
+},
+["type"] = "SAY",
+["event"] = "CHAT_MSG_SAY",
+},
+["color"] = {
+["b"] = 1,
+["g"] = 1,
+["r"] = 1,
+},
+["text"] = "|Hplayer:Aox Naasen:1745:SAY:|h[|cffc69b6dAox Naasen|r]|h says: thought it was pickup",
+["id"] = "s0_1884",
+["timestamp"] = 1795864835,
+},
+{
+["recordedBy"] = "Aox-Naasen",
+["typeInfo"] = {
+["player"] = {
+["race"] = "Tauren",
+["name"] = "Aox Naasen",
+["sex"] = 2,
+["class"] = "WARRIOR",
+["level"] = 7,
+},
+["type"] = "SAY",
+["event"] = "CHAT_MSG_SAY",
+},
+["color"] = {
+["b"] = 1,
+["g"] = 1,
+["r"] = 1,
+},
+["text"] = "|Hplayer:Aox Naasen:1746:SAY:|h[|cffc69b6dAox Naasen|r]|h says: but can't find it",
+["id"] = "s0_1885",
+["timestamp"] = 1795864840,
+},
+{
+["recordedBy"] = "Aox-Naasen",
+["typeInfo"] = {
+["player"] = {
+["race"] = "Tauren",
+["name"] = "Aox Naasen",
+["sex"] = 2,
+["class"] = "WARRIOR",
+["level"] = 7,
+},
+["type"] = "SAY",
+["event"] = "CHAT_MSG_SAY",
+},
+["color"] = {
+["b"] = 1,
+["g"] = 1,
+["r"] = 1,
+},
+["text"] = "|Hplayer:Aox Naasen:1751:SAY:|h[|cffc69b6dAox Naasen|r]|h says: ah",
+["id"] = "s0_1886",
+["timestamp"] = 1795864855,
+},
+{
+["recordedBy"] = "Aox-Naasen",
+["typeInfo"] = {
+["player"] = {
+["race"] = "Tauren",
+["name"] = "Aox Naasen",
+["sex"] = 2,
+["class"] = "WARRIOR",
+["level"] = 7,
+},
+["type"] = "SAY",
+["event"] = "CHAT_MSG_SAY",
+},
+["color"] = {
+["b"] = 1,
+["g"] = 1,
+["r"] = 1,
+},
+["text"] = "|Hplayer:Aox Naasen:1752:SAY:|h[|cffc69b6dAox Naasen|r]|h says: one of these ",
+["id"] = "s0_1887",
+["timestamp"] = 1795864857,
+},
+{
+["recordedBy"] = "Aox-Naasen",
+["typeInfo"] = {
+["player"] = {
+["race"] = "Tauren",
+["name"] = "Aox Naasen",
+["sex"] = 2,
+["class"] = "WARRIOR",
+["level"] = 7,
+},
+["type"] = "LOOT",
+["event"] = "CHAT_MSG_LOOT",
+},
+["color"] = {
+["b"] = 0,
+["g"] = 0.6666666865348816,
+["r"] = 0,
+},
+["text"] = "You receive loot: |cnIQ1:|Hitem:4808::::::::7:1491:::::::::|h[Well Stone]|h|r",
+["id"] = "s0_1888",
+["timestamp"] = 1795864859,
+},
+{
+["recordedBy"] = "Aox-Naasen",
+["typeInfo"] = {
+["player"] = {
+["race"] = "Tauren",
+["name"] = "Aox Naasen",
+["sex"] = 2,
+["class"] = "WARRIOR",
+["level"] = 7,
+},
+["type"] = "LOOT",
+["event"] = "CHAT_MSG_LOOT",
+},
+["color"] = {
+["b"] = 0,
+["g"] = 0.6666666865348816,
+["r"] = 0,
+},
+["text"] = "You receive loot: |cnIQ1:|Hitem:4759::::::::7:1491:::::::::|h[Plainstrider Talon]|h|r",
+["id"] = "s0_1889",
+["timestamp"] = 1795864907,
+},
+{
+["recordedBy"] = "Aox-Naasen",
+["typeInfo"] = {
+["player"] = {
+["race"] = "Tauren",
+["name"] = "Aox Naasen",
+["sex"] = 2,
+["class"] = "WARRIOR",
+["level"] = 7,
+},
+["type"] = "LOOT",
+["event"] = "CHAT_MSG_LOOT",
+},
+["color"] = {
+["b"] = 0,
+["g"] = 0.6666666865348816,
+["r"] = 0,
+},
+["text"] = "You receive loot: |cnIQ1:|Hitem:4806::::::::7:1491:::::::::|h[Plainstrider Scale]|h|r",
+["id"] = "s0_1890",
+["timestamp"] = 1795864907,
+},
+{
+["recordedBy"] = "Aox-Naasen",
+["typeInfo"] = {
+["player"] = {
+["name"] = "Venture Co. Laborer",
+},
+["type"] = "MONSTER_EMOTE",
+["event"] = "CHAT_MSG_MONSTER_EMOTE",
+},
+["color"] = {
+["b"] = 0.250980406999588,
+["g"] = 0.501960813999176,
+["r"] = 1,
+},
+["text"] = "Venture Co. Laborer attempts to run away in fear!",
+["id"] = "s0_1891",
+["timestamp"] = 1795865066,
+},
+{
+["recordedBy"] = "Aox-Naasen",
+["typeInfo"] = {
+["player"] = {
+["race"] = "Tauren",
+["name"] = "Aox Naasen",
+["sex"] = 2,
+["class"] = "WARRIOR",
+["level"] = 7,
+},
+["type"] = "LOOT",
+["event"] = "CHAT_MSG_LOOT",
+},
+["color"] = {
+["b"] = 0,
+["g"] = 0.6666666865348816,
+["r"] = 0,
+},
+["text"] = "You receive loot: |cnIQ1:|Hitem:4808::::::::7:1491:::::::::|h[Well Stone]|h|r",
+["id"] = "s0_1892",
+["timestamp"] = 1795865073,
+},
+{
+["recordedBy"] = "Aox-Naasen",
+["typeInfo"] = {
+["type"] = "MONEY",
+["event"] = "CHAT_MSG_MONEY",
+},
+["color"] = {
+["b"] = 0,
+["g"] = 1,
+["r"] = 1,
+},
+["text"] = "You loot 6 Copper",
+["id"] = "s0_1893",
+["timestamp"] = 1795865075,
+},
+{
+["recordedBy"] = "Aox-Naasen",
+["typeInfo"] = {
+["player"] = {
+["race"] = "Tauren",
+["name"] = "Aox Naasen",
+["sex"] = 2,
+["class"] = "WARRIOR",
+["level"] = 7,
+},
+["type"] = "LOOT",
+["event"] = "CHAT_MSG_LOOT",
+},
+["color"] = {
+["b"] = 0,
+["g"] = 0.6666666865348816,
+["r"] = 0,
+},
+["text"] = "You receive loot: |cnIQ1:|Hitem:2447::::::::7:1491:::::::::|h[Peacebloom]|h|rx3",
+["id"] = "s0_1894",
+["timestamp"] = 1795865098,
 },
 },
 ["version"] = 1,

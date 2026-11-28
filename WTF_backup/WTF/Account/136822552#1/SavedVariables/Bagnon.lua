@@ -15,24 +15,25 @@ Bagnon_Sets = {
 ["scale"] = 1,
 ["borderColor"] = {
 },
-["partialFirst"] = false,
 ["sidebar"] = false,
 ["activeRules"] = {
 ["sidebar"] = "all",
 },
-["serverSort"] = true,
+["partialFirst"] = false,
 ["bagToggle"] = false,
-["reverseBags"] = false,
+["serverSort"] = true,
 ["options"] = false,
+["reverseBags"] = false,
 ["money"] = true,
-["brokerObject"] = "DetailsStreamer",
-["itemScale"] = 1,
 ["skin"] = "Bagnonium",
-["y"] = 241.4144744873047,
-["x"] = -308.5877917955086,
+["itemScale"] = 1,
+["y"] = 196.9699401855469,
+["bagBreak"] = 0,
+["x"] = -257.6777576158211,
 ["search"] = false,
 ["broker"] = false,
 ["reverseSlots"] = false,
+["brokerObject"] = "DetailsStreamer",
 ["color"] = {
 0,
 0,
@@ -40,7 +41,6 @@ Bagnon_Sets = {
 0.5,
 },
 ["spacing"] = 2,
-["bagBreak"] = 1,
 },
 ["vault"] = {
 ["color"] = {
@@ -82,7 +82,7 @@ Bagnon_Sets = {
 ["x"] = 754.343505859375,
 },
 ["bank"] = {
-["y"] = 532.3181762695312,
+["y"] = 532.3182373046875,
 ["rules"] = {
 ["sidebar"] = {
 "all",
@@ -113,15 +113,15 @@ Bagnon_Sets = {
 },
 ["soul"] = {
 },
-["reagent"] = {
+["fridge"] = {
 },
 ["mine"] = {
 },
 ["engineer"] = {
 },
-["inscribe"] = {
+["leather"] = {
 },
-["fridge"] = {
+["reagent"] = {
 },
 ["gem"] = {
 },
@@ -129,7 +129,7 @@ Bagnon_Sets = {
 },
 ["tackle"] = {
 },
-["leather"] = {
+["inscribe"] = {
 },
 ["normal"] = {
 },
@@ -139,12 +139,12 @@ Bagnon_Sets = {
 ["countCurrency"] = true,
 ["profiles"] = {
 },
-["slotBackground"] = 2,
-["customRules"] = {
-},
 ["display"] = {
 },
-["glowAlpha"] = 0.25,
-["countPerFaction"] = true,
+["customRules"] = {
+},
 ["locked"] = false,
+["glowAlpha"] = 0.1,
+["countPerFaction"] = true,
+["slotBackground"] = 2,
 }

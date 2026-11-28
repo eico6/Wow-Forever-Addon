@@ -29,4 +29,13 @@ CHATTYNATOR_COMMAND_HISTORY = {
 "/sleep",
 "/sit",
 "/reload",
+"/ltp",
+"/wa",
+"/s hmmm",
+"/s thought it was pickup",
+"/s but can't find it",
+"/s ah",
+"/s one of these ",
+"/wa",
+"/reload",
 }
